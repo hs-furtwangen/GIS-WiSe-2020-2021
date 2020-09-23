@@ -1,4 +1,17 @@
-# [**2** TypeScript]
+## **P2** TypeScript
+
+Kurze Einleitung in die 2. Etape des Praktikums.
+
+### Aufgabe
+
+Hier sollte die Gesamtaufgabe kurz beschrieben werden.
+Verweis auf die Etappen, die unten den einzelnen Proaktikumsterminen zugeordnet sind.
+
+### Abgabe zum 1. November 2020
+
+Wie? Wo?
+
+---
 
 ## **6 _Nov_** Typescript und Javascript
 
@@ -101,7 +114,7 @@ Ziel der Praktikumsaufgabe ist es Daten über mehrere HTML Seiten hinweg speiche
 
 >### **Achtung!:** Beachten Sie die [<ins>Coding Style Guidelines</ins>](https://hs-furtwangen.github.io/GIS-WiSe-2020-2021/codingstyle/). Code der diesen Guidelines nicht entpricht wird nicht akzeptiert! Code der W3 Errors oder JS-Errors aufweist wird ebenfalls nicht akzeptiert! Verstöße führen zu einer Ampelstufe 🚦
 
-## Teilaufgabe 1
+### Teilaufgabe 1
 
 Bisher werden Ihre Artikel über ein Array, welches direkt im Code liegt, eingelesen. Änderungen sind nur dann möglich wenn Sie das Array direkt bearbeiten. Ein besserer Weg ist es deshalb, die Daten und den Code voneinander zu trennen. Auf diese Art und Weise können jederzeit Artikel hinzugefügt oder aus dem Shop genommen werden, ohne dass der Code verändert werden muss.
 
@@ -117,7 +130,7 @@ Erzeugen Sie anhand der eingelesenen Daten die Artikel auf Ihrer Webseite.
 
 >**Hinweis:** Es gibt mehrere Wege wie Sie die Kategorie eines Artikels in einer JSON Datei speichern können. Sie können z.B. jeden Artikel mit einer "Kategorie-ID" versehen und die Artikel beim Einlesen der JSON sortieren, falls Sie das noch nicht getan haben.
 
-## Teilaufgabe 2
+### Teilaufgabe 2
 
 Verwenden Sie hierfür den [localStorage](https://www.w3schools.com/jsref/prop_win_localstorage.asp) (oder die Cookies). Wenn ein User der Website einen Artikel über einen der "Kaufen" Buttons in den Warenkorb legt, soll der jeweilige Artikel im local Storage gespeichert werden. 
 
@@ -127,6 +140,6 @@ User haben die Mögkichkeit einzelne Artikel zu entfernen. Jeder dynamisch gener
 
 User können ihren gesamten Warenkorb löschen. Hierfür gibt es ebenfalls einen Button, der den localStorage leert & die Artikel aus dem Warenkorb entfernt. 
 
-## Bonusaufgabe (keine Pflicht)
+### Bonusaufgabe (keine Pflicht)
 
 User können einen Artikel mehrmals in den Warenkorb legen (z. B. 5 Äpfel). Im Warenkorb kann die Anzahl der Artikel eines Typs geändert werden.

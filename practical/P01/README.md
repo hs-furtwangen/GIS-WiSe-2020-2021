@@ -1,4 +1,17 @@
-# [**1** HTML & CSS]
+## **P1** HTML & CSS
+
+Kurze Einleitung in die 1. Etape des Praktikums.
+
+### Aufgabe
+
+Hier sollte die Gesamtaufgabe kurz beschrieben werden.
+Verweis auf die Etappen, die unten den einzelnen Proaktikumsterminen zugeordnet sind.
+
+### Abgabe zum 1. November 2020
+
+Wie? Wo?
+
+---
 
 ## **9 _Okt_** Arbeitsumgebung und Grundlagen HTML
 
@@ -40,7 +53,7 @@ Sie haben die grundlegensten Elemente von HTML5 kennengelernt und verstanden und
 
 ---
 
-## **14 _Okt_** HTML5 Familie
+## **16 _Okt_** HTML5 Familie
 
 Stellen Sie Sicher, dass Ihr Profilbild exakt die Maße 85x110 Pixel hat. 
 
@@ -79,7 +92,7 @@ Alle Ihre Seiten sollen nur aus gültigem HTML5 aufgebaut sein. Sie können zum 
 
 Mit dieser Aufgabe sollten Sie die Grundlagen von HTML, das Einbinden von medialen Elementen und Verlinken von HTML-Dokumenten besser verstehen. Die Qualität der Gestaltung spielt für diese Aufgabe eine untergeordnete Rolle. In der nächsten Lektion beschäftigen wir uns mit dem Styling von HTML, um eine bessere Optik zu erzielen.
 
-## Sie haben durch diese Praktikumsaufgabe gelernt:
+### Ziel der Aufgabe
 
 Den Umgang mit verschiedenen (Rich-Media) HTML-Tags sollte Ihnen jetzt bekannt sein. Das Verlinken von HTML-Dokumenten sollten Sie durch das a-Tag realisieren können.
 Die größte Herausvorderung liegt hier sicher in der Vorbereitung der visuellen Medien (im korrekten Format und sinnvoller Auflösung).
@@ -106,7 +119,7 @@ Folgende mögliche Werkzeuge können Sie bei der Erstellung der visuellen Kompon
 
 ---
 
-## **28 _Okt_** Einstieg CSS
+## **23 _Okt_** Einstieg CSS
 
 Die Portfolio-Website aus der letzten Aufgabe wird nun mit CSS ergänzt, um verschiedene Gestaltungsaspekte zu realisieren.
 
@@ -124,7 +137,7 @@ Achten Sie auch hier weiterhin auf die Konformität mit den Regeln des W3C und n
 
 ---
 
-## **28 _Okt_** CSS Vertiefung
+## **30 _Okt_** CSS Vertiefung
 
 Erstellen Sie eine Shopseite für Produkte ihrer Wahl. Versuchen Sie, etwas anderes zu verkaufen als Ihre Kommilitonen. Die Seite soll 
 - visuell ansprechend sein. Achten Sie auf sinnvolle Verteilung der Artikel. (Holen Sie sich Inspiration zur Gestaltung gerne bei existierenden Shops)

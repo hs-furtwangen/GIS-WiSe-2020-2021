@@ -1,4 +1,17 @@
-## **1** Serveranbindung
+## **P3** Server & Datenbanken
+
+Kurze Einleitung in die 3. Etape des Praktikums.
+
+### Aufgabe
+
+Hier sollte die Gesamtaufgabe kurz beschrieben werden.
+Verweis auf die Etappen, die unten den einzelnen Proaktikumsterminen zugeordnet sind.
+
+### Abgabe zum 1. November 2020
+
+Wie? Wo?
+
+---
 
 ## **9 _Dez_** Serveranbindung
 
