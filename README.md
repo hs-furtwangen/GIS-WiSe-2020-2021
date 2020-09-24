@@ -21,18 +21,13 @@ Folgende wöchentliche Termine sind vorgesehen (mit Links zum Betreten der Onlin
 
 ### Praktikum
 
-Der Ablauf des Praktikums wird im Abschnitt [Ablauf Vorlesung und Praktikum](L00/#ablauf-vorlesung-und-praktikum) des Kapitels [Einleitung](L00) erklärt. 
+Der Ablauf des Praktikums wird im Abschnitt [Ablauf Vorlesung und Praktikum](lectures/L01/#ablauf-vorlesung-und-praktikum) des Kapitels [Einführung und Grundlagen HTML](lectures/L01) erklärt.
 
-Die Abgaben der Lösungen zu den Aufgaben erfolgen über die [Praktikumsseite](workshops), auf der Sie zunächst ihren *Steckbrief* registrieren müssen (siehe Links auf der Seite). Lösungen der Praktikumsaufgaben gelten nur als abgegeben, wenn sie in Ihrem Steckbrief auf der Praktikumsseite publiziert sind. Die Zugangsdaten zur Praktikumsseite erhalten Sie per Email sowie bei den Online Terminen. Die Abgabe muss in der Regel bis Sonntag 18:00 Uhr vor dem nächsten Praktikumstermin erfolgen. Die genauen Abgabetermine werden jeweils mit der Aufgabe veröffentlicht.
+~~Die Abgaben der Lösungen zu den Aufgaben erfolgen über die [Praktikumsseite](workshops), auf der Sie zunächst ihren *Steckbrief* registrieren müssen (siehe Links auf der Seite). Lösungen der Praktikumsaufgaben gelten nur als abgegeben, wenn sie in Ihrem Steckbrief auf der Praktikumsseite publiziert sind. Die Zugangsdaten zur Praktikumsseite erhalten Sie per Email sowie bei den Online Terminen. Die Abgabe muss in der Regel bis Sonntag 18:00 Uhr vor dem nächsten Praktikumstermin erfolgen. Die genauen Abgabetermine werden jeweils mit der Aufgabe veröffentlicht.~~
 
-Die Praktikumsaufgaben werden laufend mit einem *Ampelsystem* bewertet:
-- Das Ampelsystem hat 5 Stufen zwischen grün bis rot – alle Ampeln starten auf grün.
-- Das Praktikum ist bestanden, wenn die Ampel nach der letzten Aufgabe nicht auf rot steht.
-- Bei folgenden Mängeln einer Abgabe wird die Ampel heruntergesetzt:
-  - Abgabe nicht erfolgt: 2 Stufen
-  - Abgabe ist unzureichend oder kopiert: 1 Stufe
+~~Die Praktikumsaufgaben werden laufend mit einem *Ampelsystem* bewertet.~~
 
-Um eine Herabstufung bei mangelhafter Abgabe zu beheben, müssen Sie ggf. eine neue Lösung publizieren und Ihrem Betreuer den Sachverhalt während des nächsten Praktikumstermins erklären. Bei erfolgreicher Verteidigung wird die Ampel allerdings höchstens eine Stufe wieder heraufgesetzt.
+~~Um eine Herabstufung bei mangelhafter Abgabe zu beheben, müssen Sie ggf. eine neue Lösung publizieren und Ihrem Betreuer den Sachverhalt während des nächsten Praktikumstermins erklären. Bei erfolgreicher Verteidigung wird die Ampel allerdings höchstens eine Stufe wieder heraufgesetzt.~~
 
 ### Fragen und Probleme
 
