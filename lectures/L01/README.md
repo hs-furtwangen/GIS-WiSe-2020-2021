@@ -1,4 +1,4 @@
-## **7 _Okt_** Grundlagen HTML
+## **7 _Okt_** Einführung und Grundlagen HTML
 
 ### Einführung in die Thematik
 <video controls width="100%"> 
@@ -54,15 +54,6 @@
 </video>
 
 [Skript](https://scheuerle.net/lehre/gis/scripts/01_GIS-EIA1-2-HTML-Syntax.pdf)
-
----
-
-### HTML Bilder und Verweise
-
-_Hier gibt es kein Video, stattdessen den ausführlichen Foliensatz zum selbst erarbeiten._
-<embed src="https://scheuerle.net/lehre/gis/scripts/01_GIS-EIA1-3-HTML-Bilder-Verweise.pdf" type="application/pdf" width="100%" height = "400px"/>
-
-[Skript](https://scheuerle.net/lehre/gis/scripts/01_GIS-EIA1-3-HTML-Bilder-Verweise.pdf)
 
 ---
 
