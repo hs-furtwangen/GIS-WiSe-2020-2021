@@ -1,3 +1,11 @@
+## [**V _---_** Kursmaterialien zur Vorlesung](lectures)  
+
+---
+
+## [**P _---_** Praktikumsaufgaben](practical)  
+
+---
+
 ## **! _---_** Über diesen Kurs
 
 ⚠ **Achtung: diese Dokumentation wird erst zum 4. Oktober 2020 korrekt und vollständig veröffentlicht!** ⚠
@@ -49,10 +57,3 @@ Ein gutes GitHub Issue zu einem Problem mit Ihrer Aufgabenlösung beinhaltet:
 
 Beantworten Sie auch gerne die von Ihren Kommilitonen erstellten GitHub Issues.
 
----
-
-## [**V _---_** Kursmaterialien zur Vorlesung](lectures)  
-
----
-
-## [**P _---_** Praktikumsaufgaben](practical)  
