@@ -193,18 +193,8 @@ footer.site-footer {
     font-weight: none;
     padding-top: 1rem;
 
-    a {
-        position: relative;
-        font-size: 1rem;
-        color: $main-color;
-        left: -59px;
-
-        &::before {
-            position: relative;
-            top: -1px;
-            left: -7px;
-            content: "→";
-        }
+    a.internal-link {
+      left: -59px;
     }
 
     em {
@@ -213,6 +203,19 @@ footer.site-footer {
 
     .site-footer-credits {
       padding-top: 2em;
+    }
+}
+
+a.internal-link {
+    position: relative;
+    font-size: 1rem;
+    color: $main-color;
+
+    &::before {
+        position: relative;
+        top: -1px;
+        left: -7px;
+        content: "→";
     }
 }
 
