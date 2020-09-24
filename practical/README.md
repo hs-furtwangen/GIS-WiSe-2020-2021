@@ -18,3 +18,7 @@
 - Server Request Verarbeitung
 - Datenbanken Grundlagen
 - Datenbankzugriff über den Server
+
+---
+
+## [**Ω _---_** Prüfungsaufgabe und mündliche Prüfung](../final)

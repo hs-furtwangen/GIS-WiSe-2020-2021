@@ -1,3 +1,5 @@
+# **P1** HTML & CSS
+
 ## [**7 _Okt_** Einführung & Grundlagen HTML](L01)  
 - Einführung in die Thematik
 - Vorbereitung / Tools
@@ -31,6 +33,8 @@
 - Transition und Animation
 
 ---
+
+# **P2** TypeScript
 
 ## [**4 _Nov_** Einstieg JavaScript und TypeScript](L05)
 
@@ -78,6 +82,8 @@
 
 ---
 
+# **P3** Server & Datenbanken
+
 ## [**9 _Dez_** Serveranbindung](L10)
 
 - Formulare
@@ -107,7 +113,3 @@
 
 - Datenbank & Node.js Kommunikation
 - Pipeline: HTML → Server → Datenbank
-
----
-
-## [**Ω _---_** Prüfungsaufgabe und mündliche Prüfung](final)
