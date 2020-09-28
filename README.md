@@ -57,3 +57,15 @@ Ein gutes GitHub Issue zu einem Problem mit Ihrer Aufgabenlösung beinhaltet:
 
 Beantworten Sie auch gerne die von Ihren Kommilitonen erstellten GitHub Issues.
 
+**⚠ Stellen Sie alle Fragen, die Sie haben! Keine Frage ist "zu dämlich" oder "zu einfach". Seien Sie eigensinnig und stellen Sie sicher, dass Sie selbst alles verstanden haben! ⚠**  
+_(Denn wenn jeder an sich selbst denkt, ist an alle gedacht)_
+
+#### Arten von Problemen
+Es gibt vier für uns relevante Arten von Problemen:
+
+1. Design-Problem: Ein Problem welches bereits beim Schreiben des Codes Auftritt und ggf. die Kompilierung verhindert (in Java) oder anderweitig dafür sorgt, dass es nicht ausgeführt werden kann (JS/TS). Wird normalerweise direkt von der Entwicklungsumgebung (in unserem Fall VSCode) in Form von Fehlermeldungen (und Warnungen) angezeigt.
+2. Compile-Problem: Ein Problem das beim Übersetzen des Codes (in unserem Fall von TS nach JS) in die Maschinenlesbare Variante auftritt. Diese sind sehr selten (und meistens ist es eben doch ein Design Problem).
+3. Laufzeit-Problem: Ein Problem welches dafür sorgt, dass während der Ausführung des Codes ein Fehler geworfen wird und das Programm ggf. abbricht.
+4. Logik-Problem: Das Programm läuft zwar Fehlerfrei, tut aber nicht was der Entwickler eigentlich wollte.
+
+Machen Sie sich bewusst, welche Art von Problem Sie haben und kommunizieren Sie dies wenn Sie Hilfe dabei benötigen.

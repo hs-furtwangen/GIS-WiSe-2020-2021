@@ -38,21 +38,22 @@
 
 ## [**4 _Nov_** Einstieg JavaScript und TypeScript](L05)
 
-- Arbeitsabläufe
+- Arbeitsumgebung
 - Variablen
 - Typen
-- Kontrollstrukturen
-- DOM Manipulation
+- Operatoren
+- Funktionen
+- Schleifen
 
 ---
 
-## [**11 _Nov_** Einstieg JavaScript und TypeScript 77](L06)
+## [**11 _Nov_** Weiterführende Konzepte Typescript](L06)
 
-- Arbeitsabläufe
-- Variablen
-- Typen
-- Kontrollstrukturen
-- DOM Manipulation
+- Vorgehensweise und best practices
+- Arrays
+- Interfaces
+- Javascript Objekte
+- Canvas
 
 ---
 
