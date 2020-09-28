@@ -14,7 +14,7 @@ Die Vorlesungen und Praktika zu *Grundlagen interaktiver Systeme* für die Studi
 
 ### Materialien und Termine
 
-Die Vorlesung findet durch aufgezeichenete Videokapitel sowie einen wöchentlichen Q&A Online Termin mit Fragen und Antworten zu den Kursinhalten statt (zum Vorlesungstermin, gemeinsam für MIB und OMB). Die Teilnehmenden sind dazu angehalten sich die Kursmaterialien vor dem jeweiligen Q&A Termin zu erarbeiten. Die vollständigen Materialien zu einem Termin – inkl. Praktikumsaufgaben –  werden spätenstens bis zum Freitagmittag der Vorwoche unter dem entsprechenden Kapitel (Links in diesem Dokument weiter unten) veröffentlicht. Auch die Praktikumsgruppen werden in Online Terminen betreut.
+Die Vorlesung findet durch aufgezeichenete Videokapitel, schriftliche Materialien sowie einen wöchentlichen Q&A Online Termin mit Fragen und Antworten zu den Kursinhalten statt (zum Vorlesungstermin, gemeinsam für MIB und OMB). Die Teilnehmenden sind dazu angehalten sich die Kursmaterialien vor dem jeweiligen Q&A Termin zu erarbeiten. Die vollständigen Materialien zu einem Termin – inkl. Praktikumsaufgaben –  werden bis zum Montagmittag der ersten Woche eines Blocks unter dem entsprechenden Kapitel (Links unter dem Abschnitt [Kursmaterialien](lectures) bzw. [Praktikumsaufgaben](practical)) veröffentlicht. Auch die Praktikumsgruppen werden in Online Terminen betreut.
 
 Alle Online Termine werden über *alfaview&reg;* abgehalten. Die Q&A Termine werden zusammengefasst und im Abschnitt *Q&A* des jeweiligen Kurskapitels nachträglich veröffentlicht.
 
@@ -37,11 +37,11 @@ Die Lehrinhalte müssen selbstständig bis zum Q&A Termin am Mittwoch morgen era
 Bei erfolgreicher Abgabe wird ein Teil des Triforce vergeben. Am Ende des Semesters gilt das Praktikum als bestanden, wenn man ein komplettes Triforce zusammengestellt hat. Eine Übersicht über den Status der Abgaben findet sich [hier](assignments). [Haben Studis eine Chance doch noch ein Teil zu bekommen wenn sie Mist abgegeben haben?]  
 Prüfungsabgabe erfolgt durch die Bereitstellung eines Links auf die lauffähige Anwendung über Github Pages sowie einen Link zum Repository(-Unterordner) in welchem der Quellcode liegt, in den hier verlinkten Github Issues:
 
-- Abgabe P1: _Link folgt_
+- Abgabe P1: https://github.com/Plagiatus/EIA/issues/1
 - Abgabe P2: _Link folgt_
 - Abgabe P3: _Link folgt_
 
-Die **Prüfung** besteht aus einer finalen, benoteten Abgabe, in der alle erlernten Kompetenzen nachgewiesen werden müssen, sowie einer kurzen mündlichen Prüfung über diese Abgabe. Dazu zu geeignetem Zeitpunkt mehr.
+Die **Modulprüfung** besteht aus einer finalen, benoteten Abgabe, in der alle erlernten Kompetenzen nachgewiesen werden müssen, sowie einer kurzen mündlichen Prüfung über diese Abgabe. Dazu zu geeignetem Zeitpunkt mehr.
 
 ### Fragen und Probleme
 
