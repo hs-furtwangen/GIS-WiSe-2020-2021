@@ -51,7 +51,7 @@ Es gibt Menschen, die schlimme Dinge über JavaScript sagen. Und die meisten die
 
 Typescript ist einer der erfolgreichsten Versuche, diese Nachteile und Hürden zu kompensieren, ohne die Vorteile der Sprache zu schmälern. Aus diesem Grund werden wir in dieser Vorlesung ausschließlich mit Typescript arbeiten.
 
-#### Beispiel 1
+#### Beispiel
 
 Schauen Sie sich den folgenden Code zunächst einfach nur an. Fällt ihnen irgendetwas seltsames auf, erwarten Sie irgendwelche Fehlermeldungen? Versuchen Sie vorherzusagen, was auf der Konsole ausgegeben würde.  
 Nun können sie über F12 in ihrem Browser die Konsole öffnen und (in reinem Javascript) die Befehle ausführen. Stimmen Ihre Erwartungen mit dem Ergebnis überein? Kopieren Sie den Code anschließend in eine .ts Datei.
@@ -155,7 +155,7 @@ console.log(null == undefined) // -> true
 Das ist praktisch, denn so kann man testen, ob eine Variable mit einem Wert befüllt ist oder nicht.
 
 #### Konvertierung
-Wie in [Beispiel 1](#beispiel-1) bereits angesprochen, konvertiert JS gerne alles in alles. Das gilt auch für alle Operatoren, auch Vergleiche. Dadurch kommt es zu solchen Ergebnissen: 
+Wie in [Beispiel](#beispiel) bereits angesprochen, konvertiert JS gerne alles in alles. Das gilt auch für alle Operatoren, auch Vergleiche. Dadurch kommt es zu solchen Ergebnissen: 
 
 ```js
 console.log(0 == false) // -> true 
@@ -186,7 +186,7 @@ console.log(false === false) // -> true
 
 Machen Sie alle Übungen und lassen Sie diese auch tatsächlich im Browser (oder einem anderen Interpreter) ausführen. So bekommen Sie direktes Feedback über den Code den Sie geschreiben haben und ob es funktioniert. Vielleicht, so hoffe ich, verspüren Sie dann auch die Versuchung, etwas anderes auszuprobieren und mit dem Code herumzuexperimentieren.
 
-Denken Sie daran, dass sie, um den Code ausführen zu können, ihn in eine HTML Datei einbinden und diese dann im Browser aufrufen müssen.
+> **Denken Sie daran, dass sie, um den Code ausführen zu können, ihn in eine HTML Datei über ein `<script>` tag einbinden und diese dann im Browser aufrufen müssen.** Der so eingebundene Code wird in dem Moment ausgeführt, wo der Browser diesen im HTML findet (oder mit `defer` nachdem der Rest der Seite geladen wurde).
 
 ### Ein paar Beispiele
 
