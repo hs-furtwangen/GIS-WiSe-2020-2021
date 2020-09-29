@@ -1,6 +1,6 @@
 ## **6 _Nov_** Typescript und Javascript Einstieg
 
-Diese Woche dient als Einstieg in die Entwicklung mit einer für Sie neuen Sprache, darum werden wir lediglich die Grundlagen behandeln. In der nächsten Woche geht es dann an konkretere Umsetzungen für die Abschnittsaufgabe.
+Diese Woche dient als Einstieg in die Entwicklung mit einer für Sie neuen Sprache, darum werden wir lediglich die Grundlagen behandeln. In der übernächsten Woche geht es dann an konkretere Umsetzungen für die Kapitelaufgabe.
 
 ### Aufgabe 1 - Basics
 
@@ -23,11 +23,11 @@ function func1(): void {
 **a)** Lesen Sie das obige Programm. Was wird wohl auf der Konsole ausgegeben? Lassen Sie das Programm laufen und experimentieren Sie mit den Namen der Variablen und Funktionen. Welche Variablennamen sind zulässig, welche nicht?  
 
 **b)** Öffnen Sie im Browser den Debugger (neben der Konsole) und setzen Sie einen Breakpoint in Zeile 3 (alternativ können Sie im Code vor Zeile 3 das Schlüsselwort `debugger;` einfügen). Laden Sie dann die Seite neu und gehen Schritt für Schritt durch den Code durch, die Schaltflächen dafür sind normalerweise rechts am Rand:  
-![](https://camo.githubusercontent.com/372a0f981e20eab3064ce57f78bf81a23c9808e2/68747470733a2f2f692e696d6775722e636f6d2f53566e4c5930702e706e67)
+![](https://camo.githubusercontent.com/372a0f981e20eab3064ce57f78bf81a23c9808e2/68747470733a2f2f692e696d6775722e636f6d2f53566e4c5930702e706e67)  
+Verfolgen Sie, welcher Codeabschnitt wann ausgeführt wird und in welcher Reihenfolge die Funktionen aufgerufen werden.
 
 
-
-> ℹ️ Ein Debugger dient wie der Name schon vermuten lässt dem Debuggen, dem Entfernen von Bugs, dem Finden und Erkennen von Fehlern. Er erlaubt es einem, ein Programm zu pausieren und dieses dann Zeile für Zeile durchzuführen um den Ablauf und die Änderungen die während des Durchlaufs passieren, nachzuvollziehen. Diese langsame und Schritt für Schritt Vorgehensweise erlaubt es relativ einfach die internen Vorgänge nachzuvollziehen und Fehler in der Logik des Programms zu finden. Er ist also neben Konsolenausgaben das wichtigste und wertvollste Tool zur Fehlererkennung.
+> ℹ Ein Debugger dient wie der Name schon vermuten lässt dem Debuggen, dem Entfernen von Bugs, dem Finden und Erkennen von Fehlern. Er erlaubt es einem, ein Programm zu pausieren und dieses dann Zeile für Zeile durchzuführen um den Ablauf und die Änderungen die während des Durchlaufs passieren, nachzuvollziehen. Diese langsame und Schritt für Schritt Vorgehensweise erlaubt es relativ einfach die internen Vorgänge nachzuvollziehen und Fehler in der Logik des Programms zu finden. Er ist also neben Konsolenausgaben das wichtigste und wertvollste Tool zur Fehlererkennung.
 
 > > Der Name "Bug" stammt Gerüchten nach daher, dass in den ersten elektronischen Rechnern die mechanischen Kontake nicht mehr zusammengedrückt werden konnten, weil ein Käfer seinen Weg in den Zwischenraum gefunden hat, wodurch sich die Maschine verrechnet hat.
 
@@ -96,7 +96,7 @@ function func3(): void{
 **a)** Betrachten Sie den obigen Code. Was wird er auf der Konsole ausgeben und warum? Lassen Sie ihn anschließend laufen und überprüfen Sie Ihre Annahmen.
 
 **b)** Erklären Sie einem Komilitonen den Unterschied zwischen globalen Variablen, lokalen Variablen und Übergabeparametern.  
-Inwiefern unterscheiden sich diese von Funktionen?
+Inwiefern unterscheiden sich "normale" Variablen wie Zahlen und strings von Funktionen? Inwiefern sind sie gleich?
 
 ### Aufgabe 5 - Schleifen, Funktionen und andere Kontrollstrukturen
 
@@ -104,11 +104,11 @@ Inwiefern unterscheiden sich diese von Funktionen?
 
 **b)** Schreiben Sie eine Funktion `max` welche zwei Zahlen als Parameter entgegen nimmt und die größere der beiden zurück gibt. Nutzen Sie dafür nicht `Math.max` sondern schreiben Sie ihre eigene Implementation. Testen Sie Ihre Funktion auf eine geeignete Weise.
 
-**c)** Zählen Sie mithilfe einer `while` Schleife alle Zahlen von 1 bis 100 zusammen und geben Sie diese auf der Konsole aus.
+**c)** Zählen Sie mithilfe einer `while` Schleife alle Zahlen von 1 bis 100 zusammen und geben Sie das Ergebnis auf der Konsole aus.
 
-**d)** Nutzen Sie eine `for` Schleife um 10 zufällige Zahlen auf der Konsole auszugeben. Nutzen Sie dafür [Math.random](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Math/math.random)
+**d)** Nutzen Sie eine `for` Schleife um 10 zufällige Zahlen zwischen 0 und 100 auf der Konsole auszugeben. Nutzen Sie dafür [Math.random](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Math/math.random)
 
-**e)** Schreiben Sie eine Funktion `factorial` welche eine Zahl `n` entgegen nimmt und als Rückgabewert die [Fakultät](https://de.wikipedia.org/wiki/Fakult%C3%A4t_(Mathematik)) (`1*2*3*...*n`) dieser Zahl zurück gibt. Nutzen Sie dafür eine Schleife (`while, do while, for`). Geben Sie außerdem `1` zurück, wenn `n` kleiner ist als 1.
+**e)** Schreiben Sie eine Funktion `factorial` welche eine Zahl `n` entgegen nimmt und als Rückgabewert die [Fakultät](https://de.wikipedia.org/wiki/Fakult%C3%A4t_(Mathematik)) (`1*2*3*...*n`) dieser Zahl zurück gibt. Nutzen Sie dafür eine Schleife ihrer Wahl (`while, do while, for`). Geben Sie außerdem `1` zurück, wenn `n` kleiner ist als 1.
 
 **f)** Schreiben Sie eine Funktion `leapyears` welche alle Schlatjahre von 1900 bis heute auf der Konsole ausgibt. Ein Jahr ist ein Schaltjahr, wenn die Jahreszahl durch 4, aber nicht durch 100 teilbar ist. Sollte die Jahreszahl durch 400 teilbar sein, handelt es sich dennoch um ein Schaltjahr.
 

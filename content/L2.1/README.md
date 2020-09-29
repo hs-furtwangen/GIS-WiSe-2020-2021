@@ -1,5 +1,25 @@
 ## **4 _Nov_** Typescript und Javascript Einstieg
 
+### Inhaltsverzeichnis
+
+- [Einrichtung Typescript in VSCode](#einrichtung-typescript-in-vscode)
+- [Vorwort JavaScript / Typescript](#vorwort-javascript--typescript)
+- [JavaScript / Typescript Einführung](#javascript--typescript-einführung)
+  - [Zahlen](#zahlen)
+  - [Zeichenketten](#zeichenketten)
+  - [Boolsche Werte](#boolsche-werte)
+  - [Vergleiche](#vergleiche)
+  - [Logische Operatoren](#logische-operatoren)
+  - [Leere Werte](#leere-werte)
+  - [Konvertierung](#konvertierung)
+- [Typescript Kontrollstrukturen](#typescript-kontrollstrukturen)
+  - [Funktionen](#funktionen)
+  - [Programmablauf und Kontrollstrukturen](#prgroammablauf-und-kontrollstrukturen)
+    - [if / else](#if--else)
+    - [Schleifen](#schleifen)
+- [Q&A](#-qa-fragen-und-antworten)
+
+
 ### Einrichtung Typescript in VSCode
 <video controls width="100%"> 
     <source src="https://scheuerle.net/lehre/gis/videos/05_Einrichtung_Typescript.mp4" type="video/mp4"> 
@@ -298,13 +318,13 @@ _(Der Unterstrich vor den Parametern folgt den [Codingstyle Guidelines](../../co
 
 > Diese Form beschreibt exakt was als Übergabeparameter erwartet wird sowie als Rückgabewert zu erwarten ist. VSCode zeigt diese Form an, wenn man mit der Maus über einen Funktionsnamen hovert. So kann man Informationen über unbekannte Funktionen einholen und diese dann korrekt benutzen.
 
-Da Funktionen in JS auch ein Typ sind, können diese auch in Variablenschreibweise definiert werden und wie Variablen genutzt werden. Diese Definitionsform steht aber im Kontrast zu anderen Sprachen, darum ist sie in diesem Kurs nicht empfohlen.
+Da Funktionen in JS/TS auch ein Typ sind, können diese auch in Variablenschreibweise definiert werden und wie Variablen genutzt werden. Diese Definitionsform steht aber im Kontrast zu anderen Sprachen, darum ist sie in diesem Kurs nicht empfohlen. Außerdem können Funktionen, welche auf diese Weise definiert wurden, erst nach ihrer Definition aufgerufen werden, während die erste Variante immer aufgerufen werden kann.
 
 ```ts
 let myFunction = function(_stringParam: string, _numberParam: number): number {...}
 ```
 
-> ⚠️ Dies bedeutet auch, dass Funktionen wie Variablen neue Werte zugewiesen bekommen können und komplett überschrieben werden. Dies ist nicht nur ein Sicherheitsproblem für Webseiten, sondern kann auch sehr unübersichtlich werden. Wir raten in diesem Kurs daher davon ab, dies zu nutzen.
+> ⚠️ Dies bedeutet auch, dass Funktionen wie Variablen neue Werte zugewiesen bekommen können und so komplett überschrieben werden können. Dies ist nicht nur ein Sicherheitsproblem für Webseiten, sondern kann auch sehr unübersichtlich werden. Wir raten in diesem Kurs daher davon ab, dies zu nutzen.
 
 ```ts
 let launchMissles = function(): void {
