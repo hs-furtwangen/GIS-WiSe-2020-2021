@@ -1,27 +1,41 @@
-# **P1** HTML & CSS
+# **K1** HTML & CSS
 
-## [**7 _Okt_** Einführung & Grundlagen HTML](L01)  
+Kurze Einleitung in das 1. Kapitel des Praktikums.
+
+## Woche 1.1: Einführung & Grundlagen HTML
+
+[**7 _Okt_** Vorlesung](L1.1)
 - Einführung in die Thematik
 - Vorbereitung / Tools
 - Ablauf Vorlesung und Praktikum
 - HTML Basics
 - HTML Syntax und erste Elemente
 
+[**9 _Okt_** Praktikum](P1.1)
+
 ---
 
-## [**14 _Okt_** HTML5 Familie](L02)  
+## Woche 1.2: HTML5 Familie
+
+[**14 _Okt_** Vorlesung](L1.2)
 - HTML Bilder und Verweise
 - HTML5 Familie
 - Multimediale Inhalte, Audio, Video
 
+[**16 _Okt_** Praktikum](P1.2)
+
 ---
 
-## [**21 _Okt_** Einstieg CSS](L03)  
+## Woche 1.3: Einstieg CSS
+
+[**21 _Okt_** Vorlesung](L1.3)
 - Einführung
 - Eigenschaften
 - Selektoren
 - Kaskadierung und Vererbung
 - CSS Box Model und Maßeinheiten
+
+[**16 _Okt_** Praktikum](P1.3)
 
 ---
 
@@ -34,7 +48,22 @@
 
 ---
 
+## Aufgabe zum Kapitel
+
+Hier sollte die Gesamtaufgabe kurz beschrieben werden.
+Verweis auf die Etappen, die unten den einzelnen Proaktikumsterminen zugeordnet sind.
+
+**Abgabe zum 1. November 2020**
+
+Wie? Wo?
+
+---
+
 # **P2** TypeScript
+
+
+In diesem zweiten großen Abschnitt des Praktikums werden wir uns ganz dem Einstieg und der Entwicklung mit Typescript widmen.
+
 
 ## [**4 _Nov_** Einstieg JavaScript und TypeScript](L05)
 
