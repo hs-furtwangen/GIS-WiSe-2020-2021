@@ -85,10 +85,11 @@ In diesem zweiten großen Abschnitt des Praktikums werden wir uns ganz dem Einst
 
 ## **2.2** Weiterführende Konzepte Typescript
 
-- Vorgehensweise und best practices
+- Vorgehensweisen und best practices
 - Arrays
 - Interfaces
 - Javascript Objekte
+- weiterführende Konzepte
 - Canvas
 
 *[Vorlesungsmaterialien zum **11. November**](L2.2)*

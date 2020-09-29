@@ -1,5 +1,25 @@
 ## _V_ **2.1** Typescript und Javascript Einstieg
 
+### Inhaltsverzeichnis
+
+- [Einrichtung Typescript in VSCode](#einrichtung-typescript-in-vscode)
+- [Vorwort JavaScript / Typescript](#vorwort-javascript--typescript)
+- [JavaScript / Typescript Einführung](#javascript--typescript-einführung)
+  - [Zahlen](#zahlen)
+  - [Zeichenketten](#zeichenketten)
+  - [Boolsche Werte](#boolsche-werte)
+  - [Vergleiche](#vergleiche)
+  - [Logische Operatoren](#logische-operatoren)
+  - [Leere Werte](#leere-werte)
+  - [Konvertierung](#konvertierung)
+- [Typescript Kontrollstrukturen](#typescript-kontrollstrukturen)
+  - [Funktionen](#funktionen)
+  - [Programmablauf und Kontrollstrukturen](#prgroammablauf-und-kontrollstrukturen)
+    - [if / else](#if--else)
+    - [Schleifen](#schleifen)
+- [Q&A](#-qa-fragen-und-antworten)
+
+
 ### Einrichtung Typescript in VSCode
 <video controls width="100%"> 
     <source src="https://scheuerle.net/lehre/gis/videos/05_Einrichtung_Typescript.mp4" type="video/mp4"> 
@@ -182,7 +202,7 @@ console.log(false === false) // -> true
 
 [Skript (PDF)](https://scheuerle.net/lehre/gis/scripts/05_TS_Kontrollstrukturen.pdf)
 
-**Das Lesen und Schreiben von Code sind unverzichtbar wenn es darum geht, Programmieren zu lernen!** Versuchen Sie darum, nicht über Beispiele schnell hinweg zu lesen, sondern lesen Sie diese Aufmerksam und versuchen Sie, sie zu verstehen, probieren Sie sie ggf. selbst aus. Ähnliches gilt für Übungen im Text sowie Wochen- und Abschnittsaufgaben: Gehen Sie nicht davon aus, dass Sie sie verstanden haben, bis sie tatsächlich selbst eine funktionierende Lösung gefunden und getestet haben. Dies ist eventuell zunächst langsam und verwirrend, aber mit etwas Übung haben Sie schnell den Dreh raus.
+**Das Lesen und Schreiben von Code sind unverzichtbar wenn es darum geht, Programmieren zu lernen!** Versuchen Sie darum, nicht über Beispiele schnell hinweg zu lesen, sondern lesen Sie diese Aufmerksam und versuchen Sie, sie zu verstehen, probieren Sie sie ggf. selbst aus. Ähnliches gilt für Übungen im Text sowie Wochen- und Kapitelaufgaben: Gehen Sie nicht davon aus, dass Sie sie verstanden haben, bis sie tatsächlich selbst eine funktionierende Lösung gefunden und getestet haben. Dies ist eventuell zunächst langsam und verwirrend, aber mit etwas Übung haben Sie schnell den Dreh raus.
 
 Machen Sie alle Übungen und lassen Sie diese auch tatsächlich im Browser (oder einem anderen Interpreter) ausführen. So bekommen Sie direktes Feedback über den Code den Sie geschreiben haben und ob es funktioniert. Vielleicht, so hoffe ich, verspüren Sie dann auch die Versuchung, etwas anderes auszuprobieren und mit dem Code herumzuexperimentieren.
 
@@ -298,6 +318,22 @@ _(Der Unterstrich vor den Parametern folgt den [Codingstyle Guidelines](../../co
 
 > Diese Form beschreibt exakt was als Übergabeparameter erwartet wird sowie als Rückgabewert zu erwarten ist. VSCode zeigt diese Form an, wenn man mit der Maus über einen Funktionsnamen hovert. So kann man Informationen über unbekannte Funktionen einholen und diese dann korrekt benutzen.
 
+Da Funktionen in JS/TS auch ein Typ sind, können diese auch in Variablenschreibweise definiert werden und wie Variablen genutzt werden. Diese Definitionsform steht aber im Kontrast zu anderen Sprachen, darum ist sie in diesem Kurs nicht empfohlen. Außerdem können Funktionen, welche auf diese Weise definiert wurden, erst nach ihrer Definition aufgerufen werden, während die erste Variante immer aufgerufen werden kann.
+
+```ts
+let myFunction = function(_stringParam: string, _numberParam: number): number {...}
+```
+
+> ⚠️ Dies bedeutet auch, dass Funktionen wie Variablen neue Werte zugewiesen bekommen können und so komplett überschrieben werden können. Dies ist nicht nur ein Sicherheitsproblem für Webseiten, sondern kann auch sehr unübersichtlich werden. Wir raten in diesem Kurs daher davon ab, dies zu nutzen.
+
+```ts
+let launchMissles = function(): void {
+  missileSystem.launch();
+}
+if(safeMode) {
+  launchMissles = function(): void {/* tue nichts */};
+}
+```
 
 ### Programmablauf und Kontrollstrukturen
 JS/TS Programme laufen in einer klar definierten Reihenfolge ab. Immer eine Zeile bzw. eine Anweisung nach der anderen. Wird eine Funktion aufgerufen, so wird der Hauptlauf des Programmes pausiert, bis die Funktion beendet wurde. 
@@ -428,6 +464,63 @@ while (true){
   x *= 2;
 }
 console.log(x);
+```
+
+### Scopes / Geltungsbereiche
+
+Jede Variable (und damit auch Funktion) hat einen Geltungsbereich, in dem auf sie zugegriffen werden kann. Variablen welche außerhalb von Funktionen oder Blöcken (so ziemlich alles, was von `{}` umgeben ist) definiert sind, sind sogenannte globale Variablen und können von überall im Programm aufgerufen und genutzt werden.
+
+Variablen welche jedoch innerhalb von Funktionen oder anderen Blöcken definiert werden (dazu zählen auch Parameter), sind nur innerhalb dieser Funktion nutzbar.
+
+```ts
+let x: number = 10;
+if(true) {
+  let y = 20;
+  console.log(x + y) // -> 30
+}
+console.log(x + y) // -> ReferenceError, da y nicht definiert ist
+```
+
+Blöcke können zwar nicht nach innen aber dafür nach außen schauen, und alle Variablen, die weiter "außerhalb" definiert wurden nutzen.  
+Die Ausnahme zu dieser Regel ist, wenn in einem inneren Block eine Variable mit dem gleichen Namen definiert wurde. Innerhalb der `square` Funktion wird die Variable `n` als Übergabeparameter definiert und blendet damit das globale `n` aus.
+
+```ts
+let n: number = 10;
+
+function square(n: number): number {
+  n = n * n;
+  return n;
+}
+console.log(square(n)); //-> 100
+console.log(n); //-> 10
+```
+
+An diesem Beispiel kann man auch sehen, dass Parameter (vom Typ `number`, `string`, oder `boolean`, dazu mehr in der nächsten Woche) unabhängig von den übergebenen Variablen sind. Der Inhalt von dem globalen `n`, welches an die `square` Funktion übergeben wurde, wird in das lokale `n` kopiert, und die Änderungen daran werden nicht auf das globale zurückgeführt.
+
+> _**Weiterführende Informationen**_  
+> Funktionen legen bei jedem Aufruf ihren eigenen kleinen lokalen Variablenbereich an, welcher _den Kontext speichert_.
+Dadurch, dass diese Verschachtelung beliebig oft wiederholt werden kann, ist es so möglich mehrere Funktionen so zu verschachteln, dass diese den Kontext speichern, was sehr praktisch sein und viel Arbeit ersparen kann, aber auch schwieriger zu verstehen und anzuwenden ist. ⚠️  
+> 
+> Diese 
+
+```ts
+function chiliRecipe(factor: number): void {
+  ingredient(1, "can", "beans");
+  ingredient(1, "piece", "garlic");
+  ingredient(2, "tea spoon", "chili");
+  ingredient(2, "can", "tomatoes");
+  ingredient(100, "gram", "minced meat / tofu");
+  
+  function ingredient(amount: number, unit: string, name: string){
+    let totalAmount: number = amount * factor;
+    if (totalAmount > 1){
+      unit += "s";
+    }
+    console.log(`${totalAmount} ${unit} ${name}`);
+  }
+}
+
+chiliRecipe(3);
 ```
 
 ### Typescript Dokumentation
