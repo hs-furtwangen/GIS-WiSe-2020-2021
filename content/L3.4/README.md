@@ -1,6 +1,6 @@
 ## _V_ **3.4** Datenbankzugriff über Server
 
-## MongoDB in Node
+### MongoDB in Node
 Bisher wurde die Datenbank noch direkt über die MongoShell angesprochen. Damit wir aber die Datenbank ohne manuelles Zutun verwenden können, müssen wir diese mit unserem Node.JS Server verbinden. Was bisher von Hand mit der MongoShell erledigt wurde, soll also das Node.js-Programm bewerkstelligen. Hierzu muss Node zunächst um die entsprechenden Module für die Arbeit mit MongoDB erweitert werden. Führen Sie also die Kommandos `npm install @types/mongodb` sowie `npm install mongodb` auf der obersten Ebene ihres GIS-Projektes / Repositories aus. 
 
 Die Datei `package.json` sollte nun neue Einträge unter `dependencies` aufweisen, welche auf die Module und Versionen von MongoDB verweisen. Damit weiß dann auch z.B. Heroku, mit welchen Modulen das Projekt arbeitet, ohne dass diese Module im Github-Repository mitgeliefert werden. Überprüfen Sie zudem noch einmal die Datei `.gitignore`, damit nicht versehentlich diese Module in Ihre Versionskontrolle geraten.
@@ -25,7 +25,7 @@ let orders: Mongo.Collection = mongoClient.db("Test").collection("Students");
 orders.insert({...});
 ```
 
-## Implementation
+### Implementation
 
 >**Hinweis zu den Videos:** Auch dieses mal gilt wieder: Die Videos kommen aus dem EIA2 Kurs, darum sind evtl. manche Dinge für Sie nicht 1 zu 1 übernehmbar. Die darin vorgestellten Konzepte sind jedoch wichtig und hilfreich für diese Woche. 
 
@@ -35,7 +35,7 @@ orders.insert({...});
 </video>    
 </div>
 
-## Test
+### Test
 > - Starten Sie den Server in einem dritten Terminalfenster. MongoDB sollte den Verbindungsversuch erkennen und eine zweite Connection anzeigen.
 > - Starten Sie den Client in einem kleinen neuen Browserfenster. Am besten ordnen Sie die Fenster so an, so dass Ihr Bildschirm nun horizontal und vertikal halbiert erscheint. 
 > - Setzen Sie mit dem Client mehrere unterschiedliche Anfragen ab und beobachte die Ausgaben im Serverfenster. 
@@ -66,7 +66,7 @@ https://www.typescriptlang.org/
 
 ---
 
-## **?! _<small>Q&A</small>_** Fragen und Antworten
+## **?!** Fragen und Antworten
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A Termin)
 

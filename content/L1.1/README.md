@@ -78,7 +78,7 @@ Spätestens an dieser Stelle ist es wichtig, dass Sie sich mit den Abläufen der
 
 ---
 
-## **?! _<small>Q&A</small>_** Fragen und Antworten
+## **?!** Fragen und Antworten
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A Termin)
 

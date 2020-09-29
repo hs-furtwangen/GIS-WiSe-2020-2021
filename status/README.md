@@ -1,4 +1,4 @@
-# **S _---_** Abgabenstatus
+# **▲** Abgabenstatus
 
 Das Praktikum gilt als bestanden, wenn man ein volles Triforce besitzt. <img src="../assets/images/3-force.png" height=20px>
 

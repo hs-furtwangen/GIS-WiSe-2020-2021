@@ -1,4 +1,4 @@
-## **Ω _---_** Prüfungsaufgabe und mündliche Prüfung
+## **Ω** Prüfungsaufgabe und mündliche Prüfung
 
 *[direkt zu Q&A](#-qa-fragen-und-antworten)*
 
@@ -144,7 +144,7 @@ Die Vorgehensweise um eine Lösung der von Ihnen gewählten Aufgabe zu erarbeite
 
 ---
 
-## **?! _<small>Q&A</small>_** Fragen und Antworten
+## **?!** Fragen und Antworten
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A Termin)
 

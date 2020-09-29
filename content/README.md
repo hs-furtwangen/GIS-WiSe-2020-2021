@@ -68,7 +68,6 @@ Wie? Wo?
 
 In diesem zweiten großen Abschnitt des Praktikums werden wir uns ganz dem Einstieg und der Entwicklung mit Typescript widmen.
 
-
 ## **2.1** Einstieg JavaScript und TypeScript
 
 - Arbeitsumgebung
