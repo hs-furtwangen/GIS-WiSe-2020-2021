@@ -15,7 +15,6 @@ Die mündliche Prüfung besteht aus einer detaillierten Auseinandersetzung mit I
 Die **mündlichen Prüfungen** finden am **3., 4. und 5. August** über Videokonferenz statt (weitere Prüfungen am 6. August sind möglich).
 
 ### Hinweise zur Prüfungsanmeldung
-⚠ **Achtung: veränderte Modalitäten zur Prüfungsanmeldung seit Dienstag, 14. Juli** ⚠
 
 Um an der Modulprüfung teilzunehmen müssen Sie sich bis spätestens 26. Juli 2020 in das [FELIX-Kursmodul *GIS Modulprüfung WiSe 2020/2021 (MIB und OMB)*](https://felix.hs-furtwangen.de/auth/RepositoryEntry/3983966357) einschreiben. Dieses Kursmodul bietet die Infrastruktur für folgende Schritte zur Moduleprüfung:
 1. Abgabe der *Einwilligungserklärung zur Durchführung von Online-Prüfungen*

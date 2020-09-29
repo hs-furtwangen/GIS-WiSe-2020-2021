@@ -6,11 +6,11 @@
 - Ablauf Vorlesung und Praktikum
 - HTML Basics
 - HTML Syntax und erste Elemente
-- HTML Bilder und Verweise
 
 ---
 
 ## [**14 _Okt_** HTML5 Familie](L02)  
+- HTML Bilder und Verweise
 - HTML5 Familie
 - Multimediale Inhalte, Audio, Video
 

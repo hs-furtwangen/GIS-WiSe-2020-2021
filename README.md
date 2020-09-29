@@ -14,41 +14,51 @@ Die Vorlesungen und Praktika zu *Grundlagen interaktiver Systeme* für die Studi
 
 ### Materialien und Termine
 
-Die Vorlesung findet durch aufgezeichenete Videokapitel, schriftliche Materialien sowie einen wöchentlichen Q&A Online Termin mit Fragen und Antworten zu den Kursinhalten statt (zum Vorlesungstermin, gemeinsam für MIB und OMB). Die Teilnehmenden sind dazu angehalten sich die Kursmaterialien vor dem jeweiligen Q&A Termin zu erarbeiten. Die vollständigen Materialien zu einem Termin – inkl. Praktikumsaufgaben –  werden bis zum Montagmittag der ersten Woche eines Blocks unter dem entsprechenden Kapitel (Links unter dem Abschnitt [Kursmaterialien](lectures) bzw. [Praktikumsaufgaben](practical)) veröffentlicht. Auch die Praktikumsgruppen werden in Online Terminen betreut.
+Die Vorlesung findet durch aufgezeichenete Videokapitel, schriftliche Materialien sowie einen wöchentlichen online Q&A-Termin mit Fragen und Antworten zu den Vorlesungsinhalten statt (gemeinsam für MIB und OMB). Auch die Praktikumsgruppen werden online betreut.
 
-Alle Online Termine werden über *alfaview&reg;* abgehalten. Die Q&A Termine werden zusammengefasst und im Abschnitt *Q&A* des jeweiligen Kurskapitels nachträglich veröffentlicht.
+Die Inhalte des Moduls (Vorlesung und Praktikum) sind in drei thematische Abschnitte von jeweils 4 bzw 5 Wochen aufgeteilt, von denen jeder durch die Abgabe einer größeren Praktikumsaufgabe abgeschlossen wird. Die Aufgabenstellung sowie die wöchentlichen Kapitel der Vorlesung und des Praktikums, die zur Lösung der Aufgabe hinführen, liegen jeweils zum Anfang eines Abschnitts vollständig vor.
 
-Folgende wöchentliche Termine sind vorgesehen (mit Links zum Betreten der Online-Räume):  
-- Q&A Termine zur Vorlesung: Mi, 1. Block (7:45 Uhr) → [Online-Raum noch ungeklärt](https://rooms.hs-furtwangen.de/rooms/)
+Sie sind dazu angehalten sich jede Woche bis zum Q&A-Termin am Mittwoch die Vorlesungsmaterialien des jeweiligen Kapitels zu erarbeiten und die dazugehörige Praktikumsaufgabe zu studieren. Die Q&A-Termine dienen dazu Unklarheiten zum jeweils aktuellen Kapitel auszuräumen und die dazugehörige Praktikumsaufgabe zu erläutern. Der Praktikumstermin am Freitag , die zu dem Kapitel gestellten Teilaufgaben zu bearbeiten, die sich zum Ende eines thematischen Abschnitts zu einer vollständigen Abgabe zusammenfügen.
+
+*[Kursmaterialien](lectures)*
+*[Praktikumsaufgaben](practical)*
+
+Alle Online Termine (Q&A und Praktikum) werden über *alfaview&reg;* abgehalten. Die Beiträge zu den Q&A Terminen werden schriftlich zusammengefasst und im Abschnitt *Q&A* des jeweiligen Kapitels nachträglich veröffentlicht.
+
+Folgende wöchentlichen Termine sind vorgesehen (mit Links zum Betreten der Online-Räume):  
+- Q&A-Termine zur Vorlesung: Mi, 1. Block (7:45 Uhr) → [Online-Raum DM-03](https://rooms.hs-furtwangen.de/rooms/dm03)
 - Praktikumstermine
   - OMB A: Fr, 2. Block, Andreas Reich → [Online-Raum DM-09](https://rooms.hs-furtwangen.de/rooms/dm09)
   - MIB A: Fr, 2. Block, Lukas Scheuerle → [Online-Raum DM-15](https://rooms.hs-furtwangen.de/rooms/dm15)
   - OMB B: Fr, 3. Block, Lukas Scheuerle → [Online-Raum DM-15](https://rooms.hs-furtwangen.de/rooms/dm15)
-  - MIB B: Fr, 3. Block, Andreas Reich → [Online-Raum DM-09](https://rooms.hs-furtwangen.de/rooms/dm09)  
+  - MIB B: Fr, 3. Block, Andreas Reich → [Online-Raum DM-09](https://rooms.hs-furtwangen.de/rooms/dm09)
 
-⚠ **Sollten die Praktikas nicht viel besucht sein, finden diese gemeinsam in Raum 15 statt!** ⚠
+### Praktikum und Praktikumsabgaben
 
-### Ablauf
+Wie oben bereits erwähnt, besteht die Studienleistung zum Praktikum aus drei größeren Abgaben zu Aufgaben, die jeweils einen thematischen Abschnitt abschließen. Die Abgaben sind jeweils bis zum Sonntag (23:59 Uhr) am Ende des Abschnitts fällig. Verspätete Abgaben können nicht akzeptiert werden.
 
-Im Laufe der Veranstaltung wird es drei große thematische Abschnitte geben, zu denen es jeweils eine große Abgabe abzugeben gilt. Die Aufgabe wird zu Beginn jedes Abschnitts bekanntgegeben. Jede Abgabe ist dabei in wöchtentliche Unteraufgaben unterteilt, welche einen groben zeitlichen Rahmen sowie eine Vorgehenshilfe darstellen und mit den für die jeweilige Woche vorgesehenen Lehrinhalten einhergehen.
+Die Abgabe der Aufgabenlösungen erfolgt durch die Bereitstellung eines Links auf den Quellcode in einem Unterordner in Ihrem GitHub Repository und eines Links auf eine lauffähige Anwendung über die dazugehörigen Github Pages. Die Links zu einer Praktikumsabgage müssen im GitHub Issue des jeweiligen Anschnitts veröffentlicht werden:
 
-Die Lehrinhalte müssen selbstständig bis zum Q&A Termin am Mittwoch morgen erarbeitet werden, um diese für Klarstellungen und Fragen effektiv nutzen zu können, um dann den Rest der Woche mit der Umsetzung zu verbringen, für die sich am Freitag in den Praktikas Hilfe geholt werden kann (für Hilfe außerhalb dieser Praktikas s. Abschnitt [Fragen und Probleme](#fragen-und-probleme)). In diesen Terminen liegt der Fokus auf den für diese Woche vorgesehenen Inhalten und Aufgaben.
+- Abgabe zum Abschnitt P1: https://github.com/Plagiatus/EIA/issues/1
+- Abgabe zum Abschnitt P2: _Link folgt_
+- Abgabe zum Abschnitt P3: _Link folgt_
 
-Bei erfolgreicher Abgabe wird ein Teil des Triforce vergeben. Am Ende des Semesters gilt das Praktikum als bestanden, wenn man ein komplettes Triforce zusammengestellt hat. Eine Übersicht über den Status der Abgaben findet sich [hier](assignments). [Haben Studis eine Chance doch noch ein Teil zu bekommen wenn sie Mist abgegeben haben?]  
-Prüfungsabgabe erfolgt durch die Bereitstellung eines Links auf die lauffähige Anwendung über Github Pages sowie einen Link zum Repository(-Unterordner) in welchem der Quellcode liegt, in den hier verlinkten Github Issues:
+Eine Übersicht über den Status der Abgaben findet sich [hier](assignments). [Haben Studis eine Chance doch noch ein Teil zu bekommen wenn sie Mist abgegeben haben?]  
 
-- Abgabe P1: https://github.com/Plagiatus/EIA/issues/1
-- Abgabe P2: _Link folgt_
-- Abgabe P3: _Link folgt_
+### Prüfungsaufgabe und mündliche Prüfung
 
-Die **Modulprüfung** besteht aus einer finalen, benoteten Abgabe, in der alle erlernten Kompetenzen nachgewiesen werden müssen, sowie einer kurzen mündlichen Prüfung über diese Abgabe. Dazu zu geeignetem Zeitpunkt mehr.
+Die Modulprüfung zu GIS besteht – wie bereits im letzten Semester – aus einer Prüfungsaufgabe und einer mündlichen Prüfung, die die eigentlich vorgesehene Klausur ersetzen. Zum Bestehen der Modulprüfung müssen beide Prüfungsteile bestanden werden. Die zur Auswahl stehenden Prüfungssaufgaben werden geben Ende des letzten thematischen Abschnitts veröffentlicht.
+
+*[Näheres zur Prüfung](final???)*
 
 ### Fragen und Probleme
 
-Für Fragen zum Ablauf des Kurses, den Kursinhalten und den Praktikumsaufgaben sowie um auf Probleme bezüglich der Lehrveranstaltung aufmerksam zu machen, stehen Ihnen folgene Kanäle zur Verfügung:
-- Wortmeldungen während der Q&A Termine zu den Kursen
+Für Fragen zum Ablauf der Lehrveranstaltung, den Inhalten und den Praktikumsaufgaben sowie um auf Probleme bezüglich der Lehrveranstaltung aufmerksam zu machen, stehen Ihnen folgene Kanäle zur Verfügung:
+- Wortmeldungen während der Q&A-Termine zu den Kursen
 - Wortmeldungen während der Online Praktikumstermine
-- [GitHub Issues](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues) (in diesem Repository), entweder individuell für Probleme oder als Sammlung für Fragen für die Q&A Termine.
+- [GitHub Issues](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues) (in diesem Repository), entweder individuell für Probleme oder als Sammlung für Fragen für die Q&A-Termine.
+
+Bitte stellen Sie bei den Q&A- und Praktikumsterminen *alle* Fragen, die Sie haben. Handeln Sie *egoistisch* und und stellen Sie sicher, dass Sie selbst alles verstanden haben oder handeln Sie *altruistisch* und stellen Sie die Fragen, die sich niemand anders traut zu stellen. Keine Frage ist "zu dämlich" oder "zu einfach". 
 
 Ein gutes GitHub Issue zu einem Problem mit Ihrer Aufgabenlösung beinhaltet:
   - eine klare Beschreibung des Problems, ggf. mit der erhaltenen Fehlermeldungen (Fehlermeldungen wörtlich in den Text kopieren!)
@@ -57,11 +67,7 @@ Ein gutes GitHub Issue zu einem Problem mit Ihrer Aufgabenlösung beinhaltet:
 
 Beantworten Sie auch gerne die von Ihren Kommilitonen erstellten GitHub Issues.
 
-**⚠ Stellen Sie alle Fragen, die Sie haben! Keine Frage ist "zu dämlich" oder "zu einfach". Seien Sie eigensinnig und stellen Sie sicher, dass Sie selbst alles verstanden haben! ⚠**  
-_(Denn wenn jeder an sich selbst denkt, ist an alle gedacht)_
-
-#### Arten von Problemen
-Es gibt vier für uns relevante Arten von Problemen:
+Es gibt vier relevante Arten von Problemen:
 
 1. Design-Problem: Ein Problem welches bereits beim Schreiben des Codes Auftritt und ggf. die Kompilierung verhindert (in Java) oder anderweitig dafür sorgt, dass es nicht ausgeführt werden kann (JS/TS). Wird normalerweise direkt von der Entwicklungsumgebung (in unserem Fall VSCode) in Form von Fehlermeldungen (und Warnungen) angezeigt.
 2. Compile-Problem: Ein Problem das beim Übersetzen des Codes (in unserem Fall von TS nach JS) in die Maschinenlesbare Variante auftritt. Diese sind sehr selten (und meistens ist es eben doch ein Design Problem).
