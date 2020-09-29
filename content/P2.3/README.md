@@ -1,4 +1,4 @@
-## **20 _Nov_** Event Handling
+## _P_ **2.3** Event Handling
 
 >**Bei Problemen/Unklarheiten:** können Sie wie immer ins Praktikum kommen oder per Discord / Github Issues (/ EMail) Fragen stellen.
 

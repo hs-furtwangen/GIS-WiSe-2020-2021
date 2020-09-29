@@ -1,4 +1,4 @@
-## **2 _Dez_** JSON, localStorage, Kommunikation
+## _V_ **2.5** JSON, localStorage, Kommunikation
 
 *[direkt zur Praktikumsaufgabe](#a--praktikumsaufgabe)*
 *[direkt zu Q&A](#-qa-fragen-und-antworten)*

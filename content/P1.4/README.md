@@ -1,4 +1,4 @@
-## **30 _Okt_** CSS Vertiefung
+## _P_ **1.4** CSS Vertiefung
 
 Erstellen Sie eine Shopseite für Produkte ihrer Wahl. Versuchen Sie, etwas anderes zu verkaufen als Ihre Kommilitonen. Die Seite soll 
 - visuell ansprechend sein. Achten Sie auf sinnvolle Verteilung der Artikel. (Holen Sie sich Inspiration zur Gestaltung gerne bei existierenden Shops)

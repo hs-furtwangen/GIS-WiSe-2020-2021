@@ -1,4 +1,4 @@
-## **16 _Dez_** Server Request Verarbeitung
+## _P_ **3.2** Server Request Verarbeitung
 
 Ändern Sie den Servercode dahingehend, dass er statt einfach nur einem URL Bounce die in der URL (im query Teil / über eine GET Anfrage) übergebenen Variablen und Werte zunächst in ein Javascript Objekt / Assoziatives Array umwandelt, bzw diese aus der URL ausließt (s. `Url.parse()`). Geben Sie nun unter verschiedenen Pfaden die Informationen auf verschidene Weisen zurück:
 

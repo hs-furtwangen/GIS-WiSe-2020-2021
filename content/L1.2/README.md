@@ -1,4 +1,6 @@
-## **14 _Okt_** HTML5 Familie
+## _V_ **1.2** HTML5
+
+---
 
 ### HTML Bilder und Verweise
 
@@ -28,7 +30,6 @@ _Hier gibt es kein Video, stattdessen den ausführlichen Foliensatz zum selbst e
 - [Elemente Übersicht](https://wiki.selfhtml.org/extensions/Selfhtml/example.php/Beispiel:HTML-Kategorien.html)
 - [W3C Validierer](http://validator.w3.org/)
 - [Elemente Liste](https://developer.mozilla.org/de/docs/Web/HTML/HTML5/HTML5_element_list)
-
 
 ---
 
@@ -64,7 +65,7 @@ _Hier gibt es kein Video, stattdessen den ausführlichen Foliensatz zum selbst e
 
 ---
 
-## **?! _<small>Q&A</small>_** Fragen und Antworten
+## **?!** Fragen und Antworten
 
 Zusammenfassung von: [&lt;TawsTm&gt;](https://github.com/TawsTm)
 

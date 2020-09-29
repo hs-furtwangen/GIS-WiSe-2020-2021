@@ -1,4 +1,4 @@
-## **18 _Nov_** Event Handling
+## _V_ **2.3** Event Handling
 
 
 ### DOM Manipulation

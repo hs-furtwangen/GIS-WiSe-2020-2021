@@ -1,4 +1,6 @@
-## **21 _Okt_** Einstieg CSS
+## _V_ **1.3** Einstieg CSS
+
+---
 
 ### Einführung
 <video controls width="100%"> 
@@ -19,6 +21,8 @@ Eine CSS-Anweisung besteht immer aus einem Selektor und der Deklaration, die aus
 
 <a href="https://www.w3schools.com/css/">https://www.w3schools.com/css/</a>
 
+---
+
 ### Eigenschaften
 <video controls width="100%"> 
     <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L03/02_CSS_Eigenschaften.mp4" type="video/mp4"> 
@@ -30,6 +34,8 @@ Die aktuellen Möglichkeiten der visuellen Gestaltung mit CSS sind scheinbar end
 Eigenschaften stehen immer in Abhängigkeit zu dem entsprechenden Element, sodass nicht alle Eigenschaften bei allen Elementen sinnvoll sind oder schlicht keine Auswirkung haben.
 
 
+---
+
 ### Selektoren
 <video controls width="100%"> 
     <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L03/03_CSS_Selektoren.mp4" type="video/mp4"> 
@@ -39,6 +45,8 @@ Eigenschaften stehen immer in Abhängigkeit zu dem entsprechenden Element, sodas
 Um CSS-Anweisungen an bestimmte Elemente eines HTML-Dokument zu adressieren, kann man mithilfe von Selektoren auf ein oder mehrere Elemente zugreifen.
 
 Es gibt verschiedene Arten von Selektoren: die drei Haupt-Selektoren sind **Element-Selektoren** (gebildet aus dem Tag-Namen), **ID-Selektoren** (wirken sich auf Elemente aus, die mit einer eindeutigen ID versehen wurden) und **Klassen-Selektoren** (ermöglichen die Auswahl mehrerer HTML-Elemente, auf die mit der Formatierung zugegriffen werden soll).
+
+---
 
 ### Kaskadierung und Vererbung
 <video controls width="100%"> 
@@ -50,6 +58,8 @@ Das Grundprinzip der Kaskadierung bewirkt eine Reihen- oder Rangfolge, in der Ei
 
 Definierte Eigenschaften werden an die (semantisch untergeordneten) Kinderelemente des selektierten Elements vererbt. Werden jedoch die Eigenschaften für die untergeordneten Elemente neu definiert, überschreiben diese die vererbten Eigenschaften.
 
+---
+
 ### Box Model und Masseinheiten
 <video controls width="100%"> 
     <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L03/05_CSS_Box_Model_und_Masseinheiten.mp4" type="video/mp4"> 
@@ -59,6 +69,8 @@ Definierte Eigenschaften werden an die (semantisch untergeordneten) Kinderelemen
 Das CSS-Box-Model beschreibt, dass alle Elemente im Browser auf Basis einer Box beschrieben werden können, die aus einer bestimmten Größe (Höhe x Breite), einem Innenabstand (**padding**), einem Rahmen (**border**) und einem Außenabstand (**margin**) bestehen.
 
 Der Browser arbeitet mit verschiedenen Maßeinheiten, für den Anfang genügt das Pixelmaß (**px**). Ansonsten gibt es beispielsweise noch Angaben in **pt** (statisch, Anwendung im Druck), **em** und **rem** (relative Angabe) oder **Prozent**.
+
+---
 
 ### Take Aways
 <video controls width="100%"> 

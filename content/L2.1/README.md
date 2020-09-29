@@ -1,4 +1,4 @@
-## **4 _Nov_** Typescript und Javascript Einstieg
+## _V_ **2.1** Typescript und Javascript Einstieg
 
 ### Einrichtung Typescript in VSCode
 <video controls width="100%"> 

@@ -1,71 +1,75 @@
-# **K1** HTML & CSS
+# **1** HTML & CSS
 
 Kurze Einleitung in das 1. Kapitel des Praktikums.
 
-## Woche 1.1: Einführung & Grundlagen HTML
+---
 
-[**7 _Okt_** Vorlesung](L1.1)
+## **1.1** Einführung/Basics
+
 - Einführung in die Thematik
 - Vorbereitung / Tools
 - Ablauf Vorlesung und Praktikum
 - HTML Basics
-- HTML Syntax und erste Elemente
 
-[**9 _Okt_** Praktikum](P1.1)
+*[Vorlesungsmaterialien zum **7. Oktober**](L1.1)*
+*[Praktikumsaufgabe zum **9. Oktober**](P1.1)*
 
 ---
 
-## Woche 1.2: HTML5 Familie
+## **1.2** HTML Elemente
 
-[**14 _Okt_** Vorlesung](L1.2)
 - HTML Bilder und Verweise
-- HTML5 Familie
-- Multimediale Inhalte, Audio, Video
+– HTML Audio und Video
+- HTML Struktur
+- Browser und Web Inspector
 
-[**16 _Okt_** Praktikum](P1.2)
+*[Vorlesungsmaterialien zum **14. Oktober**](L1.2)*
+*[Praktikumsaufgabe zum **9. Oktober**](P1.2)*
 
 ---
 
-## Woche 1.3: Einstieg CSS
+## **1.3** Einführung CSS
 
-[**21 _Okt_** Vorlesung](L1.3)
 - Einführung
 - Eigenschaften
 - Selektoren
 - Kaskadierung und Vererbung
 - CSS Box Model und Maßeinheiten
 
-[**16 _Okt_** Praktikum](P1.3)
+*[Vorlesungsmaterialien zum **21. Oktober**](L1.3)*
+*[Praktikumsaufgabe zum **23. Oktober**](P1.3)*
 
 ---
 
-## [**28 _Okt_** CSS Vertiefung](L04)
+## **1.4** Vertiefung CSS
 
 - Komplexe Selektoren
 - Positionierung, Flussverhalten und Layout
 - Responsive Design
-- Transition und Animation
+- *Transition* und *Animation*
+
+*[Vorlesungsmaterialien zum **28. Oktober**](L1.4)*
+*[Praktikumsaufgabe zum **30. Oktober**](P1.4)*
 
 ---
 
-## Aufgabe zum Kapitel
+## **A|1** Praktikumsabgabe zum Kapitel 1
 
 Hier sollte die Gesamtaufgabe kurz beschrieben werden.
 Verweis auf die Etappen, die unten den einzelnen Proaktikumsterminen zugeordnet sind.
 
-**Abgabe zum 1. November 2020**
+### Abgabe zum 1. November 2020
 
 Wie? Wo?
 
 ---
 
-# **P2** TypeScript
-
+# **2** TypeScript
 
 In diesem zweiten großen Abschnitt des Praktikums werden wir uns ganz dem Einstieg und der Entwicklung mit Typescript widmen.
 
 
-## [**4 _Nov_** Einstieg JavaScript und TypeScript](L05)
+## **2.1** Einstieg JavaScript und TypeScript
 
 - Arbeitsumgebung
 - Variablen
@@ -74,9 +78,12 @@ In diesem zweiten großen Abschnitt des Praktikums werden wir uns ganz dem Einst
 - Funktionen
 - Schleifen
 
+*[Vorlesungsmaterialien zum **4. November**](L2.1)*
+*[Praktikumsaufgabe zum **6. November**](P2.2)*
+
 ---
 
-## [**11 _Nov_** Weiterführende Konzepte Typescript](L06)
+## **2.2** Weiterführende Konzepte Typescript
 
 - Vorgehensweise und best practices
 - Arrays
@@ -84,62 +91,109 @@ In diesem zweiten großen Abschnitt des Praktikums werden wir uns ganz dem Einst
 - Javascript Objekte
 - Canvas
 
+*[Vorlesungsmaterialien zum **11. November**](L2.2)*
+*[Praktikumsaufgabe zum **13. November**](P2.2)*
+
 ---
 
-## [**18 _Nov_** Event Handling](L07)
+## **2.3** Event Handling
 
 - Events
 - Event Handling
 - Event Listener
 - DOM Klassenhierarchie  
 
----
-
-## [**25 _Nov_** Event Handling 77](L08)
-
-- Events
-- Event Handling
-- Event Listener
-- DOM Klassenhierarchie  
+*[Vorlesungsmaterialien zum **18. November**](L2.3)*
+*[Praktikumsaufgabe zum **20. November**](P2.3)*
 
 ---
 
-## [**2 _Dez_** JSON, Local Storage & Kommunikation](L09)
+## **2.4** ???
+
+- ???
+- ???
+- ???
+
+*[Vorlesungsmaterialien zum **25. November**](L2.4)*
+*[Praktikumsaufgabe zum **27. November**](P2.4)*
+
+---
+
+## **2.5** JSON, Local Storage & Kommunikation
 
 - JSON -> Daten laden und speichern
 - Local Storage -> Daten laden und speichern
-- Kommunikation -> Anfragen, fetch, async/await  
+- Kommunikation -> Anfragen, fetch, async/await 
+
+*[Vorlesungsmaterialien zum **2. Dezember**](L2.5)*
+*[Praktikumsaufgabe zum **4. Dezember**](P2.5)* 
 
 ---
 
-# **P3** Server & Datenbanken
+## **A|2** Praktikumsabgabe zum Kapitel 2
 
-## [**9 _Dez_** Serveranbindung](L10)
+Hier sollte die Gesamtaufgabe kurz beschrieben werden.
+Verweis auf die Etappen, die unten den einzelnen Proaktikumsterminen zugeordnet sind.
+
+### Abgabe zum 6. Dezember 2020
+
+Wie? Wo?
+
+---
+
+# **3** Server & Datenbanken
+
+## **3.1** Serveranbindung
 
 - Formulare
 - FormData
 - URL
-- NodeJS  
+- NodeJS
+
+*[Vorlesungsmaterialien zum **9. Dezember**](L3.1)*
+*[Praktikumsaufgabe zum **11. Dezember**](P3.1)* 
 
 ---
 
-## [**16 _Dez_** Server Request Verarbeitung](L11)
+## **3.2** Server Request Verarbeitung
 
 - URL Modul
 - Request Handling
 - (POST Request)  
 
+*[Vorlesungsmaterialien zum **16. Dezember**](L3.2)*
+*[Praktikumsaufgabe zum **18. Dezember**](P3.2)* 
+
 ---
 
-## [**13 _Jan_** Datenbanken Grundlagen](L12)
+## **3.3** Datenbanken Grundlagen](L12)
 
 - Datenbanken Einführung
 - Datenbank lokal
 - Datenbank online
 
+*[Vorlesungsmaterialien zum **13. Januar**](L3.3)*
+*[Praktikumsaufgabe zum **15. Januar**](P3.3)* 
+
 ---
 
-## [**20 _Jan_** Datenbankzugriff über den Server](L13)
+## **3.4** Datenbankzugriff über den Server
 
 - Datenbank & Node.js Kommunikation
 - Pipeline: HTML → Server → Datenbank
+
+*[Vorlesungsmaterialien zum **20. Januar**](L3.4)*
+*[Praktikumsaufgabe zum **22. Januar**](P3.4)* 
+
+---
+
+## **A|3** Praktikumsabgabe zum Kapitel 3
+
+Hier sollte die Gesamtaufgabe kurz beschrieben werden.
+Verweis auf die Etappen, die unten den einzelnen Proaktikumsterminen zugeordnet sind.
+
+### Abgabe zum 24. Januar 2021
+
+Wie? Wo?
+
+---

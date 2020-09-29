@@ -1,4 +1,4 @@
-## **4 _Dez_** JSON, localStorage, Kommunikation
+## _P_ **2.5** JSON, localStorage, Kommunikation
 
 >**Bei Problemen/Unklarheiten:** können Sie ins Praktikum kommen oder per Discord/Mail fragen stellen.
 

@@ -1,6 +1,4 @@
-## **11 _Nov_** Typescript und Javascript 77
-
-
+## _V_ **2.2** Typescript und Javascript 77
 
 Namespaces
 
