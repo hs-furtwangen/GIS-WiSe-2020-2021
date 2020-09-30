@@ -55,12 +55,10 @@ Kurze Einleitung in das 1. Kapitel des Praktikums.
 
 ## **A|1** Praktikumsabgabe zum Kapitel 1
 
-Hier sollte die Gesamtaufgabe kurz beschrieben werden.
-Verweis auf die Etappen, die unten den einzelnen Proaktikumsterminen zugeordnet sind.
+~~Hier sollte die Gesamtaufgabe kurz beschrieben werden.
+Verweis auf die Etappen, die unten den einzelnen Praktikumsterminen zugeordnet sind.~~
 
-### Abgabe zum 1. November 2020
-
-Wie? Wo?
+*[Abgabe zum 1. November 2020](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/1)*
 
 ---
 
@@ -135,7 +133,7 @@ In diesem zweiten großen Abschnitt des Praktikums werden wir uns ganz dem Einst
 Hier sollte die Gesamtaufgabe kurz beschrieben werden.
 Verweis auf die Etappen, die unten den einzelnen Proaktikumsterminen zugeordnet sind.
 
-### Abgabe zum 6. Dezember 2020
+*[Abgabe zum 6. Dezember 2020](xxxx://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/2)*
 
 Wie? Wo?
 
@@ -192,8 +190,6 @@ Wie? Wo?
 Hier sollte die Gesamtaufgabe kurz beschrieben werden.
 Verweis auf die Etappen, die unten den einzelnen Proaktikumsterminen zugeordnet sind.
 
-### Abgabe zum 24. Januar 2021
-
-Wie? Wo?
+*[Abgabe zum 24. Januar 2021](xxxx://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/3)*
 
 ---

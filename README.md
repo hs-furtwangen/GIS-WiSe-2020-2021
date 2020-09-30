@@ -30,17 +30,17 @@ Folgende wöchentlichen Termine sind vorgesehen (mit Links zum Betreten der Onli
 
 Wie oben bereits erwähnt, besteht die Studienleistung zum Praktikum aus drei größeren Abgaben zu Aufgaben, die jeweils ein Kapitel abschließen. Die Abgaben sind jeweils bis zum Sonntag (23:59 Uhr) am Ende des Abschnitts fällig. Verspätete Abgaben können nicht akzeptiert werden.
 
-Die Abgabe der Aufgabenlösungen erfolgt durch die Bereitstellung eines Links auf den Quellcode in einem Unterordner in Ihrem GitHub Repository und eines Links auf eine lauffähige Anwendung über die dazugehörigen Github Pages (genaue Erklärungen hierzu finden Sie im [Einführungkapitel](content/L1.1)). Die Links zu einer Praktikumsabgage müssen im GitHub Issue des jeweiligen Anschnitts veröffentlicht werden:
+Die Abgabe der Aufgabenlösungen erfolgt durch die Bereitstellung eines Links auf den Quellcode in einem Unterordner in Ihrem GitHub Repository und eines Links auf eine lauffähige Anwendung über die dazugehörigen Github Pages (genaue Erklärungen hierzu finden Sie im [Einführungkapitel](content/L1.1)). Die Links zu einer Praktikumsabgage müssen im GitHub Issue des jeweiligen Anschnitts veröffentlicht werden.
 
 *[Abgabe zum Kapitel 1](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/1)*
 
-Eine Übersicht über den Status der Abgaben findet sich [hier](status).
+*[Übersicht über den Status der Abgaben](status)*
 
 ### Prüfungsaufgabe und mündliche Prüfung
 
 Die Modulprüfung zu GIS besteht – wie bereits im letzten Semester – aus einer Prüfungsaufgabe und einer mündlichen Prüfung, die die eigentlich vorgesehene Klausur ersetzen. Zum Bestehen der Modulprüfung müssen beide Prüfungsteile bestanden werden. Die zur Auswahl stehenden Prüfungssaufgaben werden geben Ende des letzten thematischen Abschnitts veröffentlicht.
 
-Ein Link auf detaillierte Informationen zur Prüfung wird rechtzeitig an dieser Stelle erscheinen.
+Einen Link auf detaillierte Informationen zur Prüfung wird rechtzeitig an dieser Stelle erscheinen.
 
 ### Fragen und Probleme
 
