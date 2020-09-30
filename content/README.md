@@ -59,7 +59,7 @@ Wie? Wo?
 
 ---
 
-# **P2** TypeScript
+# **K2** TypeScript
 
 
 In diesem zweiten großen Abschnitt des Praktikums werden wir uns ganz dem Einstieg und der Entwicklung mit Typescript widmen.
@@ -81,39 +81,37 @@ In diesem zweiten großen Abschnitt des Praktikums werden wir uns ganz dem Einst
 - Vorgehensweisen und best practices
 - Arrays
 - Interfaces
-- Javascript Objekte
-- weiterführende Konzepte
+- Objekte
 - Canvas
 
 ---
 
-## [**18 _Nov_** Event Handling](L07)
+## [**18 _Nov_** DOM Manipulation & Eventhandling](L07)
 
 - Events
 - Event Handling
 - Event Listener
 - DOM Klassenhierarchie  
+- DOM Manipulation
 
 ---
 
-## [**25 _Nov_** Event Handling 77](L08)
+## [**25 _Nov_** JSON & Local Storage](L08)
 
-- Events
-- Event Handling
-- Event Listener
-- DOM Klassenhierarchie  
+- JSON
+- Local Storage / Cookies
 
 ---
 
-## [**2 _Dez_** JSON, Local Storage & Kommunikation](L09)
+## [**2 _Dez_** Kommunikation & Promises](L09)
 
-- JSON -> Daten laden und speichern
-- Local Storage -> Daten laden und speichern
-- Kommunikation -> Anfragen, fetch, async/await  
+- fetch
+- Promise
+- async / await
 
 ---
 
-# **P3** Server & Datenbanken
+# **K3** Server & Datenbanken
 
 ## [**9 _Dez_** Serveranbindung](L10)
 
