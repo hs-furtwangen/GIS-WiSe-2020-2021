@@ -1,4 +1,4 @@
-## **28 _Okt_** CSS Vertiefung
+## _V_ **1.4** CSS Vertiefung
 
 ### Komplexe Selektoren
 <video controls width="100%"> 
@@ -99,7 +99,7 @@ Eigene Bezierkurve zeichnen:
 
 ---
 
-## **?! _<small>Q&A</small>_** Fragen und Antworten
+## **?!** Fragen und Antworten
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A Termin)
 

@@ -1,4 +1,4 @@
-## **11 _Nov_** Weiterführende Konzepte Typescript
+## _V_ **2.2** Weiterführende Konzepte Typescript
 
 ### Inhaltsverzeichnis
 

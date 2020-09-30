@@ -1,4 +1,4 @@
-## **13 _Nov_** Weiterführende Konzepte Typescript
+## _P_ **2.2** Weiterführende Konzepte Typescript
 
 Nutzen Sie für jede Kaptielaufgabe einen gemeinsamen Namesraum. Es ist außerdem empfehlenswert, Aufgaben welche nicht direkt zur Gesamtaufgabe beitragen, in einem eigenen Namensraum zu verstauen.
 

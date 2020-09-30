@@ -1,4 +1,4 @@
-## **13 _Jan_** Datenbanken Grundlagen
+## _V_ **3.3** Datenbanken Grundlagen
 
 <img src="https://assets.amuniversal.com/b1e4d2d09fcd012f2fe600163e41dd5b">
 <small>Quelle: <a href="https://dilbert.com/strip/1995-11-17">https://dilbert.com/strip/1995-11-17</a></small>  
@@ -161,7 +161,7 @@ https://www.typescriptlang.org/
 
 ---
 
-## **?! _<small>Q&A</small>_** Fragen und Antworten
+## **?!** Fragen und Antworten
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A Termin)
 

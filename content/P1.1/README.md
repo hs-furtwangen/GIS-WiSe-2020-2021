@@ -1,4 +1,4 @@
-## **9 _Okt_** Arbeitsumgebung und Grundlagen HTML
+## _P_ **1.1** Arbeitsumgebung und Grundlagen HTML
 
 - Installieren Sie sich Visual Studio Code oder eine IDE (Entwicklungsumgebung) Ihrer Wahl
 - Installieren Sie sich GIT

@@ -1,4 +1,4 @@
-## **7 _Okt_** Einführung und Grundlagen HTML
+## _V_ **1.1** Einführung/Basics
 
 ### Einführung in die Thematik
 <video controls width="100%"> 
@@ -78,7 +78,7 @@ Spätestens an dieser Stelle ist es wichtig, dass Sie sich mit den Abläufen der
 
 ---
 
-## **?! _<small>Q&A</small>_** Fragen und Antworten
+## **?!** Fragen und Antworten
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A Termin)
 

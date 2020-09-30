@@ -1,4 +1,4 @@
-## **2 _Dez_** JSON, localStorage, Kommunikation
+## _V_ **2.5** JSON, localStorage, Kommunikation
 
 *[direkt zur Praktikumsaufgabe](#a--praktikumsaufgabe)*
 *[direkt zu Q&A](#-qa-fragen-und-antworten)*
@@ -156,7 +156,7 @@ https://www.typescriptlang.org/
 
 ---
 
-## **?! _<small>Q&A</small>_** Fragen und Antworten
+## **?!** Fragen und Antworten
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A Termin)
 

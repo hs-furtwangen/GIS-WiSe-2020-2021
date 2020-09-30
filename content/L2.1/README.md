@@ -1,4 +1,4 @@
-## **4 _Nov_** Typescript und Javascript Einstieg
+## _V_ **2.1** Typescript und Javascript Einstieg
 
 ### Inhaltsverzeichnis
 
@@ -531,7 +531,7 @@ chiliRecipe(3);
 
 
 
-## **?! _<small>Q&A</small>_** Fragen und Antworten
+## **?!** Fragen und Antworten
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A Termin)
 

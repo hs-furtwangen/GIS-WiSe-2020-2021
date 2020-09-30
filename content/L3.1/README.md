@@ -1,4 +1,4 @@
-## **9 _Dez_** Serveranbindung
+## _V_ **3.1** Serveranbindung
 
 In [Aufgabe 7 - Kommunikation](../L07) haben wir die grundsätzlichen Formen der Kommunikation zwischen Asynchron & Synchron angeschaut. Bitte lesen Sie sich den Abschnitt `Kommunikation` erneut durch, um folgenden Abschnitt besser verstehen zu können.
 
@@ -242,7 +242,7 @@ https://www.typescriptlang.org/
 
 ---
 
-## **?! _<small>Q&A</small>_** Fragen und Antworten
+## **?!** Fragen und Antworten
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A Termin)
 

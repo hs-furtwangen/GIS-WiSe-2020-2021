@@ -60,7 +60,8 @@ em {
 
     h1 {
         margin-bottom: 0;
-        font-size: 2.5em;
+        font-size: 1.5em;
+        background: none;
     }
 
     .page-header-inner {
@@ -103,17 +104,62 @@ em {
         margin-top: 2rem;
         margin-bottom: 0;  
     }
+
+    h1 {
+        position: relative;
+        width: 100%;
+        height: 56px;
+        z-index: 1;
+        font-size: 42px;
+        color: white;
+        background-color: $main-color;
+        padding: 0px 4px;
+        line-height: 1.3;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 8px;
+        padding-right: 0px;
+        margin-top: 20px;
+        margin-bottom: 0;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+  
+        strong {
+            position: absolute;
+            left: -70px;
+            top: 0;
+            display: inline-block;
+            color: white;
+            background-color: $main-color;
+            padding: 0px 0px;
+            font-size: 42px;
+            line-height: 1.3;
+            text-align: center;
+            width: 56px;
+            height: 56px;
+
+            em {
+                font-weight: normal;
+                font-style: normal;
+                display: block;
+                font-size: 20px;
+            }
+        }
+    }
         
     h2 {
-        position: -webkit-sticky;
-        position: sticky;
-        top: 10px;
+        position: relative;
         width: 120%;
         height: 56px;
         z-index: 1;
         font-size: 1.82em;
         color: $main-color;
-        padding: 4px 0 0 0;
+        padding-top: 4px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
         margin-top: 20px;
         margin-bottom: 0;
         background: white;
@@ -129,26 +175,29 @@ em {
             z-index: -1;
         }        
 
-        strong {
+        strong, em {
             position: absolute;
-            left: -65px;
+            left: -70px;
             top: 0;
             display: inline-block;
-            background:#ccc;
+            background: $main-color;
             color: white;
-            padding: 4px 6px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 4px;
+            padding-right: 4px;
             font-size: 26px;
             line-height: 1;
             text-align: center;
-            width: 48px;
+            width: 56px;
             height: 56px;
+            font-style: normal;
+            font-weight: bold;
+        }
 
-            em {
-                font-weight: normal;
-                font-style: normal;
-                display: block;
-                font-size: 20px;
-            }
+        em {
+            width: 26px;
+            left: -100px;
         }
 
         a {

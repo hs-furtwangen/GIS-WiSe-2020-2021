@@ -1,4 +1,4 @@
-## **16 _Dez_** Server Request Verarbeitung
+## _V_ **3.2** Server Request Verarbeitung
 
 ## URL Modul
 
@@ -181,7 +181,7 @@ https://www.typescriptlang.org/
 
 ---
 
-## **?! _<small>Q&A</small>_** Fragen und Antworten
+## **?!** Fragen und Antworten
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A Termin)
 

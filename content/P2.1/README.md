@@ -1,4 +1,4 @@
-## **6 _Nov_** Typescript und Javascript Einstieg
+## _P_ **2.1** Typescript und Javascript Einstieg
 
 Diese Woche dient als Einstieg in die Entwicklung mit einer für Sie neuen Sprache, darum werden wir lediglich die Grundlagen behandeln. In der übernächsten Woche geht es dann an konkretere Umsetzungen für die Kapitelaufgabe.
 

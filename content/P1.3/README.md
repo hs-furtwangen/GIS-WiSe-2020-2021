@@ -1,4 +1,4 @@
-## **23 _Okt_** Einstieg CSS
+## _P_ **1.3** Einstieg CSS
 
 Die Portfolio-Website aus der letzten Aufgabe wird nun mit CSS ergänzt, um verschiedene Gestaltungsaspekte zu realisieren.
 
