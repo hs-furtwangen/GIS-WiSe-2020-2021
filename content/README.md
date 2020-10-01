@@ -58,7 +58,7 @@ Kurze Einleitung in das 1. Kapitel des Praktikums.
 ~~Hier sollte die Gesamtaufgabe kurz beschrieben werden.
 Verweis auf die Etappen, die unten den einzelnen Praktikumsterminen zugeordnet sind.~~
 
-*[Abgabe zum 1. November 2020](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/1)*
+*[Abgabe zum 1. November 2020 als Kommentar in diesem Issue.](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/1)*
 
 ---
 
@@ -95,11 +95,11 @@ In diesem zweiten großen Abschnitt des Praktikums werden wir uns ganz dem Einst
 
 ## **2.3** DOM Manipulation & Eventhandling
 
+- DOM Klassenhierarchie  
+- DOM Manipulation
 - Events
 - Event Handling
 - Event Listener
-- DOM Klassenhierarchie  
-- DOM Manipulation
 
 *[Vorlesungsmaterialien zum **18. November**](L2.3)*
 *[Praktikumsaufgabe zum **20. November**](P2.3)*
@@ -129,12 +129,9 @@ In diesem zweiten großen Abschnitt des Praktikums werden wir uns ganz dem Einst
 
 ## **A|2** Praktikumsabgabe zum Kapitel 2
 
-Hier sollte die Gesamtaufgabe kurz beschrieben werden.
-Verweis auf die Etappen, die unten den einzelnen Proaktikumsterminen zugeordnet sind.
+In diesem Kapitel soll nach anfänglichen Einstiegsaufgaben eine Webseite umgesetzt werden, welche dem Nutzer erlaubt, (mindestens) drei verschidene Elemente eines großen Ganzen (z.B. Rakete, Eis, Planet, Topfpflanze) aus jeweils drei (oder mehr) Möglichkeiten auf einer jeweils eigenen Unterseite zusammen zu stellen und das Gesamtergebnis auf einer letzten Seite grafisch Präsentiert zu bekommen. Dabei werden die Auswahlmöglichkeiten aus externem JSON geladen, der Status der Auswahl über Cookies / Local Storage gespeichert und das Gesamtergebnis an einen Server übermittelt.
 
-*[Abgabe zum 6. Dezember 2020](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/2)*
-
-Wie? Wo?
+*[Abgabe zum 6. Dezember 2020 als Kommentar in diesem Issue.](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/2)*
 
 ---
 
@@ -189,6 +186,6 @@ Wie? Wo?
 Hier sollte die Gesamtaufgabe kurz beschrieben werden.
 Verweis auf die Etappen, die unten den einzelnen Proaktikumsterminen zugeordnet sind.
 
-*[Abgabe zum 24. Januar 2021](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/3)*
+*[Abgabe zum 24. Januar 2021 als Kommentar in diesem Issue.](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/3)*
 
 ---
