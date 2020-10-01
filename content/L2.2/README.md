@@ -2,28 +2,30 @@
 
 ### Inhaltsverzeichnis
 
-- Vorgehensweisen bei der Programmierung
-  - Planung
-  - Divide and Conquer
-  - Code Duplizierung ist schlecht
-  - Zuständigkeiten Trennen
-- Komplexe Typen
-  - Array
-  - Assoziatives Array
-  - Interface
-  - JavaScript Objekt
-  - Klassen
-- Weitere Typescript Konzepte
-  - Namespaces
-  - Optionale Parameter
-  - Rest Parameter
-  - Callstack und Rekursion
-  - Call by reference / call by value
-  - Spezielle for-Schleifen
-    - for..of
-    - for..in
-- Canvas
-  - Path2D
+- [Vorgehensweisen bei der Programmierung](#vorgehensweise-bei-der-programmierung)
+  - [Planung](#planung)
+  - [Divide and Conquer](#divide-and-conquer)
+  - [Code Duplizierung ist schlecht](#code-duplizierung-ist-schlect)
+  - [Zuständigkeiten Trennen](#zuständigkeiten-trennen)
+- [Komplexe Typen](#komplexe-typen)
+  - [Array](#array)
+  - [Assoziatives Array](#assoziatives-array)
+  - [Interface](#interface)
+  - [JavaScript Objekt](#javascript-objekt)
+  - [Klassen](#klassem)
+    - [Zugriffsmodifikatoren](#zugriffsmodifikatoren)
+    - [Vererbung](#vererbung)
+- [Weitere Typescript Konzepte](#weitere-typescript-konzepte)
+  - [Namespaces](#namespaces)
+  - [Optionale Parameter](#optionale-parameter)
+  - [Rest Parameter](#rest-parameter)
+  - [Callstack und Rekursion](#callstack-und-rekursion)
+  - [Call by reference / call by value](#call-by-reference--call-by-value)
+  - [Spezielle for-Schleifen](#spezielle-for-schleifen)
+    - [for..of](#forof)
+    - [for..in](#forin)
+- [Canvas](#canvas)
+  - [Path2D](#path2d)
 
 Diese Woche geht es darum, die in der letzten Woche erlernten Grundlagen von JS/TS zu erweitern, um die ganze Bandbreite an wichtigen Sprach-spezifischen Konzepten zu kennen und anzuwenden.
 
@@ -61,21 +63,304 @@ Selbst ohne duplizierten oder sich wiederholenden Code ist es oft ratsam, ein gr
 
 ### Komplexe Typen
 
-Neben den einfachen Typen (`number, string, boolean`) hat JS/TS auch komplexe Typen zu bieten, welche einige Besonderheiten aufweisen. Die hier dargestellte Liste zeigt bei weitem nicht alle existierenden Typen auf, sondern lediglich die relevantesten.
+Neben den einfachen Typen (`number, string, boolean`) hat JS/TS auch komplexe Typen zu bieten, welche einige Besonderheiten aufweisen. Die hier dargestellte Liste zeigt bei weitem nicht alle existierenden / eingebauten Typen auf, sondern lediglich die relevantesten.
 
 #### Array
 
-Ein Array 
+Ein (homogenes) Array erlaubt es, mehrere Elemente des gleichen Typs in einer Art Liste zu speichern. Es wird deklariert indem hinter den zu verwendenden Typ eckige Klammern geschrieben werden. Auch werden die Werte in eckigen Klammern definiert.
+
+```ts
+let numberArray: number[] = [0, 10, 42];
+let emptyArray: string[] = [];
+```
+
+Dabei wird jedem Eintrag in dieser Liste automatisch ein fortlaufender index zugeordnet, beginnend bei 0. Arrays haben in JS/TS eine dynamische Länge, sind also immer genau so lang wie sie sein müssen um alle Elemente speichern zu können.
+
+Über eckige Klammern hinter dem Bezeichner kann auch auf bestimmte Stellen in diesem Array zugegriffen werden, wie man auf normale Variablen zugreifen würde.
+
+```ts
+console.log(numberArray[0]);  // 0
+console.log(numberArray[1]);  // 10
+console.log(numberArray[2]);  // 42
+console.log(numberArray[1] + numberArray[2]); // 52
+```
+
+**Wichtigste Methoden und Attribute**
+
+-`length` gibt die Gesamtanzahl der enthaltenen Elemente zurück.
+
+```ts
+console.log(numberArray.length); // 3
+```
+
+`.push()` fügt ein Element ans Ende des Arrays an.
+
+`.pop()` entfernt das letzte Element aus einem Array und gibt dieses zurück.
+
+`.slice()` selektiert einen Teil des Arrays und gibt nur diesen als neues Array zurück.
+
+`.splice()` entfernt (und ersetzt) Elemente aus dem Array
+
+> Die Offenheit von JS erlaubt es, jede Art von Variable in ein Array zu speichern (heterogen), selbst andere Arrays. Und während letzteres praktisch ist, um _mehrdimensionale Arrays_ anzulegen, so ist ersteres in Typescript nicht erlaubt.
+
+```ts
+let a: number[] = [42, true, "Hallo"]   //JS: okay, TS: error
+
+// ein Array welches zwei Dimensionen hat.
+let mult: number[][] = [[1, 2, 3], [10, 20, 30], [100, 200, 300]]
+console.log(mult[1][2]); // 30
+```
 
 #### Assoziatives Array
+
+In einem Assoziativen Array wird statt dem automatisch generierten Index eines normalen Arrays der Index / Schlüssel durch den Entwickler selbst bestimmt (im häufigsten Fall ein `string`) und dieser dann mit dem Wert verknüpft. Ein solches assoziatives Array wird in der Regel mit Hilfe geschweifter Klammern erzeugt, wobei innerhalb der Klammern bereits Schlüssel-Werte-Paare angegeben werden können. Die Assoziation wird durch den Doppelpunkt : dargestellt.
+
+```js
+let assoArray = {"zahl": 42, "wahr": true, "text": "Hallo"};
+console.log(assoArray["text"]) // "Hallo"
+```
+
+Nicht nur die Datentypen sind heterogen, sondern auch die Schlüssel können beliebig gewählt werden. Das ermöglicht große Flexibilität, aber auch Fehler, die schwer zu finden sind. Um assoziative Arrays stringenter zu strukturieren, stellt TypeScript interfaces zur Verfügung. Damit lassen sich Schlüssel vordefinieren und die Datentypen für Werte und Schlüssel einschränken.
+
+Im folgenden Beispiel sind die Schlüssel frei wählbar, sind aber auf den Typ string beschränkt, und das Array ist auf Wahrheitswerte homogenisiert.
+
+```ts
+interface MapStringToBoolean {
+  [key: string]: boolean;
+}
+
+let a: MapStringToBoolean = {"wert1": true, "wert2": false};
+console.log(a["wert1"]); // true
+```
+
 #### Interface
+
+Interfaces erlauben aber noch mehr als nur Arrays zu definieren. Sie können jede Form von eigenem Datentyp definieren, und so die Entwicklungszeit und das Programm als ganzes deutlich verbessern.
+
+Dabei werden im Interface feste Namen für verschiedene Attribute festgelegt, welche dann auch so vom Typescript compiler eingefordert werden. Attribute sind Variablen, die einem bestimmten Objekt zugeordnet sind. Sie können über die Punktnotation abgefragt werden.
+
+> Da wir mit interfaces sozusagen unsere eigenen Komplexen Typen definieren, sollten diese groß geschrieben werden.
+
+```ts
+interface Dog {
+  name: string;
+  owner: string;
+  age: number;
+}
+
+let d1: Dog = {name: "Bello"} // Error: Es fehlen owner und age
+let d2: Dog = {name: "Sir Woofalot", owner: "Martin", age: 5};
+console.log(d2.age); // 5
+```
+
+> Auch in interfaces können Werte als optional markiert werden, die Syntax ist dabei die gleiche wie in Funktionen.
+
+```ts
+interface Dog {
+  ...
+  owner?: string
+  ...
+}
+```
+
 #### JavaScript Objekt
+
+Ein Objekt ist ein heterogenes assoziatives Array, dem Funktionen anheften. Diese Funktionen können die Elemente des Arrays verändern, ohne dass ihnen Informationen zu dem Objekt mitgegeben werden müssen, denn sie sind ja ein Teil davon und haben Zugriff darauf. Um diese Funktionen von den üblichen zu unterscheiden werden sie Methoden genannt. Ein Objekt verfügt also über Methoden, mit der es sich, oder auch seine Umwelt, verändern kann.
+
+Tatsächlich ist alles in JS im Kern ein Objekt. Selbst die primitiven Datentypen gaukeln nur ihre Primitivität vor, wodurch sie sich einsetzen lassen wie in ‘klassischen’ Programmiersprachen (und so zum Beispiel auch eigene Methoden und Attribute haben können wie `string.length` oder `number.toFixed()`).
+
 #### Klassen
-##### Methoden
-##### contructor()
+
+Klassen sind ein in JS erst kürzlich integriertes Konstrukt, welches dem Ansatz der etablierteren objektorientierten Programmierung folgt. Darum sind diese nicht vollständig in JS integriert worden. Aber TS gibt uns hier die Möglichkeiten, dieses Konstrukt voll zu nutzen.
+
+Klassen sind fest definierte JS Objekte, welche wie interfaces auch ihre _Attribute_  definieren, zusätzlich aber auch eigene _Methoden_ haben können. Diese Methoden erlauben es, wie in JS Objekt bereits erläutert, dem Objekt selbst beizubringen, wie es sich zu verhalten hat. Genau wie die Attribute brauchen auch sie keine Schlüsselworte zur Definition sondern werden durch Klammern `()` von den Attributen unterschieden. 
+
+```ts
+class Vector {
+  x: number;
+  y: number;
+
+  scale(_factor: number): void {
+    this.x *= _factor;
+    this.y *= _factor;
+  }
+
+  add(_addend: Vector): void {
+    this.x += _addend.x;
+    this.y += _addend.y;
+  }
+}
+```
+
+Das Praktische an einer solchen Kapselung ist, dass das Programm, das einen solchen Vektor nutzt, nun nicht mehr wissen muss, wie man einen Vektor skaliert oder einen zweiten hinzuaddiert. Es genügt zu wissen, dass man es tun kann und welche Parameter der Vektor hierzu braucht. Den Rest macht der Vektor selbst. Damit wird der Vektor zu einer Black-Box, deren interne Arbeitsweise nicht bekannt sein muss, um sie zu verwenden. Der Vektor ist “gekapselt”.
+
+```ts
+class Dog {
+  name: string;
+  age: number;
+
+  createDog(_name: string): void{
+    this.name = _name;
+    this.age = 0;
+  }
+  increaseAge(_age?: number): void{
+    this.age += _age;
+  }
+  bark(): void {
+    console.log(`My name is ${this.name} and I say: Woof!`);
+  }
+}
+```
+
+Um eine Klasse nutzen zu können, muss eine neue _Instanz_ dieser Klasse angelegt werden. Dies wird durch das `new` Schlüsselwort erzielt. Klassen brauchen eine Instanz um zu funktionieren, da die Attribute und Methoden dieser Instanz zugeordnet werden müssen, um so den Zusammenhang herzustellen.
+
+```ts
+let d: Dog = new Dog();
+d.createDog("Bello");
+d.bark(); // "My name is Bello and I say: Woof!"
+console.log(d.age); // 0
+```
+
+Das `this` Schlüsselwort bezieht sich dabei auf die aktuelle Instanz. So kann von innerhalb der Klasse auf ihre eigenen Attribute und Methoden zugegriffen werden.
+
+> ⚠️ `this` ist stark Kontextabhängig und kann sich unter Umständen unerwartet ändern (z.B. wenn eine Methode von außerhalb aufgerufen wird). Korrektes `this`-Handling ist eines der schwierigsten Konzepte in JS, darum scheuen Sie sich nicht vor Fragen wenn dabei etwas schief gehen sollte!
+
+Im obigen Beispiel wird ein neuer Hund angelegt und dieser dann in der nächsten Zeile über die `createDog()` Funktion mit Namen und Alter initialisiert. Ohne diese Funktion wäre es also ein undefinierter Hund.
+
+```ts
+let d: Dog = new Dog();
+console.log(d.name); // undefined
+```
+
+Diese Initialisierung von Klasseninstanzen ist so ein häufiges Problem, dass die Entwickler dieser Welt sich auf eine einheitliche Methode geeinigt haben: einen **Konstruktor**.
+
+Dieser Konstruktor ist eine fest definierte Methode mit dem Namen `constructor()` und jede Klasse hat implizit einen Konstruktor, auch wenn diese Methode nicht explizit implementiert wird. Um genau zu sein ist das die Methode, die hinter `new` aufgerufen wird (`Dog()`) und die neue Instanz erzeugt. Da dies die neue Instanz zurückgeben muss, darf **diese spezielle Methode nichts zurückgeben**. Hier die geänderte Dog Klasse.
+
+```ts
+class Dog {
+  name: string;
+  age: number;
+
+  constructor(_name: string, _age: number = 0): void{
+    this.name = _name;
+    this.age = _age;
+  }
+  increaseAge(_age?: number): void{
+    this.age += _age;
+  }
+  bark(): void {
+    console.log(`My name is ${this.name} and I say: Woof!`);
+  }
+}
+
+let d: Dog = new Dog("Bello", 3);
+```
+
 ##### Zugriffsmodifikatoren
 
+In den meisten Objektorientierten Sprachen gibt es Zugriffsmodifikatoren welche steuern sollen, wer auf gewisse Attribute und Variablen Zugriff hat. So auch in Typescript.
 
+`private` nur die Klasse selbst hat Zugriff.
+
+`protected` nur die Klasse selbst und alle Subklassen (s. [Vererbung](#vererbung)) haben Zugriff.
+
+`public` jeder hat Zugriff. Standard.
+
+Wenn wir unseren Hund nun so modifizieren, dass sein Alter privat ist, damit man dieses nicht einfach ändern kann, dann ergäbe sich folgendes Bild:
+
+```ts
+class Dog {
+  public name: string;
+  private age: number;
+
+  constructor(_name: string, _age: number = 0): void {  //⚠️ Den Konstruktor private zu machen bedeutet, es unmöglich zu machen, von dieser Klasse Instanzen anzulegen! 
+    this.name = _name;
+    this.age = _age;
+  }
+  public increaseAge(_age?: number): void{
+    this.age += _age;
+  }
+  public bark(): void {
+    console.log(`My name is ${this.name} and I say: Woof!`);
+  }
+}
+
+let d: Dog = new Dog("Bello", 3);
+d.name = "Schnuffel"; // kein Error
+console.log(d.age);   // TSError: "age" ist nicht öffentlich zugreifbar
+d.age = 10;           // TSError: "age" ist nicht öffentlich zugreifbar
+```
+
+> ⚠️ Diese Zugriffsmodifikatoren sind nur ein von TS eingebauter Kniff und wirken sich nicht auf JS aus. Erst mit der neusten JS Version wurden private Modifikatoren eingeführt, welche durch ein `#` als erstes Zeichen des Attributnames definiert werden.
+
+```js
+class Dog {
+  name: string;
+  #age: number;
+}
+```
+
+##### Vererbung
+
+> Fortgeschrittenes Thema.
+
+Eine Klasse kann ihre Eigenschaften und Methoden an andere Klassen weitergeben. Oder anders herum formuliert: Eine Klasse kann eine bereits bestehende Klasse um weitere Eigenschaften und Methoden erweitern. Die Klasse, von der geerbt wird, nennt sich dabei **Superklasse**. Die Klasse die erbt, nennt sich **Subklasse**.
+
+Ein solches Vererbungsverhältnis wird oft genutzt, wenn verschiedene Klassen viele Gemeinsamkeiten haben, welche dann als gemeinsame Oberklasse realsiert werden. Will man Beispielsweise neben der `Dog` Klasse noch eine `Cat` Klasse entwickeln, dann hätten diese viele Gemeinsamkeiten. Diese könnte man dann in einer gemeinsamen Klasse zusammenfassen und nur die Tierspezifischen Änderungen in den jeweiligen Klassen implementieren.
+
+```ts 
+class DomesticAnimal {
+  name: string;
+  age: number;
+  color: string;
+  owner?: string;
+  constructor(_name: string, _color: string, _age: number = 0, _owner: string = ""){
+    console.log("Animal Constructor")
+    this.name = _name;
+    this.age = _age;
+    this.color = _color;
+    this.owner = _owner;
+  }
+  makeSound() {
+    console.log("<undefined Animal Sound>")
+  }
+}
+
+class Dog extends DomesticAnimal {
+  goodBoyOrGirl: boolean;
+  constructor(_name: string, _color: string, _age: number = 0, _goodBoyOrGirl: boolean = true, _owner: string = "") {
+    console.log("Dog Constructor")
+    super(_name, _color, _age, _owner);
+    this.goodBoyOrGirl = _goodBoyOrGirl;
+  }
+  makeSound(){
+    console.log("woof!");
+  }
+}
+
+class Cat extends DomesticAnimal {
+  makeSound() {
+    console.log("maunz!");
+  }
+}
+
+let a: DomesticAnimal = new DomesticAnimal("Anim", "schwarz");
+let c: Cat = new Cat("Rey", "getiegert", 2);
+let d: Dog = new Dog("Bello", "weiß", 5, true);
+
+a.makeSound(); // "<undefined Animal Sound>"
+c.makeSound(); // "maunz!"
+d.makeSound(); // "woof!"
+```
+
+Dabei kann eine Klasse nicht nur erweitert, sonder ähnlich wie mit lokalen Variablen auch überschrieben werden. So überschreiben sowohl die Katze als auch der Hund die `makeSound` Funktion so, dass diese jeweils etwas anderes tun wenn sie aufgerufen werden.
+
+Der Konstruktor stellt dabei wieder mal einen Spezielfall dar, da eine Subklasse nur eine "verfeinerung" der Superklasse darstellt, muss die Superklasse auch weiterhin angelegt werden. Um auf Methoden der Superklasse zuzugreifen, wird das Schlüsselwort `super` verwendet, so kann der Konstruktor der Superklasse über `super()` aufgerufen werden.
+Während `Cat` keinen eigenen Konstruktor definiert und darum automatisch den Animal Konstruktor mitverwendet, überschreibt Dog den Konstruktor da dieser ein neues Attribut befüllen möchte.
+
+`super.makeSound()` würde in der Katze oder Hunde Klasse `"<undefined Animal Sounds>"` auf der Konsole ausgeben. So ist es also möglich die spezifische Funktionalität der Superklasse beizubehalten / explizit zu verwenden, selbst wenn eine eigene Implementation diese Überschreibt.
+
+> Weitere Informationen zu Klassen in Typescript finden Sie in der [offiziellen Dokumentation](https://www.typescriptlang.org/docs/handbook/classes.html) (Englisch) oder auch in den [Kursmaterialien zu EIA2](https://jirkadelloro.github.io/EIA2-Inverted/L09_Classes/).
 
 ### Weitere Typescript Konzepte
 #### Namespaces
