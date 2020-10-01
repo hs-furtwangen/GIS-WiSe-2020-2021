@@ -2,17 +2,17 @@
 
 ### Inhaltsverzeichnis
 
-- [Vorgehensweisen bei der Programmierung](#vorgehensweise-bei-der-programmierung)
+- [Vorgehensweisen bei der Programmierung](#vorgehensweisen-bei-der-programmierung)
   - [Planung](#planung)
   - [Divide and Conquer](#divide-and-conquer)
-  - [Code Duplizierung ist schlecht](#code-duplizierung-ist-schlect)
+  - [Code Duplizierung ist schlecht](#code-duplizierung-ist-schlecht)
   - [Zuständigkeiten Trennen](#zuständigkeiten-trennen)
 - [Komplexe Typen](#komplexe-typen)
   - [Array](#array)
   - [Assoziatives Array](#assoziatives-array)
   - [Interface](#interface)
   - [JavaScript Objekt](#javascript-objekt)
-  - [Klassen](#klassem)
+  - [Klassen](#klassen)
     - [Zugriffsmodifikatoren](#zugriffsmodifikatoren)
     - [Vererbung](#vererbung)
 - [Weitere Typescript Konzepte](#weitere-typescript-konzepte)
@@ -26,6 +26,7 @@
     - [for..in](#forin)
 - [Canvas](#canvas)
   - [Path2D](#path2d)
+- [Q&A](#-fragen-und-antworten)
 
 Diese Woche geht es darum, die in der letzten Woche erlernten Grundlagen von JS/TS zu erweitern, um die ganze Bandbreite an wichtigen Sprach-spezifischen Konzepten zu kennen und anzuwenden.
 
@@ -678,3 +679,10 @@ let path: Path2D = new Path2D();
 path.arc(60, 60, 50, 0, 2 * Math.PI);
 context.stroke(path);
 ```
+
+
+## **?!** Fragen und Antworten
+
+(die Publikation der Zusammenfassung erfolgt nach dem Q&A Termin)
+
+Zusammenfassung von: [&lt;username&gt;](https://github.com/)

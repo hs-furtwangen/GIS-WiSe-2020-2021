@@ -76,7 +76,7 @@ In diesem zweiten großen Abschnitt des Praktikums werden wir uns ganz dem Einst
 - Schleifen
 
 *[Vorlesungsmaterialien zum **4. November**](L2.1)*
-*[Praktikumsaufgabe zum **6. November**](P2.2)*
+*[Praktikumsaufgabe zum **6. November**](P2.1)*
 
 ---
 

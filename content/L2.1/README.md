@@ -14,10 +14,10 @@
   - [Konvertierung](#konvertierung)
 - [Typescript Kontrollstrukturen](#typescript-kontrollstrukturen)
   - [Funktionen](#funktionen)
-  - [Programmablauf und Kontrollstrukturen](#prgroammablauf-und-kontrollstrukturen)
+  - [Programmablauf und Kontrollstrukturen](#programmablauf-und-kontrollstrukturen)
     - [if / else](#if--else)
     - [Schleifen](#schleifen)
-- [Q&A](#-qa-fragen-und-antworten)
+- [Q&A](#-fragen-und-antworten)
 
 
 ### Einrichtung Typescript in VSCode
