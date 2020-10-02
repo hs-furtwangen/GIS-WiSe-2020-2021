@@ -1,4 +1,4 @@
-# **1** HTML & CSS
+# **1** HTML und CSS
 
 Kurze Einleitung in das 1. Kapitel des Praktikums.
 
@@ -95,7 +95,7 @@ In diesem zweiten großen Abschnitt des Praktikums werden wir uns ganz dem Einst
 
 ---
 
-## **2.3** DOM Manipulation & Eventhandling
+## **2.3** DOM Manipulation und Eventhandling
 
 - DOM Klassenhierarchie  
 - DOM Manipulation
@@ -108,7 +108,7 @@ In diesem zweiten großen Abschnitt des Praktikums werden wir uns ganz dem Einst
 
 ---
 
-## **2.4** JSON & Local Storage
+## **2.4** JSON und Local Storage
 
 - JSON
 - Local Storage / Cookies
@@ -137,7 +137,7 @@ In diesem Kapitel soll nach anfänglichen Einstiegsaufgaben eine Webseite umgese
 
 ---
 
-# **3** Server & Datenbanken
+# **3** Server und Datenbanken
 
 ---
 
@@ -177,7 +177,7 @@ In diesem Kapitel soll nach anfänglichen Einstiegsaufgaben eine Webseite umgese
 
 ## **3.4** Datenbankzugriff über den Server
 
-- Datenbank & Node.js Kommunikation
+- Datenbank und Node.js Kommunikation
 - Pipeline: HTML → Server → Datenbank
 
 *[Vorlesungsmaterialien zum **20. Januar**](L3.4)*

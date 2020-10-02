@@ -23,6 +23,14 @@ oder
 
 Formatieren Sie die Ausgaben unterschiedlich, je nach dem ob `error` oder `message` zurückgegeben wird.
 
+Nutzen Sie diesen Codeschnipsel, um die Daten zu versenden (Erklärung dazu gibt es in der [Lektion nächste Woche](../L3.1)). Um die Antwort auszulesen, muss die letzte Zeile dieses Schnipsels verändert werden, wie es in der Lektion diese Woche dargestellt wurde. Außerdem müssen Sie `browserCacheData` mit dem Speichermedium Ihrer Wahl ersetzen. `broswerCacheData` sollte ein (komplexes) JS Objekt sein, also nicht nur eine Zahl oder String. 
+
+```ts
+let query: URLSearchParams = new URLSearchParams(<any>browserCacheData);
+url = url + "?" + query.toString();
+await fetch(url);
+```
+
 
 <!-- 
 >**Bei Problemen/Unklarheiten:** können Sie ins Praktikum kommen oder per Discord/Mail fragen stellen.

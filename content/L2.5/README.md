@@ -7,7 +7,7 @@
   - [Asynchron](#asynchron)
 - [Implementation asynchroner Kommunikation](#implementation-asynchroner-kommunikation)
   - [XMLHttpRequest-Events](#xmlhttprequest-events)
-  - [Fetch & Promises](#fetch--promises)
+  - [Fetch und Promises](#fetch-und-promises)
   - [Async/Await](#asyncawait)
 - [Q&A](#-fragen-und-antworten)
 

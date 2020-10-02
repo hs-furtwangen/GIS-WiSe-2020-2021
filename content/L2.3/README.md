@@ -304,7 +304,7 @@ Sie haben gelernt:
 - Wie Eventhandling funktioniert
 - Wie die DOM Klassenhierarchie aufgebaut ist
 - Wie DOM Elemente selektiert und manipuliert werden können
-- Wie DOM & Events zusammenhängen
+- Wie DOM und Events zusammenhängen
 
 ### Typescript Dokumentation
 
