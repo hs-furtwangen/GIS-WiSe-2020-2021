@@ -1,4 +1,4 @@
-## _V_ **2.4** JSON & Local Storage
+## _V_ **2.4** JSON und Local Storage
 
 ### Inhaltsverzeichnis
 - [JSON](#json)
@@ -121,7 +121,7 @@ HTML Teil:
 <p><button onclick="clickCounter()" type="button">Klick mich!</button></p>
 <div id="result"></div>
 <p>Klick auf den Button und der Zähler wird erhöht.</p>
-<p>Wenn du die Seite schließt & wieder öffnest ist der Counter nicht zurückgesetzt</p>
+<p>Wenn du die Seite schließt und wieder öffnest ist der Counter nicht zurückgesetzt</p>
 ```
 
 TypeScript Teil:

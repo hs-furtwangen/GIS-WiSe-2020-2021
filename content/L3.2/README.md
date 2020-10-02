@@ -37,7 +37,7 @@ Viele der Standardmodule, wie `http` und `url`, sind in der [Node-Dokumentation]
 import * as url from "url";
 ```
 
-### URL Anlegen & Parsen
+### URL Anlegen und Parsen
 
 ```TypeScript
 //Diesen Code innerhalb von einem aktiven Server testen:
@@ -63,7 +63,7 @@ console.log(qdata.monat);
 ![properties of URL](Properties_URL_Module.png)
 
 > - Untersuchen Sie folgende Tabelle und vergleichen Sie mit dem Beispiel. Wie können Sie auf den Port des URL im Beispiel oben zugreifen? Wie auf das mitgelieferte Custom-Attribut `jahr`?
-> - Fangen Sie die URL eines Klienten ab und testen Sie, ob Sie einen über ein per HTML Formular & `GET` gesendeten URL in die Einzelteile zerlegen können.
+> - Fangen Sie die URL eines Klienten ab und testen Sie, ob Sie einen über ein per HTML Formular und `GET` gesendeten URL in die Einzelteile zerlegen können.
 
 
 >**Hinweis** Es ist hilfreich auch den folgenden Absatz zu lesen bevor Sie mit dem Testen auf Ihrem Server anfangen.
@@ -86,7 +86,7 @@ console.log(qdata.monat);
 </div>
 
 - Video 1: Einfachen Server (Ähnlich wie der Beispiel-Server aus A8) aufsetzen, einfaches Request Handling
-- Video 2: Komplexeres Request Handling & Antwort an Client zurückschicken
+- Video 2: Komplexeres Request Handling und Antwort an Client zurückschicken
 - Video 3: Antwort des Servers auf dem Client verarbeiten
 
 Um Anfragen von Nutzern auf einem Server verarbeiten zu können, wurde auf dem [<ins>Beispiel-Node-Server</ins>](https://github.com/Plagiatus/GIS_SoSe2020/blob/master/Aufgabe08/Server/server.ts) der letzten Aufgabe folgender Event-Listener installiert:

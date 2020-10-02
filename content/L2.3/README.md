@@ -1,4 +1,4 @@
-## _V_ **2.3** DOM Manipulation & Event Handling
+## _V_ **2.3** DOM Manipulation und Event Handling
 
 ### Inhaltsverzeichnis
 
@@ -62,7 +62,7 @@ Diese Knoten enthalten die Kernfunktionalität zur Bildung des Graphen und damit
 
 #### DOM Untersuchen:
 
-Sie können das DOM untersuchen & sich dessen Eigenschaften ausgeben lassen: 
+Sie können das DOM untersuchen und sich dessen Eigenschaften ausgeben lassen: 
 
 ##### DOM in Chrome untersuchen: 
 
@@ -168,7 +168,7 @@ Sie haben gelernt:
 - Wie Events registriert werden können
 - Wie Eventhandling funktioniert
 - Wie die DOM Klassenhierarchie aufgebaut ist 
-- Wie DOM & Events zusammenhängen
+- Wie DOM und Events zusammenhängen
 
 ### Typescript Dokumentation
 
