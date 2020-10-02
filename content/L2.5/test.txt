@@ -2,7 +2,7 @@ Gratulation!
 
 ♪┏(・o･)┛♪┗ ( ･o･) ┓♪
 
-Wenn dieser Text in der Konsole erscheint, hast Du es geschafft, asynchrone Kommunikation mit einem Server per Fetch und async/await zu implementieren!
+Wenn dieser Text in der Konsole erscheint, haben Sie es geschafft, asynchrone Kommunikation mit einem Server per Fetch und async/await zu implementieren!
 
 Mit besten Grüßen
-Deine Dozenten
+Ihre Dozenten

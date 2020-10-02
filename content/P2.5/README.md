@@ -1,5 +1,38 @@
-## _P_ **2.5** JSON, localStorage, Kommunikation
+## _P_ **2.5** Kommunikation
 
+**a)** Ändern Sie ihre `data.ts` Datei so um, dass sie ausschließlich aus den JSON Daten besteht (und damit zur `data.json` wird).
+
+**b)** Ändern Sie die Funktion, welche bisher die JSON Daten eingelesen hat, so um, dass diese zunächst über `fetch` aus dem Internet geladen werden. An diesem Punkt sollte die Seite wieder genauso wie letzte Woche funktionieren.
+
+**c)** Fügen Sie der "Display Seite" (die in der alle ausgewählten Dinge gemeinsam am Ende angezeigt werden) eine Funktion hinzu, welche die Daten, die im Browsercache gespeichert sind, an die URL `xxxxx.herokuapp.com` verschickt und dessen JSON Antwort wohlformatiert auf Ihrer Webseite anzeigt.
+
+Die möglichen Antworten der Seite sind entweder:
+
+```json
+{
+  "error": "<Fehlermeldung hier>"
+}
+``` 
+oder
+
+```json
+{
+  "message": "<Nachricht des Servers hier>"
+}
+```
+
+Formatieren Sie die Ausgaben unterschiedlich, je nach dem ob `error` oder `message` zurückgegeben wird.
+
+Nutzen Sie diesen Codeschnipsel, um die Daten zu versenden (Erklärung dazu gibt es in der [Lektion nächste Woche](../L3.1)). Um die Antwort auszulesen, muss die letzte Zeile dieses Schnipsels verändert werden, wie es in der Lektion diese Woche dargestellt wurde. Außerdem müssen Sie `browserCacheData` mit dem Speichermedium Ihrer Wahl ersetzen. `broswerCacheData` sollte ein (komplexes) JS Objekt sein, also nicht nur eine Zahl oder String. 
+
+```ts
+let query: URLSearchParams = new URLSearchParams(<any>browserCacheData);
+url = url + "?" + query.toString();
+await fetch(url);
+```
+
+
+<!-- 
 >**Bei Problemen/Unklarheiten:** können Sie ins Praktikum kommen oder per Discord/Mail fragen stellen.
 
 Erstellen Sie ein neues Verzeichnis und kopieren Sie die Dateien der letzten Aufgabe hinein. 
@@ -38,4 +71,4 @@ User können ihren gesamten Warenkorb löschen. Hierfür gibt es ebenfalls einen
 
 ### Bonusaufgabe (keine Pflicht)
 
-User können einen Artikel mehrmals in den Warenkorb legen (z. B. 5 Äpfel). Im Warenkorb kann die Anzahl der Artikel eines Typs geändert werden.
+User können einen Artikel mehrmals in den Warenkorb legen (z. B. 5 Äpfel). Im Warenkorb kann die Anzahl der Artikel eines Typs geändert werden. -->

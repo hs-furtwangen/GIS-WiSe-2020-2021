@@ -15,6 +15,8 @@
   - [Klassen](#klassen)
     - [Zugriffsmodifikatoren](#zugriffsmodifikatoren)
     - [Vererbung](#vererbung)
+    - [Polymorphie](#polymorphie)
+    - [instanceof](#instanceof)
 - [Weitere Typescript Konzepte](#weitere-typescript-konzepte)
   - [Namespaces](#namespaces)
   - [Optionale Parameter](#optionale-parameter)
@@ -61,6 +63,7 @@ Um Code sowohl übersichtlich als auch anpassbar und wartbar zu halten, ist es r
 
 Selbst ohne duplizierten oder sich wiederholenden Code ist es oft ratsam, ein großes Programm in mehrere Funktionen zu unterteilen, welche verschiedene Zuständigkeiten haben. So so ist, statt einer 200 Zeilen langen `main` Funktion, es deutlich besser zu lesen, verstehen und warten, wenn man diese auf 10 kleinere, übersichtlichere Funktionen mit klaren Aufgaben verteilt. Wenn man z.B. eine Webseite aus Daten generieren möchte (wie wir das in den kommenden Wochen tun werden), könnte man das aufteilen in eine Funktion welche die Daten einließt, eine welche in der statischen Seite die Interaktivität (EventListener, s. [DOM Manipulation und Eventhandling](../L2.3))) verleiht, eine Funktion welche die Daten durchgeht und eine welche die HTML Seitenelemente anlegt und befüllt.
 
+Aufgrund dieses Grundsatzes sollten auch Daten (json, Datenbanken), Struktur (HTML), Darstellung (CSS) und Funktionalität (JS/TS) getrennt werden. So sollten CSS oder JS nicht in der HTML Datei eingbettet werden (auch wenn das möglich ist) oder Dateien, welche ausschließlich Daten beinhalten, von denen die Funktionalität beinhalten getrennt gehalten werden.
 
 ### Komplexe Typen
 
@@ -303,8 +306,6 @@ class Dog {
 
 ##### Vererbung
 
-> Fortgeschrittenes Thema.
-
 Eine Klasse kann ihre Eigenschaften und Methoden an andere Klassen weitergeben. Oder anders herum formuliert: Eine Klasse kann eine bereits bestehende Klasse um weitere Eigenschaften und Methoden erweitern. Die Klasse, von der geerbt wird, nennt sich dabei **Superklasse**. Die Klasse die erbt, nennt sich **Subklasse**.
 
 Ein solches Vererbungsverhältnis wird oft genutzt, wenn verschiedene Klassen viele Gemeinsamkeiten haben, welche dann als gemeinsame Oberklasse realsiert werden. Will man Beispielsweise neben der `Dog` Klasse noch eine `Cat` Klasse entwickeln, dann hätten diese viele Gemeinsamkeiten. Diese könnte man dann in einer gemeinsamen Klasse zusammenfassen und nur die Tierspezifischen Änderungen in den jeweiligen Klassen implementieren.
@@ -362,6 +363,38 @@ Während `Cat` keinen eigenen Konstruktor definiert und darum automatisch den An
 `super.makeSound()` würde in der Katze oder Hunde Klasse `"<undefined Animal Sounds>"` auf der Konsole ausgeben. So ist es also möglich die spezifische Funktionalität der Superklasse beizubehalten / explizit zu verwenden, selbst wenn eine eigene Implementation diese Überschreibt.
 
 > Weitere Informationen zu Klassen in Typescript finden Sie in der [offiziellen Dokumentation](https://www.typescriptlang.org/docs/handbook/classes.html) (Englisch) oder auch in den [Kursmaterialien zu EIA2](https://jirkadelloro.github.io/EIA2-Inverted/L09_Classes/).
+
+##### Polymorphie
+
+Polymorphie / Polymorphismus (griechisch: Vielgstaltigkeit) ist ein Konzept in der objektorientierten Programmierung das es erlaubt, dass Subklassen auch als Variablen der Superklasse gespeichert werden können.
+
+Dank diesem Prinzip können wir alle drei Tiere in ein `DomesticAnimal` Array packen, auch wenn `c` und `d` Spezialisierungen dieser Klasse sind und nicht mehr die Superklasse selbst.
+
+Dies ist sehr praktisch, wenn man statt mehrerer Variablen / Arrays für verschiedene Subklassen diese alle in einer gemeinsamen Struktur speichern möchte und sie alle das gleiche tun lassen(mit den jeweils eigenen Implementationen) .
+
+```ts
+let allAnimals: DomesticAnimal[] = [a, c, d];
+
+for(let animal of allAnimals){
+  animal.makeSound();
+}
+```
+
+##### instanceof
+
+Wenn es nun aber doch wieder wichtig ist, von welcher Klasse eine Variable ist, so kann der (Vergleichs-)Operator `instanceof` genutzt werden.
+
+```ts
+console.log(c instanceof Dog); // false
+console.log(d instanceof Dog); // true
+```
+
+`instanceof` gibt auch dann `true` zurück, wenn die überprüfte Klasse eine Instanz einer Subklasse ist.
+
+```ts
+console.log(c instanceof DomesticAnimal); // true
+console.log(d instanceof DomesticAnimal); // true
+```
 
 ### Weitere Typescript Konzepte
 #### Namespaces
