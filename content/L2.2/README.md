@@ -683,6 +683,6 @@ context.stroke(path);
 
 ## **?!** Fragen und Antworten
 
-(die Publikation der Zusammenfassung erfolgt nach dem Q&A Termin)
+(die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
 
 Zusammenfassung von: [&lt;username&gt;](https://github.com/)

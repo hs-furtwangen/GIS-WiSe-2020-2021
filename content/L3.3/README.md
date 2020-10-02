@@ -163,7 +163,7 @@ https://www.typescriptlang.org/
 
 ## **?!** Fragen und Antworten
 
-(die Publikation der Zusammenfassung erfolgt nach dem Q&A Termin)
+(die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
 
 Zusammenfassung von: [&lt;TawsTm&gt;](https://github.com/TawsTm)
 

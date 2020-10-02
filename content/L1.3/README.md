@@ -1,11 +1,11 @@
-## _V_ **1.3** Einführung CSS
+## _V_ **1.3** Grundlagen CSS
 
 ---
 
 ### Einführung
 <video controls width="100%"> 
-    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L03/01_Einstieg_in_CSS.mp4" type="video/mp4"> 
-    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L03/01_Einstieg_in_CSS.mp4">Zum Video</a>
+    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/01_Einstieg_in_CSS.mp4" type="video/mp4"> 
+    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/01_Einstieg_in_CSS.mp4">Zum Video</a>
 </video>
 
 CSS (steht für Cascading Style Sheets) ist eine browser-basierte Gestaltungssprache, mit der Webanwendungen visuell angepasst werden können. CSS-Anweisungen können auf drei Arten eingebunden werden: 
@@ -25,8 +25,8 @@ Eine CSS-Anweisung besteht immer aus einem Selektor und der Deklaration, die aus
 
 ### Eigenschaften
 <video controls width="100%"> 
-    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L03/02_CSS_Eigenschaften.mp4" type="video/mp4"> 
-    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L03/02_CSS_Eigenschaften.mp4">Zum Video</a>
+    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/02_CSS_Eigenschaften.mp4" type="video/mp4"> 
+    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/02_CSS_Eigenschaften.mp4">Zum Video</a>
 </video>
 
 Die aktuellen Möglichkeiten der visuellen Gestaltung mit CSS sind scheinbar endlos. In diesem Video werden die gängigsten Eigenschaften sowie ein effizienter Workflow mit Visual Studio Code vorgestellt und die Funktionen der verschiedenen CSS-Anweisungen erklärt.
@@ -38,8 +38,8 @@ Eigenschaften stehen immer in Abhängigkeit zu dem entsprechenden Element, sodas
 
 ### Selektoren
 <video controls width="100%"> 
-    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L03/03_CSS_Selektoren.mp4" type="video/mp4"> 
-    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L03/03_CSS_Selektoren.mp4">Zum Video</a>
+    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/03_CSS_Selektoren.mp4" type="video/mp4"> 
+    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/03_CSS_Selektoren.mp4">Zum Video</a>
 </video>
 
 Um CSS-Anweisungen an bestimmte Elemente eines HTML-Dokument zu adressieren, kann man mithilfe von Selektoren auf ein oder mehrere Elemente zugreifen.
@@ -50,8 +50,8 @@ Es gibt verschiedene Arten von Selektoren: die drei Haupt-Selektoren sind **Elem
 
 ### Kaskadierung und Vererbung
 <video controls width="100%"> 
-    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L03/04_Kaskadierung_und_Vererbung.mp4" type="video/mp4"> 
-    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L03/04_Kaskadierung_und_Vererbung.mp4">Zum Video</a>
+    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/04_Kaskadierung_und_Vererbung.mp4" type="video/mp4"> 
+    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/04_Kaskadierung_und_Vererbung.mp4">Zum Video</a>
 </video>
 
 Das Grundprinzip der Kaskadierung bewirkt eine Reihen- oder Rangfolge, in der Eigenschaften in CSS vererbt werden, denn die einzelnen CSS-Selektoren werden unterschiedlich schwer gewichtet. Es ist hilfreich, diese Regeln zu kennen, um zu verstehen, wann welche Anweisungen umgesetzt werden (bzw. warum nicht) und welche Anweisungen andere überschreiben.
@@ -60,10 +60,10 @@ Definierte Eigenschaften werden an die (semantisch untergeordneten) Kinderelemen
 
 ---
 
-### Box Model und Masseinheiten
+### Box Model und Maßeinheiten
 <video controls width="100%"> 
-    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L03/05_CSS_Box_Model_und_Masseinheiten.mp4" type="video/mp4"> 
-    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L03/05_CSS_Box_Model_und_Masseinheiten.mp4">Zum Video</a>
+    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/05_CSS_Box_Model_und_Masseinheiten.mp4" type="video/mp4"> 
+    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/05_CSS_Box_Model_und_Masseinheiten.mp4">Zum Video</a>
 </video>
 
 Das CSS-Box-Model beschreibt, dass alle Elemente im Browser auf Basis einer Box beschrieben werden können, die aus einer bestimmten Größe (Höhe x Breite), einem Innenabstand (**padding**), einem Rahmen (**border**) und einem Außenabstand (**margin**) bestehen.
@@ -74,8 +74,8 @@ Der Browser arbeitet mit verschiedenen Maßeinheiten, für den Anfang genügt da
 
 ### Take Aways
 <video controls width="100%"> 
-    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L03/06_Take_Aways.mp4" type="video/mp4"> 
-    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L03/06_Take_Aways.mp4">Zum Video</a>
+    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/06_Take_Aways.mp4" type="video/mp4"> 
+    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/06_Take_Aways.mp4">Zum Video</a>
 </video>
 
 * CSS definiert die Darstellung von Inhalten im Browser und kann auf drei Wegen eingebunden werden: Inline, im Head oder als externes Stylesheet.
@@ -90,39 +90,5 @@ Der Browser arbeitet mit verschiedenen Maßeinheiten, für den Anfang genügt da
 
 ## **?!** Fragen und Antworten
 
-(die Publikation der Zusammenfassung erfolgt nach dem Q&A Termin)
+(die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
 
-Zusammenfassung von: [&lt;TawsTm&gt;](https://github.com/TawsTm)
-
-### Können wir ein eigenes Design verwenden, auch wenn in der Kundenanmerkung steht, dass man nach der Designvorgabe arbeiten soll?
-Ja dürft ihr! Haltet euch bei der Gestaltung einfach an die Kundenanmerkungen. Das Vorgegebene Design muss nicht zwingend verwendet werden.
-
-### Welche Anforderungen an ein eigenes Design gibt es?
-Ein eigenes Design sollte mindestens dem Niveau des Designs der Vorlage ähnlich sein. Halten Sie sich an die Kundenbedingungen und geben Sie sich etwas Mühe um das Design.
-
-### Was ist eine sekundäre Navigation?
-Man kann interpretieren, dass es unter der Hauptnavigation eine Unternavigation geben soll. An sich ist es uns aber egal, wo die sekundäre Navigation aufzufinden ist. Die sek. Nav. soll Icons zu Social Links enthalten.
-
-### Darf die Sekundäre Navigation in den Footer?
-In der Aufgabe ist nichts definiert. Wo ihr eure sekundäre Navigation anlegen wollt, dürft ihr somit selbst entscheiden.
-
-### Sollte das Design auf allen Bildschirmgrößen gut aussehen?
-Ihr habt noch nichts über Responsive Design gelernt, deswegen erwarten wir es auch nicht. Schreibt wenn ihr wollt dazu, auf welchem Bildschirm es gut aussieht, das ist aber kein muss. Es geht nur um grobe Designelemente, wie das Box-Modell oder Schriftfarbe usw.
-
-### Muss alles im 800px-Bereich sein? Also darf der Footer auch nicht die 800px überschreiten?
-Da alle Inhalte 800px breit sein soll, darf auch der Footer nicht die 800px überschreiten, solang man ihn zum Inhalt zählt.
-
-### Dürfen wir mehr als ein Stylesheet benutzen?
-Ja dürft ihr. Eure Seiten sollten jedoch ein einheitliches Design aufweisen, somit könntet ihr auch viele Elemente öfter aufgreifen. Mehr als 4 Stylesheets sollten es jedoch nicht sein.
-
-### Wie verlinkt man normalerweise gut einen Button?
-Man verwendet eigentlich Button nicht zur Verlinkung auf andere Seiten. Über ein Script ist dies möglich, dann benutzt man einen Event-Listener „click“, der einen an die Seite weiterleitet.
-
-### Warum werfen andere externe Seiten auch Fehler auf dem W3-Validierer?
-Gerade bei CMS-Seiten, entstehen immer W3-Error. Aber nur weil andere Fehler machen, müssen wir ja nicht auch damit anfangen.
-
-### Was ist mit Git LFS?
-Das ist ein komplexes Thema. Große Dateien werden für unsere Aufgaben nicht benötigt. Ladet bitte einfach kleine Dateien hoch, sonst kann es zu Problemen beim Pushen kommen.
-
-### Markdown verwenden für CSS-Theme?
-Markdown soll nicht verwendet werden, da ihr eure HTML und CSS-Seiten selbst schreiben sollt.

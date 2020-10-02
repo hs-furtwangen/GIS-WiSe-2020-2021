@@ -1,18 +1,20 @@
-# **1** HTML & CSS
+# **1** HTML und CSS
 
-Kurze Einleitung in das 1. Kapitel des Praktikums.
+In diesem ersten Kapitel geht es HTML und CSS, also die Basiselemente der Gestaltung einer Webseite, zu denen in den folgenden Kapiteln ([2](#2-typescript) und [3](#3-server-und-datenbanken)), die Programmierung – mit *TypeScript* – sowie die Anbindung an Server und Datenbank – mit *Node.js* und *MongoDB* – hinzukommt.
+
+Zunächst geht es in der Einführung allerdings darum eine funktionsfähige Arbeitsumgebung an den Start zu bringen.
 
 ---
 
-## **1.1** Einführung/Basics
+## **1.1** Arbeitsumgebung und Grundlagen HTML
 
 - Einführung in die Thematik
 - Vorbereitung / Tools
 - Ablauf Vorlesung und Praktikum
 - HTML Basics
 
-*[Vorlesungsmaterialien zum **7. Oktober**](L1.1)*
-*[Praktikumsaufgabe zum **9. Oktober**](P1.1)*
+*[**V** **1.1** **7. Oktober** (Vorlesungsmaterialien)](L1.1)*
+*[**P** **1.1** **9. Oktober** (Praktikumsaufgabe)](P1.1)*
 
 ---
 
@@ -23,21 +25,21 @@ Kurze Einleitung in das 1. Kapitel des Praktikums.
 - HTML Struktur
 - Browser und Web Inspector
 
-*[Vorlesungsmaterialien zum **14. Oktober**](L1.2)*
-*[Praktikumsaufgabe zum **9. Oktober**](P1.2)*
+*[**V** **1.2** **14. Oktober** (Vorlesungsmaterialien)](L1.2)*
+*[**P** **1.2** **9. Oktober** (Praktikumsaufgabe)](P1.2)*
 
 ---
 
-## **1.3** Einführung CSS
+## **1.3** Grundlagen CSS
 
 - Einführung
 - Eigenschaften
 - Selektoren
 - Kaskadierung und Vererbung
-- CSS Box Model und Maßeinheiten
+- *Box Model* und Maßeinheiten
 
-*[Vorlesungsmaterialien zum **21. Oktober**](L1.3)*
-*[Praktikumsaufgabe zum **23. Oktober**](P1.3)*
+*[**V** **1.3** **21. Oktober** (Vorlesungsmaterialien)](L1.3)*
+*[**P** **1.3** **23. Oktober** (Praktikumsaufgabe)](P1.3)*
 
 ---
 
@@ -48,8 +50,8 @@ Kurze Einleitung in das 1. Kapitel des Praktikums.
 - Responsive Design
 - *Transition* und *Animation*
 
-*[Vorlesungsmaterialien zum **28. Oktober**](L1.4)*
-*[Praktikumsaufgabe zum **30. Oktober**](P1.4)*
+*[**V** **1.4** **28. Oktober** (Vorlesungsmaterialien)](L1.4)*
+*[**P** **1.4** **30. Oktober** (Praktikumsaufgabe)](P1.4)*
 
 ---
 
@@ -58,7 +60,7 @@ Kurze Einleitung in das 1. Kapitel des Praktikums.
 ~~Hier sollte die Gesamtaufgabe kurz beschrieben werden.
 Verweis auf die Etappen, die unten den einzelnen Praktikumsterminen zugeordnet sind.~~
 
-*[Abgabe zum 1. November 2020 als Kommentar in diesem Issue.](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/1)*
+*[Abgabe zum 1. November 2020 (als Kommentar in dem hier verlinkten Issue)](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/1)*
 
 ---
 
@@ -77,8 +79,8 @@ In diesem zweiten großen Abschnitt des Praktikums werden wir uns ganz dem Einst
 - Funktionen
 - Schleifen
 
-*[Vorlesungsmaterialien zum **4. November**](L2.1)*
-*[Praktikumsaufgabe zum **6. November**](P2.1)*
+*[**V** **2.1** **4. November** (Vorlesungsmaterialien)](L2.1)*
+*[**P** **2.1** **6. November** (Praktikumsaufgabe)](P2.1)*
 
 ---
 
@@ -90,12 +92,12 @@ In diesem zweiten großen Abschnitt des Praktikums werden wir uns ganz dem Einst
 - Objekte
 - Canvas
 
-*[Vorlesungsmaterialien zum **11. November**](L2.2)*
-*[Praktikumsaufgabe zum **13. November**](P2.2)*
+*[**V** **2.2** **11. November** (Vorlesungsmaterialien)](L2.2)*
+*[**P** **2.2** **13. November** (Praktikumsaufgabe)](P2.2)*
 
 ---
 
-## **2.3** DOM Manipulation & Eventhandling
+## **2.3** DOM Manipulation und Eventhandling
 
 - DOM Klassenhierarchie  
 - DOM Manipulation
@@ -103,29 +105,29 @@ In diesem zweiten großen Abschnitt des Praktikums werden wir uns ganz dem Einst
 - Event Handling
 - Event Listener
 
-*[Vorlesungsmaterialien zum **18. November**](L2.3)*
-*[Praktikumsaufgabe zum **20. November**](P2.3)*
+*[**V** **2.3** **18. November** (Vorlesungsmaterialien)](L2.3)*
+*[**P** **2.3** **20. November** (Praktikumsaufgabe)](P2.3)*
 
 ---
 
-## **2.4** JSON & Local Storage
+## **2.4** JSON und Local Storage
 
 - JSON
 - Local Storage / Cookies
 
-*[Vorlesungsmaterialien zum **25. November**](L2.4)*
-*[Praktikumsaufgabe zum **27. November**](P2.4)*
+*[**V** **2.4** **25. November** (Vorlesungsmaterialien)](L2.4)*
+*[**P** **2.4** **27. November** (Praktikumsaufgabe)](P2.4)*
 
 ---
 
-## **2.5** JSON, Local Storage & Kommunikation
+## **2.5** JSON, Local Storage und Kommunikation
 
 - fetch
 - Promise
 - async / await
 
-*[Vorlesungsmaterialien zum **2. Dezember**](L2.5)*
-*[Praktikumsaufgabe zum **4. Dezember**](P2.5)* 
+*[**V** **2.5** **2. Dezember** (Vorlesungsmaterialien)](L2.5)*
+*[**P** **2.5** **4. Dezember** (Praktikumsaufgabe)](P2.5)* 
 
 ---
 
@@ -133,11 +135,11 @@ In diesem zweiten großen Abschnitt des Praktikums werden wir uns ganz dem Einst
 
 In diesem Kapitel soll nach anfänglichen Einstiegsaufgaben eine Webseite umgesetzt werden, welche dem Nutzer erlaubt, (mindestens) drei verschidene Elemente eines großen Ganzen (z.B. Rakete, Eis, Planet, Topfpflanze) aus jeweils drei (oder mehr) Möglichkeiten auf einer jeweils eigenen Unterseite zusammen zu stellen und das Gesamtergebnis auf einer letzten Seite grafisch Präsentiert zu bekommen. Dabei werden die Auswahlmöglichkeiten aus externem JSON geladen, der Status der Auswahl über Cookies / Local Storage gespeichert und das Gesamtergebnis an einen Server übermittelt.
 
-*[Abgabe zum 6. Dezember 2020 als Kommentar in diesem Issue.](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/2)*
+*[Abgabe zum 6. Dezember 2020 (als Kommentar in dem hier verlinkten Issue)](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/2)*
 
 ---
 
-# **3** Server & Datenbanken
+# **3** Server und Datenbanken
 
 ---
 
@@ -148,8 +150,8 @@ In diesem Kapitel soll nach anfänglichen Einstiegsaufgaben eine Webseite umgese
 - URL
 - NodeJS
 
-*[Vorlesungsmaterialien zum **9. Dezember**](L3.1)*
-*[Praktikumsaufgabe zum **11. Dezember**](P3.1)* 
+*[**V** **3.1** **9. Dezember** (Vorlesungsmaterialien)](L3.1)*
+*[**P** **3.1** **11. Dezember** (Praktikumsaufgabe)](P3.1)* 
 
 ---
 
@@ -159,8 +161,8 @@ In diesem Kapitel soll nach anfänglichen Einstiegsaufgaben eine Webseite umgese
 - Request Handling
 - (POST Request)  
 
-*[Vorlesungsmaterialien zum **16. Dezember**](L3.2)*
-*[Praktikumsaufgabe zum **18. Dezember**](P3.2)* 
+*[**V** **3.2** **16. Dezember** (Vorlesungsmaterialien)](L3.2)*
+*[**P** **3.2** **18. Dezember** (Praktikumsaufgabe)](P3.2)* 
 
 ---
 
@@ -170,18 +172,18 @@ In diesem Kapitel soll nach anfänglichen Einstiegsaufgaben eine Webseite umgese
 - Datenbank lokal
 - Datenbank online
 
-*[Vorlesungsmaterialien zum **13. Januar**](L3.3)*
-*[Praktikumsaufgabe zum **15. Januar**](P3.3)* 
+*[**V** **3.3** **13. Januar** (Vorlesungsmaterialien)](L3.3)*
+*[**P** **3.3** **15. Januar** (Praktikumsaufgabe)](P3.3)* 
 
 ---
 
 ## **3.4** Datenbankzugriff über den Server
 
-- Datenbank & Node.js Kommunikation
+- Datenbank und Node.js Kommunikation
 - Pipeline: HTML → Server → Datenbank
 
-*[Vorlesungsmaterialien zum **20. Januar**](L3.4)*
-*[Praktikumsaufgabe zum **22. Januar**](P3.4)* 
+*[**V** **3.4** **20. Januar** (Vorlesungsmaterialien)](L3.4)*
+*[**P** **3.4** **22. Januar** (Praktikumsaufgabe)](P3.4)* 
 
 ---
 
@@ -190,6 +192,6 @@ In diesem Kapitel soll nach anfänglichen Einstiegsaufgaben eine Webseite umgese
 Hier sollte die Gesamtaufgabe kurz beschrieben werden.
 Verweis auf die Etappen, die unten den einzelnen Proaktikumsterminen zugeordnet sind.
 
-*[Abgabe zum 24. Januar 2021 als Kommentar in diesem Issue.](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/3)*
+*[Abgabe zum 24. Januar 2021 (als Kommentar in dem hier verlinkten Issue)](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/3)*
 
 ---

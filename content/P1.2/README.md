@@ -1,10 +1,10 @@
-## _P_ **1.2** HTML5
+## _P_ **1.2** HTML Elemente
 
 Stellen Sie Sicher, dass Ihr Profilbild exakt die Maße 85x110 Pixel hat. 
 
 Verlinken Sie immer als oberstes Element in Ihrer Steckbrief.htm Datei mithilfe eines a-Tags auf Ihr Repository unter dem Reiter "Issues", sodass wir Ihnen sowohl auf der Kursseite als auch auf GitHub detailliertes Feedback zu Ihren Abgaben geben können. 
 
-Achten Sie bitte darauf Ihren korrekten Nutzernamen & Repository-Namen anzugeben:
+Achten Sie bitte darauf Ihren korrekten Nutzernamen und Repository-Namen anzugeben:
 https://github.com/nutzername/GIS-WiSe-2020-2021/issues
 
 #### Diese Aufgabe baut auf die vorherige Aufgabe #01 auf.
@@ -27,7 +27,7 @@ Neben der Portfolio-Haupt-Seite sollten **mindestens zwei weitere HTML-Dokumente
 
 Verwenden Sie für die 3 HTML Seiten jeweils die [grundlegende HTML5 Seitenstruktur](https://www.w3schools.com/tags/tag_doctype.asp) und zusätzlich zu den gundlegenden Elementen **mindestens 12 verschiedene HTML5 Elemente** um sich mit dem Umgang mit diesen Elementen vertraut zu machen (z.B. [Iframe](https://www.w3schools.com/tags/tag_iframe.asp), [a](https://www.w3schools.com/tags/tag_a.asp), [p](https://www.w3schools.com/tags/tag_p.asp), [div](https://www.w3schools.com/tags/tag_div.ASP), [li](https://www.w3schools.com/tags/tag_li.asp), [img](https://www.w3schools.com/tags/tag_img.asp), [audio](https://www.w3schools.com/html/html5_audio.asp), [video](https://www.w3schools.com/tags/tag_video.asp), [h](https://www.w3schools.com/tags/tag_hn.asp), etc... ). Sie dürfen natürlich mehr verschiedene HTML5-Tags verwenden.
 
-Ihre Website soll auf **mindestens 3 Dateien verschiedenen Typs** (z.B. Bilder/Videos/Audio/PDF/3D-Modell/GIFS) verweisen die keine Weblinks sind, sondern die sich im Aufgabenordner (gleicher Ordner wie "portfolio.html", "about_me.html" und "contact.html") befinden. Sie dürfen natürlich auf mehr Dateien lokal & im Web verweisen.
+Ihre Website soll auf **mindestens 3 Dateien verschiedenen Typs** (z.B. Bilder/Videos/Audio/PDF/3D-Modell/GIFS) verweisen die keine Weblinks sind, sondern die sich im Aufgabenordner (gleicher Ordner wie "portfolio.html", "about_me.html" und "contact.html") befinden. Sie dürfen natürlich auf mehr Dateien lokal und im Web verweisen.
 
 Die drei HTML-Seiten werden miteinander verlinkt. Sie sollen also eine rudimentäre Navigation erstellen, sodass per Mausklick von jeder Seite auf jede andere Seite navigiert werden kann.
 
@@ -46,11 +46,11 @@ Folgende mögliche Werkzeuge können Sie bei der Erstellung der visuellen Kompon
 **Mögliche Werkzeuge für das Zuschneiden/Vorbereiten von Fotos, Grafiken und Illustrationen**
 - [Adobe Photoshop](https://www.adobe.com/de/products/photoshop.html) (*)
 - [Adobe Illustrator](https://www.adobe.com/de/products/illustrator.html) (*)
-- [Gimp](https://www.gimp.org/) (OpenSource & Kostenlos), vergleichbar mit Adobe Photoshop
+- [Gimp](https://www.gimp.org/) (OpenSource und Kostenlos), vergleichbar mit Adobe Photoshop
 - [Paint.net](https://www.getpaint.net/), vergleichbar mit Gimp
-- [Inkscape](https://inkscape.org/de/) (OpenSource & Kostenlos) (OpenSource), vergleichbar mit Adobe Illustrator
+- [Inkscape](https://inkscape.org/de/) (OpenSource und Kostenlos) (OpenSource), vergleichbar mit Adobe Illustrator
 - [Affinity Photo](https://affinity.serif.com/de/education/) (Studentenrabatt), vergleichbar mit Adobe Photoshop
-- [Sketch](https://www.sketch.com/store/edu/) (fairer Studentenrabatt & Mac only), vergleichbar mit Adobe Illustrator
+- [Sketch](https://www.sketch.com/store/edu/) (fairer Studentenrabatt und Mac only), vergleichbar mit Adobe Illustrator
 - [Pixlr](https://pixlr.com) (free), WebApp für einfache Bildbearbeitung
 - [Vectr](https://vectr.com) (free), WebApp für einfache Vektorbearbeitung
 

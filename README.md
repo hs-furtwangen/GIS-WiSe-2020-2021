@@ -4,6 +4,8 @@
 
 Die Vorlesungen und Praktika zu *Grundlagen interaktiver Systeme* für die Studiengänge MIB und OMB werden im WiSe 2020/2021 gemeinsam von Prof. Dr. Norbert Schnell, Lukas Scheuerle und Andreas Reich in Zusammenarbeit mit Prof. Dr. Gabriel Rausch, Prof. Jirka Dell'Oro-Friedl und Prof. Dr. Stephanie Heintz zusammengestellt und betreut.
 
+---
+
 ### Ablauf und Materialien
 
 Die Vorlesung findet durch aufgezeichenete Videokapitel, schriftliche Materialien sowie einen wöchentlichen online Q&A-Termin mit Fragen und Antworten zu den Vorlesungsinhalten statt (gemeinsam für MIB und OMB). Auch die Praktikumsgruppen werden online betreut.
@@ -11,6 +13,13 @@ Die Vorlesung findet durch aufgezeichenete Videokapitel, schriftliche Materialie
 Die Lehrinhalte des Moduls sind in drei Kapitel aufgeteilt, die jeweils den Stoff von 4 bzw 5 wöchentlichen Vorlesungs- und Praktikumsterminen enthalten und durch eine größere Praktikumsabgabe abgeschlossen werden. Die Materialien zu einem ganzen Kapitel sowie die abschließende Aufgabe liegen jeweils zum Anfang eines Abschnitts vollständig vor und sind in Wöchentliche Unterkapitel gegliedert. Die wöchentlichen Praktikumsaufgaben fügen sich schrittweise zur Abgabe am Ende des Kapitels hin.
 
 *[Zu den Inhalten](content)*
+
+##### Weitere Hinweise:
+- Sowohl bei den Q&A-Terminen als auch im Praktikum besteht keine Anwesenheitspflicht. Es wird aber empfohlen, diese Angebote wahrzunehmen, da dabei auch weiterführende Informationen vermittelt werden.
+- Falls Sie das Praktikum bereits in einem vorherigen Semester bestanden haben, müssen Sie nur die Prüfungsabgabe abgeben und nicht die Zwischenaufgaben.
+- Die Inhalte sind nur in HTML und CSS gleich zu vorherigen Semestern / Professoren. Typescript und Node.js sind vermutlich anders.
+
+---
 
 ### Termine
 
@@ -26,6 +35,8 @@ Folgende wöchentlichen Termine sind vorgesehen (mit Links zum Betreten der Onli
   - OMB B: Fr, 3. Block, Lukas Scheuerle → [Online-Raum DM-15](https://rooms.hs-furtwangen.de/rooms/dm15)
   - MIB B: Fr, 3. Block, Andreas Reich → [Online-Raum DM-09](https://rooms.hs-furtwangen.de/rooms/dm09)
 
+---
+
 ### Praktikum und Praktikumsabgaben
 
 Wie oben bereits erwähnt, besteht die Studienleistung zum Praktikum aus drei größeren Abgaben zu Aufgaben, die jeweils ein Kapitel abschließen. Die Abgaben sind jeweils bis zum Sonntag (23:59 Uhr) am Ende des Abschnitts fällig. Verspätete Abgaben können nicht akzeptiert werden.
@@ -36,11 +47,15 @@ Die Abgabe der Aufgabenlösungen erfolgt durch die Bereitstellung eines Links au
 
 *[Übersicht über den Status der Abgaben](status)*
 
+---
+
 ### Prüfungsaufgabe und mündliche Prüfung
 
 Die Modulprüfung zu GIS besteht – wie bereits im letzten Semester – aus einer Prüfungsaufgabe und einer mündlichen Prüfung, die die eigentlich vorgesehene Klausur ersetzen. Zum Bestehen der Modulprüfung müssen beide Prüfungsteile bestanden werden. Die zur Auswahl stehenden Prüfungssaufgaben werden geben Ende des letzten thematischen Abschnitts veröffentlicht.
 
 Einen Link auf detaillierte Informationen zur Prüfung wird rechtzeitig an dieser Stelle erscheinen.
+
+---
 
 ### Fragen und Probleme
 

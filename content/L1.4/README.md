@@ -2,8 +2,8 @@
 
 ### Komplexe Selektoren
 <video controls width="100%"> 
-    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L04/01_CSS_Komplexe_Selektoren.mp4" type="video/mp4"> 
-    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L04/01_CSS_Komplexe_Selektoren.mp4">Zum Video</a>
+    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/01_CSS_Komplexe_Selektoren.mp4" type="video/mp4"> 
+    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/01_CSS_Komplexe_Selektoren.mp4">Zum Video</a>
 </video>
 
 Man kann die grundlegenden CSS-Selektoren, die in der letzten Lektion vorgestellt wurden, auch verketten, um komplexere Selektionen zu machen. So kann entweder auf einzelne, spezielle Elemente konkret zugegriffen oder auf nur ganz bestimmte Gruppen oder Folgen von Elementen selektiert werden. Mit Pseudoklassen können auch Elemente in ganz bestimmten Zuständen manipuliert werden, wie zum Beispiel bei einem Link der Zustand des Herüberfahrens mit der Maus („hovern“).
@@ -14,8 +14,8 @@ Man kann die grundlegenden CSS-Selektoren, die in der letzten Lektion vorgestell
 
 ### Positionierung, Flussverhalten und Layout
 <video controls width="100%"> 
-    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L04/02_CSS_Flussverhalten_Positionierung.mp4" type="video/mp4"> 
-    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L04/02_CSS_Flussverhalten_Positionierung.mp4">Zum Video</a>
+    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/02_CSS_Flussverhalten_Positionierung.mp4" type="video/mp4"> 
+    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/02_CSS_Flussverhalten_Positionierung.mp4">Zum Video</a>
 </video>
 
 Aufgrund der vielen verschiedenen Ausgabegeräte kann das Thema der Positionierung sehr komplex werden, in diesem Video wurden aber die grundlegenden Herangehensweisen erklärt.
@@ -37,8 +37,8 @@ Positionierung:
 
 ### Responsive Design
 <video controls width="100%"> 
-    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L04/03_Responsive_Design.mp4" type="video/mp4"> 
-    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L04/03_Responsive_Design.mp4">Zum Video</a>
+    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/03_Responsive_Design.mp4" type="video/mp4"> 
+    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/03_Responsive_Design.mp4">Zum Video</a>
 </video>
 
 Responsive Design heißt, alle (relevanten) Endgerätegrößen zu bedienen, wie Smartphones, Laptops, Tablets, Bildschirme...
@@ -59,8 +59,8 @@ Responsive Design Check:
 
 ### CSS Transition und Animation
 <video controls width="100%"> 
-    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L04/04_CSS_Transition_und_Animation.mp4" type="video/mp4"> 
-    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L04/04_CSS_Transition_und_Animation.mp4">Zum Video</a>
+    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/04_CSS_Transition_und_Animation.mp4" type="video/mp4"> 
+    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/04_CSS_Transition_und_Animation.mp4">Zum Video</a>
 </video>
 
 Mit **Übergängen** (Transitions) und **Animationen** können in Webanwendungen zeitbasierte Effekte genutzt werden, die ein Design lebendig und flüssig wirken lassen oder dem Nutzer auf narrativer Ebene den Interaktionsfluss beschreibt. Die Animation von CSS Eigenschaften lässt sich durch viele Parameter steuern, bspw. auch durch die Definition der Beschleunigung der Animation.
@@ -81,8 +81,8 @@ Eigene Bezierkurve zeichnen:
 
 ### Take Aways
 <video controls width="100%"> 
-    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L04/05_Take_Aways.mp4" type="video/mp4"> 
-    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L04/05_Take_Aways.mp4">Zum Video</a>
+    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/05_Take_Aways.mp4" type="video/mp4"> 
+    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/05_Take_Aways.mp4">Zum Video</a>
 </video>
 
 * Komplex verkettete Selektoren ermöglichen es, spezifischere Auswahlpfade zu erstellen.
@@ -101,7 +101,7 @@ Eigene Bezierkurve zeichnen:
 
 ## **?!** Fragen und Antworten
 
-(die Publikation der Zusammenfassung erfolgt nach dem Q&A Termin)
+(die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
 
 Zusammenfassung von: [&lt;TawsTm&gt;](https://github.com/TawsTm)
 

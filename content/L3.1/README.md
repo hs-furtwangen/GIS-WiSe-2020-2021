@@ -244,7 +244,7 @@ https://www.typescriptlang.org/
 
 ## **?!** Fragen und Antworten
 
-(die Publikation der Zusammenfassung erfolgt nach dem Q&A Termin)
+(die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
 
 Zusammenfassung von: [&lt;GitHub Nutzername&gt;](https://github.com/link-zu-github-profil)
 

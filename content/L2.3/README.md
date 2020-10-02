@@ -178,6 +178,6 @@ https://www.typescriptlang.org/
 
 ## **?!** Fragen und Antworten
 
-(die Publikation der Zusammenfassung erfolgt nach dem Q&A Termin)
+(die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
 
 Zusammenfassung von: [&lt;Nutzername&gt;](https://github.com/)
