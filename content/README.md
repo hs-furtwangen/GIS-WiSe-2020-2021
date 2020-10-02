@@ -166,7 +166,7 @@ In diesem Kapitel soll nach anfänglichen Einstiegsaufgaben eine Webseite umgese
 
 ---
 
-## **3.3** Datenbanken Grundlagen](L12)
+## **3.3** Datenbanken Grundlagen
 
 - Datenbanken Einführung
 - Datenbank lokal
