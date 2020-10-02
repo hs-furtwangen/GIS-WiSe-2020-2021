@@ -5,7 +5,11 @@
 - [DOM](#dom)
   - [DOM Manipulation](#dom-manipulation)
   - [Baumstruktur](#baumstruktur)
+  - [DOM Elemente in TS ansprechen](#dom-elemente-in-ts-ansprechen)
+    - [Elemente erschaffen](#elemente-erschaffen)
+    - [Typassertion](#typassertion)
   - [DOM Untersuchen](#dom-untersuchen)
+  - [Daten in DOM Elementen speichern](#daten-in-dom-elementen-speichern)
 - [Ereignisse](#ereignisse)
   - [Event Objekt](#event-objekt)
   - [Target](#target)
@@ -60,6 +64,117 @@ Diese Knoten enthalten die Kernfunktionalität zur Bildung des Graphen und damit
 
 > Wählen Sie sich für ein besseres Verständnis des DOM aus Ihren eigenen vorangegangenen Arbeiten eine Seite aus und stellen Sie deren DOM grafisch dar.
 
+#### DOM Elemente in TS ansprechen
+
+Um ein HTMLElement in TS nutzen zu können, muss dieses zunächst aus dem Dokument herausgefunden werden. Das `document` ist ein globales Attribut des Browserfensters in dem unser Code ausgeführt wird. 
+
+Einige Elemente, welche pro Dokument nur einmal existieren, können direkt herausgezogen werden:
+
+```ts
+let head: HTMLHeadElement = document.head;
+let body: HTMLElement = document.body;
+```
+
+Andere Elemente können durch diverse Selektoren herausgefiltert werden.
+
+```ts
+// ein (das erste) HTMLElement mit einer bestimmten id
+document.getElementById("uniqueIdName");
+// alle HTMLElemente als Liste mit einem Klasennamen
+document.getElementsByClassName("className");
+// alle HTMLElemente als Liste eines Typs (hier HTMLDivElemente)
+document.getElementsByTag("div");
+// das erste HTMLElement, das dem Selektor entspricht 
+document.querySelector(".class > div.divClass");
+// alle HTMLElemente als Liste, die dem Selektor entsprechen 
+document.querySelectorAll(".class > div.divClass");
+```
+
+Der Queryselektor nutzt dabei die selbe Struktur wie CSS Definitionen.
+
+Sobald die Elemente dann in einer Variablen gespeichert sind, können über deren Attribute und Methoden die Elemente verändert werden. 
+
+##### Elemente erschaffen
+
+Um neue Elemente zu erschaffen, gibt es zwei Möglichkeiten.
+
+**Die einfache aber gefährliche Variante** 
+
+Man kann über das `.innerHTML` Attribut die Textuelle Darstellung des HTMLs innerhalb des ausgewählten Elementes einfach mit einem String befüllen, welcher dann vom Browser analysiert und umgewandelt wird.
+
+```ts
+element.innerHTML = `<p>Ein neuer Paragraph an dieser Stelle.</p>`;
+element.innerHTML += `<p>Und noch einer dahinter.</p>`;
+```
+
+Gefährlich ist diese Methode, weil man so schnell vorherige Inhalte überschrieben hat. Außerdem werden bei jeder Änderung des `innerHTML`s immer alle Elemente aus dem DOM entfernt und das gesamte innerHTML neu interpretiert und aufgebaut. Dies ist nicht nur langsam, sondern löscht auch sämtliche Eventlistener welche an diesen Elementen angebracht waren. Zusätzlich ist das Anbringen solcher Listener umständlich.
+
+**Die aufwändigere aber sichere Variante** 
+
+Über `document.createElement("typ")` lassen sich HTMLElemente auch programmatisch erzeugen. Diese können dann über ihre Attribute befüllt werden, über Methoden wie `.appendChild()` an andere Knoten angehängt werden, usw. Diese Vorgehensweise ist weitaus verboser als die oben gezeigte, umgeht dafür aber all ihre Probleme.
+
+```ts
+let p1: HTMLParagraphElement = document.createElement("p");
+p1.innerText = "Ein neuer Paragraph an dieser Stelle.";
+element.appendChild(p1);
+```
+
+> Die Nutzung von `innerText` hat ähnliche Probleme wie `innerHTML`. Darum wäre es besser an dieser Stelle eine neue TextNode zu erschaffen.
+
+```ts
+let p1: HTMLParagraphElement = document.createElement("p");
+p1.appendChild(document.createTextNode("Ein neuer Paragraph an dieser Stelle."));
+element.appendChild(p1);
+```
+
+##### Typassertion
+
+> Oder auch "Lieber Typescript Compiler, ich bin mir sicher bei dem was ich hier tue".
+
+Wie in der letzten Woche unter dem Stichwort [Polymorphie](../L2.2/#polymorphie) bereits erklärt, können Instanzen von Subklassen auch in Variablencontainer ihrer Superklasse gespeichert werden.
+
+So können z.B. auch `HTMLInputElement`e in `HTMLElement`en oder sogar `EventTarget`s gespeichert werden. Versucht man dann allerdings, auf die Subklassenspezifischen Attribute zuzugreifen, wird Typescript sich beschweren.
+
+```html
+<input type="email" name="email" id="emailInput">
+``` 
+
+```ts
+// Direkt als HTMLInputElement deklarieren 
+let input: HTMLInputElement = document.getElementById("emailInput");
+// ERROR: Type HTMLElement is not assignable to HTMLInputElement
+
+// als HTMLElement deklarieren aber auf eine Input spezifisches Attribut zugreifen wollen
+let input: HTMLElement = document.getElementById("emailInput"); //Kein Error
+console.log(input.type);  // ERROR: Property "type" does not exist on type "HTMLElement"
+```
+
+Dises Problem kann umgangen werden, indem man dem Compiler mitteilt, dass man sich sicher ist, um welche Art von Subklasse es sich handelt, indem man diese in spitze Klammern `<>` vor das zu assertierende Objekt schreibt.
+
+```ts
+let input: HTMLInputElement = <HTMLInputElement> document.getElementById("textinput");
+console.log(input.type); // "email"
+```
+
+So kann nicht nur der Compiler ruhig gestellt werden, sondern es kann auch die eigene Arbeit erleichtern, da mit der richtigen Typisierung auch mehr/bessere/korrekte Vervollständigungsoptionen in VSCode angezeigt werden.
+
+> Dies sollte nur genutzt werden, wenn Sie sich sicher sind, welchen Typen Sie zurück bekommen. Alternativ (und sicherer für die Produktion außerhalb dieser Veranstaltung) wäre eine Prüfung mit [`instanceof`](../L2.2/#instanceof).
+
+```ts
+let input: HTMLElement = document.getElementById("textinput");
+if(input instanceof HTMLInputElement){
+  console.log(input.type);
+}
+
+// oder auch so
+function a() {
+  let input: HTMLElement = document.getElementById("textinput");
+  if (!(input instanceof HTMLInputElement)) return;
+
+  console.log(input.type);
+}
+```
+
 #### DOM Untersuchen:
 
 Sie können das DOM untersuchen & sich dessen Eigenschaften ausgeben lassen: 
@@ -75,6 +190,26 @@ Sie können das DOM untersuchen & sich dessen Eigenschaften ausgeben lassen:
 ![DOM in Firefox untersuchen](Firefox_DOM_Properties_3.PNG)
 ![DOM in Firefox untersuchen](Firefox_DOM_Properties_4.PNG)
 
+#### Daten in DOM Elementen speichern
+
+DOM Elemente sind durch die DOM Klassenhierarchie klar definiert, und während JS zwar jegliche Modifikation von allen JS Objekten erlaubt, so ist das weder guter Stil noch in TS erlaubt.  
+Man könnte nun überlegen, da manche Eigenschaften wie die Attribute nicht geprüft werden, eigene Attribute zu setzen. Und während das funktioniert, so ist es doch wieder nur ein Hack. Der offizelle Weg ist die Nutzung von `dataset`.
+
+`HTMLElement.dataset` ist ein Assoziatives Array und erlaubt es so, beliebige Key-Value Paare (strings) auf einem Element zu speichern.
+
+```ts
+let el: HTMLElement = document.querySelector("#myElement");
+el.dataset.name = "Max Mustermann";
+
+console.log(el.dataset.name) // "Max Mustermann"
+console.log(el.dataset["name"]) // "Max Mustermann"
+```
+
+Die so hinzugefügten Daten werden im Inspektor als `data-<key>=<value>` angezeigt.
+
+```html
+<div id="myElement" data-name="Max Mustermann"></div>
+```
 
 ### Ereignisse
 Das DOM bietet zudem ein System für die Interaktion mit dem Nutzer: das Eventsystem. Es stellt äußerst bequem Informationen zu Ereignissen innerhalb der Anwendung zur Verfügung, ohne dass Kenntnisse der Hardware erforderlich sind. Das Betriebssystem und der Browser werten diese Ereignisse bereits aus und bringen die Informationen darüber in eine allgemeine Form.
@@ -167,7 +302,8 @@ Sie haben gelernt:
 - Wie die Phasen von Events verlaufen
 - Wie Events registriert werden können
 - Wie Eventhandling funktioniert
-- Wie die DOM Klassenhierarchie aufgebaut ist 
+- Wie die DOM Klassenhierarchie aufgebaut ist
+- Wie DOM Elemente selektiert und manipuliert werden können
 - Wie DOM & Events zusammenhängen
 
 ### Typescript Dokumentation

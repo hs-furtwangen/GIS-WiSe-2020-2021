@@ -24,7 +24,7 @@ Auf diese Weise kann komfotabel mit den Daten als TS/JavaScript-Objekte gearbeit
 
 
 #### Daten speichern
-Wenn Sie Daten in einem TS/JS-Objekt gespeichert haben, können Sie das Objekt in JSON konvertieren:
+Wenn Sie Daten in einem TS/JS-Objekt gespeichert haben, können Sie das Objekt in einen JSON string konvertieren:
 
 ```ts
 let myObj: Person = {name: "John", age: 31, city: "New York"};

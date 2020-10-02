@@ -1,6 +1,37 @@
-## _P_ **2.3** Event Handling
+## _P_ **2.3** DOM Manipulation und Event Handling
 
->**Bei Problemen/Unklarheiten:** können Sie wie immer ins Praktikum kommen oder per Discord / Github Issues (/ EMail) Fragen stellen.
+### Aufgabe 1
+
+Wiederholen Sie Aufgabe 3 von [letzter Woche](#P2.2). Nutzen Sie aber statt dem Canvas `<div>`s (oder andere DOM Elemente): erzeugen Sie diese dynamisch, setzen Sie die richtige Position und Farbe, etc.
+
+Fügen Sie außerdem ganz am Anfang der Seite zwei Buttons ein und installieren Sie auf diesen je einen Eventlistener:
+- Der erste Button soll ein weiteres Rechteck hinzufügen.
+- Der zweite Button soll die Seite zurücksetzen.
+
+### Aufgabe 2
+
+Lesen Sie, falls noch nicht geschehen, die Kapitelaufgabe durch. Entscheiden Sie sich für ein Thema, das von Ihrer Seite umgesetzt werden soll.
+
+**a)** Entwickeln Sie ein (oder mehrere, wahrscheinlich verschachtelt) geeignetes Interface (oder Klassen), um die relevanten Daten ihrer Auswahlmöglichkeiten speichern zu können. Bedenken Sie dabei alle relevanten Attribute Ihrer Auswahlmöglichkeiten sowie der verschiedenen Kategorien in denen diese Wahlmöglichkeiten zur Verfügung stehen sollen (wie z.B. Name, Farbe, Darstellung, Preis, etc.).
+
+**b)** Entwickeln Sie ein Interface, über das sie die ausgewählten Elemente abspeichern können. Gehen Sie dabei davon aus, dass die Daten der Optionen zur Verfügung stehen.
+
+**c)** Legen Sie die tatsächlichen Daten in einer Variablen an. Legen sie dazu eine Datei `data.ts` an, in der sich lediglich diese Variable mit den Daten befindet (s. [Namespaces](../L2.2#namespaces) zur Unterstützung beim Arbeiten mit Dateien).
+
+**d)** Machen Sie sich Gedanken darüber, wie die einzelnen Unterseiten aussehen und funktionieren sollen. Fertigen Sie gerne eine Skizze an, um sich selbst bei der Visualisierung zu helfen.
+
+
+### Aufgabe 3
+
+Nachdem in Aufgabe 2 nun die Vorarbeit geleistet wurde, sollen Sie in dieser Aufgabe nun eine dieser Unterseiten Umsetzen.
+
+**a)** Entwerfen Sie zunächst ihre Seite mit reinem HTML (und CSS). Füllen Sie die Daten der ersten Seite noch manuell in die Seite ein, um so das Layout und die Gestaltung zu testen.
+
+**b)** Verlagern Sie nun nach und nach die Abschnitte, die mit den Daten befüllt werden aus dem HTML in ihr TS und generieren Sie diese Abschnitte automatisch, abhängig von den Daten. _Achten Sie dabei auf Variabilität: Die Seitengenerierung sollte auch weiterhin funktionieren, wenn Sie eine Auswahlmöglichkeit hinzufügen oder entfernen!_
+
+**c)** Belegen Sie die geeigneten Elemente (z.B. Buttons) in ihrer generierten Seite mit Eventlistenern, welche die zugehörige Auswahlmöglichkeit auswählt. Geben Sie die Variable, in der die Auswahl gespeichert ist, auf der Konsole aus.
+
+<!-- >**Bei Problemen/Unklarheiten:** können Sie wie immer ins Praktikum kommen oder per Discord / Github Issues (/ EMail) Fragen stellen.
 
 Erstellen Sie ein neues Verzeichnis und kopieren Sie die Dateien der letzten Aufgabe hinein. 
 
@@ -54,4 +85,4 @@ let target: HTMLElement = (<HTMLElement>_event.target);
 
 ## Bonusaufgabe (keine Pflicht):
 
-Implementieren Sie in der Navigation eine primitive Suchleiste die, optimalerweise mithilfe von RegEx, ansonsten mit String-Vergleichen, nach Übereinstimmungen sucht. Informieren Sie sich dafür über [RegEx](https://regexr.com/). Blenden Sie alle Items aus, in der weder in der Beschreibung noch im Titel eines Artikels ein Match gefunden wurde.
+Implementieren Sie in der Navigation eine primitive Suchleiste die, optimalerweise mithilfe von RegEx, ansonsten mit String-Vergleichen, nach Übereinstimmungen sucht. Informieren Sie sich dafür über [RegEx](https://regexr.com/). Blenden Sie alle Items aus, in der weder in der Beschreibung noch im Titel eines Artikels ein Match gefunden wurde. -->

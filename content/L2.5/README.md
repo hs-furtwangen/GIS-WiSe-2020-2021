@@ -1,38 +1,16 @@
-## _V_ **2.5** JSON, localStorage, Kommunikation
+## _V_ **2.5** Kommunikation
 
-*[direkt zur Praktikumsaufgabe](#a--praktikumsaufgabe)*
-*[direkt zu Q&A](#-qa-fragen-und-antworten)*
+### Inhaltsverzeichnis
 
-## JSON (Java Script Object Notation)
+- [Kommunikation](#kommunikation)
+  - [Synchron](#synchron)
+  - [Asynchron](#asynchron)
+- [Implementation asynchroner Kommunikation](#implementation-asynchroner-kommunikation)
+  - [XMLHttpRequest-Events](#xmlhttprequest-events)
+  - [Fetch & Promises](#fetch--promises)
+  - [Async/Await](#asyncawait)
+- [Q&A](#-fragen-und-antworten)
 
-JSON ist eine Syntax um Daten speichern und austauschen zu können und wurde ursprünglich für JavaScript entwickelt, aber wird von vielen anderen Sprachen ebenfalls benutzt. JSON ist ein mit JavaScript-Objektnotation geschrieber Text. JSON ist ein Datenformat in dem Daten für Menschen les-/veränderbar abgespeichert weden.
-
-- JSON steht für JavaScript-Objektnotation
-- JSON ist ein lightweight Datenaustauschformat
-- JSON ist leicht zu lesen/verstehen
-- JSON ist sprachunabhängig
-
-### Daten austauschen
-Die Daten in JSON liegen in Textform vor, und wir können jedes TS/JavaScript-Objekt in JSON konvertieren und aus JSON einladen. JSON kann auch an und von einem Server gesendet werden. Wir können jedes beliebige vom Server empfangene JSON in TS/JavaScript-Objekte umwandeln.
-
-Auf diese Weise können wir komfotabel mit den Daten als TS/JavaScript-Objekte arbeiten.
-
-### Daten speichern
-Wenn Sie Daten in einem TS/JavaScript-Objekt gespeichert haben, können Sie das Objekt in JSON konvertieren und an einen Server senden:
-
-```typescript
-let myObj: Person = {name: "John", age: 31, city: "New York"};
-let myJSON: string = JSON.stringify(myObj);
-```
-
-### Einlesen von Daten
-Wenn Sie Daten im JSON-Format erhalten, können Sie diese in ein TS/JavaScript-Objekt konvertieren:
-
-```typescript
-let myJSON: string = '{"name":"John", "age":31, "city":"New York"}';
-let myObj: Person = JSON.parse(myJSON);
-document.getElementById("demo").innerHTML = myObj.name;
-```
 ## Kommunikation
 Kommunikation ist der Prozess des Austauschs oder der Übertragung von Information. Dabei werden zwei grundsätzliche Formen derselben unterschieden. 
 
@@ -58,12 +36,12 @@ Damit ist es Webseiten beispielsweise möglich, die Darstellung aufzubauen und I
 ## Implementation asynchroner Kommunikation
 
 ### XmlHttpRequest-Events
-Bei der asynchronen Kommunikation lässt sich wieder sehr gut die Ereignissteuerung einsetzen. Javascript bietet hierzu das Standardobjekt / die Standardklasse `XMLHttpRequest` an. Ein solches Objekt kann mit dem Schlüsselwort `new` erzeugt werden. Die Klasse bietet einige Kommandos, mit denen recht einfach eine Verbindung zu einem Server aufgebaut und eine Request verschickt werden kann. Während das Objekt die Verbindung verwaltet, erzeugt es bei Statusänderungen entsprechende Events, die wiederum mit dem üblichen Schema von Listeners abgefangen und an die zugehörigen Handlerfunktionen weitergeleitet werden. Auch die vollständige Übertragung der Serverantwort ist eine solche Statusänderung, womit dann die Clientseite einer Server-Client Kommunikation abgebildet werden kann.  
+Bei der asynchronen Kommunikation lässt sich wieder sehr gut die Ereignissteuerung einsetzen. Javascript bietet hierzu das Standardobjekt / die Standardklasse `XMLHttpRequest` an. Ein solches Objekt kann mit dem Schlüsselwort `new` erzeugt werden. Die Klasse bietet einige Methoden, mit denen recht einfach eine Verbindung zu einem Server aufgebaut und eine Anfrage verschickt werden kann. Während das Objekt die Verbindung verwaltet, erzeugt es bei Statusänderungen entsprechende Events, die wiederum mit dem üblichen Schema von Listeners abgefangen und an die zugehörigen Handlerfunktionen weitergeleitet werden. Auch die vollständige Übertragung der Serverantwort ist eine solche Statusänderung, womit dann die Clientseite einer Server-Client Kommunikation abgebildet werden kann.  
 > Das XML im Namen des Objektes verrät, dass es sich dabei um eine **etwas betagte Technologie** handelt, die 1999, während der Standardisierung von HTML4, von Microsoft veröffentlicht wurde. Sie ist aber weit verbreitet und kommt noch häufig zum Einsatz. [Mehr Infos gibt es hier.](https://wiki.selfhtml.org/wiki/JavaScript/XMLHttpRequest)
 
 ### Fetch & Promises
 
-2017 wurde die globale Javascript-Funktion `fetch` als Schnittstelle für asynchrone Kommunikation eingeführt. So kann mit einer einzigen Anweisung nach dem Muster `fetch(url [, data])` eine Request verschickt und eine Response erhalten werden. Aufgrund der Asynchronität liefert fetch aber nicht sofort die Antwort des Servers, sondern ein Objekt vom Typ `Promise`. Dies kann metaphorisch betrachtet werden: Das Versprechen, das fetch abgibt, verpflichtet dazu, die eigentliche Funktion auszuführen, in diesem Falle also zu kommunizieren, und im Erfolgsfall, sowie im Falle des Misserfolgs, bestimmte weitere Funktionen aufzurufen. Es handelt sich also wieder um eine Ereignissteuerung, die aber in einem etwas anderen Gewand daherkommt.  
+2017 wurde die globale Javascript-Funktion `fetch` als Schnittstelle für asynchrone Kommunikation eingeführt. So kann mit einer einzigen Anweisung nach dem Muster `fetch(url [, data])` eine Anfrage verschickt und eine Antwort erhalten werden. Aufgrund der Asynchronität liefert fetch aber nicht sofort die Antwort des Servers, sondern ein Objekt vom Typ `Promise`. Dies kann metaphorisch betrachtet werden: Das Versprechen, das fetch abgibt, verpflichtet dazu, die eigentliche Funktion auszuführen, in diesem Falle also zu kommunizieren, und im Erfolgsfall, sowie im Falle des Misserfolgs, bestimmte weitere Funktionen aufzurufen. Es handelt sich also wieder um eine Ereignissteuerung, die aber in einem etwas anderen Gewand daherkommt.  
 
 Im einfachsten Fall sieht das ganze Konstrukt dann so aus:
 ```typescript
@@ -96,59 +74,14 @@ async function communicate(_url: RequestInfo): Promise<void> {
 }
 ```
 Mit dem Schlüsselwort `async` wird eine Funktion als asynchron deklariert, das bedeutet, dass ihre Ausführung unterbrochen und zu einem späteren Zeitpunkt fortgesetzt werden kann. Genau dies bewirkt das Schlüsselwort `await`, welches daher nur innerhalb von asynchronen Funktionen Sinn ergibt. Sobald `fetch` gestartet wird, wird die Funktion `communicate` zunächst beendet und die Ausführung des Programms bei der nächsten Anweisung nach deren Aufruf fortgesetzt. Sobald aber `fetch` beendet wurde, wird die Funktion `communicate` bei der Anweisung nach dem fetch fortgesetzt. Das heißt also, dass das Hauptprogramm, sofern es noch nicht komplett abgelaufen ist, unterbrochen wird um die Ausgabe der Response in der Konsole zu bewerkstelligen. Danach ist `communicate` tatsächlich am Ende und das Hauptprogramm wird fortgesetzt. Es könnten aber in der Funktion noch weitere `await`s folgen, die wieder entsprechendes Verhalten bewirken. So bläht die weitere Verarbeitung der Response den Code nicht noch wieder durch Callbacks auf.  
-> - Kopiere obenstehenden asynchronen Code und bette ihn in ein neues Programm ein. Lasse vom Hauptprogramm aus die Funktion `communicate` mit dem Parameter `"https://hs-furtwangen.github.io/GIS-WiSe-2020-2021/L07/test.txt"` aufrufen. Lasse vor und nach dem Aufruf von `communicate` in der Konsole die Zeichenketten "Start" und "End" ausgeben.
-> - Starte nun das Programm, nachdem Du es lauffähig implementiert hast. Beschreibe deine Beobachtung. In welcher Reihenfolge kommen die Ausgabe in der Konsole?
-> - Das ausgegebene Response-Objekt ist komplex und der eigentliche Inhalt der Serverantwort ist noch nicht zu sehen. Erweitere die Funktion `communicate` um eine Zeile, in der Du die Methode `text()` des Response-Objektes aufrufst. Achtung: text() gibt wieder eine Promise zurück. Nutzt Du aber auch hier `await` erhältst Du als Ergebnis des Ganzen eine Zeichenkette, die Du einer Variablen vom Typ string zuweist. Lasse so den Inhalt der Serverantwort ausgeben. 
-> - Versuche das gleiche nochmal mit dem Parameter `"https://hs-furtwangen.github.io/GIS-wiSe-2020-2021/L07/testjson.json"` und der Funktion `json()` statt `text()`.
+> - Kopieren Sie obenstehenden asynchronen Code und betten Sie ihn in ein neues Programm ein. Lassen Sie vom Hauptprogramm aus die Funktion `communicate` mit dem Parameter `"https://hs-furtwangen.github.io/GIS-WiSe-2020-2021/content/L2.5/test.txt"` aufrufen. Lassen Sie vor und nach dem Aufruf von `communicate` in der Konsole die Zeichenketten "Start" und "End" ausgeben.
+> - Starten Sie nun das Programm, nachdem Sie es lauffähig implementiert haben. Beschreiben Sie ihre Beobachtung. In welcher Reihenfolge kommen die Ausgaben in der Konsole?
+> - Das ausgegebene Response-Objekt ist komplex und der eigentliche Inhalt der Serverantwort ist noch nicht zu sehen. Erweitern Sie die Funktion `communicate` um eine Zeile, in der Sie die Methode `text()` des Response-Objektes aufrufen.  
+Achtung: `text()` gibt wieder eine Promise zurück. Nutzen Sie aber auch hier `await`, erhalten Sie als Ergebnis des Ganzen eine Zeichenkette, die Sie einer Variablen vom Typ string zuweisen können. Lassen Sie so den Inhalt der Serverantwort ausgeben. 
+> - Versuchen Sie das gleiche nochmal mit dem Parameter `"https://hs-furtwangen.github.io/GIS-WiSe-2020-2021/content/L2.5/testjson.json"` und der Funktion `json()` statt `text()`. Was wird hier zurückgegeben?
 
-> **Hinweis**: fetch erwartet immer eine `http(s)://` Anfrage, wenn ihr es also lokal testen wollt, solltet ihr einen Live-Server verwenden, da sonst die Anfrage mit `file://` beginnt.
+> **Hinweis**: fetch erwartet immer eine `http(s)://` Anfrage, wenn Sie es also lokal testen wollen, sollten Sie einen Live-Server verwenden, da sonst die Anfrage mit `file://` beginnt. Siehe auch den [Hinweise zu LocalStorage](../L2.4#local-storage).
 
-## Local Storage
-
-Local Storage ermöglicht es Ihnen, Key-Value (Schlüssel-Werte) Paare lokal im Cache (Zwischenspeicher) Ihres Browsers zu speichern (ist also effektiv ein Art assoziatives Array). So können Daten über meherere Seiten einer Website hinweg einfach zwischengespeichert und wieder eingeladen werden. Die Verwendung von Local Storage ist einfacher als die Verwendung von [Cookies](https://www.w3schools.com/js/js_cookies.asp). Local Storage ist allerdings nicht ganz so mächtig wie [Cookies](https://www.w3schools.com/js/js_cookies.asp) (da Cookies nach Ablauf einer gewissen Zeit automatisch gelöscht werden). Wenn Sie möchten können Sie sich auch gerne über Cookies informieren und stattdessen diese für die Praktikumsaufgabe nutzen. 
-
-> **Hinweis**: Wie fetch auch, muss localStorage über einen Liveserver getestet werden, da dieser sonst beim Seitenwechsel von einer lokalen Datei zu einer anderen sich selbst wieder löscht.
-
-### Beispiel für LocalStorage
-
-```typescript
-// Item Speichern
-localStorage.setItem("lastname", "Smith");
-// Item Laden
-(<HTMLElement>document.getElementById("test")).innerHTML = localStorage.getItem("lastname")!;
-```
-
-### Daten wieder aus den LocalStorage löschen
-
-```typescript
-localStorage.removeItem("lastname");
-```
-
-### Weiteres Beispiel
-
-HTML Teil:
-
-```html
-<p><button onclick="clickCounter()" type="button">Klick mich!</button></p>
-<div id="result"></div>
-<p>Klick auf den Button und der Zähler wird erhöht.</p>
-<p>Wenn du die Seite schließt & wieder öffnest ist der Counter nicht zurückgesetzt</p>
-```
-
-TypeScript Teil:
-
-```typescript
-function clickCounter() {
-  if (localStorage.clickcount) {
-    localStorage.clickcount = Number(localStorage.clickcount)+1;
-  } else {
-    localStorage.clickcount = 1;
-  }
-  (<HTMLElement>document.getElementById("result")).innerHTML = "Du hast den Button " + localStorage.clickcount + " mal geklickt.";
-}
-```
-
-_(localStorage ist eigentlich überall verwendbar, s. [CanIUse](https://caniuse.com/#feat=mdn-api_window_localstorage), aber auch hier sollte man eine Fallbacklösung haben wenn man eine "richtige" Webseite entwickelt, und wenn es nur ein "Sorry, dein Browser ist zu alt" Nachricht ist.)_
 
 ### Typescript Dokumentation
 
@@ -160,43 +93,5 @@ https://www.typescriptlang.org/
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A Termin)
 
-Zusammenfassung von: [&lt;TawsTm&gt;](https://github.com/TawsTm)
+Zusammenfassung von: [&lt;username&gt;](https://github.com/)
 
-### Was muss ich in die Klammer nach dem json.parse rein machen?
-Hier kommen eure Produktdaten als string rein. Diese werden dadurch wieder zu einem benutzbaren Array.
-
-### Unterschied zwischen JSON und JavaScript?
-Unterschied von JSON zu JavaScript ist Effektiv nur, dass JSON alles zu Strings und Zahlen macht.
-
-### Was macht Stringify?
-Stringify spuckt einen String aus! Den kannst du auf der Console ausgeben und dann rüber kopieren. Hier könnt ihr euch einfach Zeit sparen, weil ihr nicht alles von Hand kopieren müsst.
-
-### Wie erstelle ich die json Datei? Muss das in mein Script oder wo hin?
-Du musst Zugriff auf dein Produkt-Array haben um es einmal in der Console auszugeben und dann wieder auszulesen. In dem .json-File muss  /‘‘  durch ‘‘  ersetzt werden. Entweder durch Code oder von Hand.
-
-### Stringify benutzt und jetzt habe ich 5 Attribute, aber sollte nicht noch Produkt vor allem stehen?
-Es muss nur eine eckige Klammer auf und am Ende wieder zu machen. JavaScript ist der Typ egal.
-
-### Braucht man die daten.ts-Datei noch?
-Wenn ihr eure .json-Datei habt, braucht ihr eure Daten.ts-Datei eigentlich nicht mehr.
-
-### Was heißt betagt bei XML?
-XML ist betagt, weil es alt ist. XML wird immer weniger und JSON immer mehr verwendet. JSON ist direkt mit JavaScript verwandt. JSON ist ein flexibles Dateiformat und XML nicht.
-
-### Die URL die wir fetchen ist unsere GIT Url?
-Das geht, relativ fetchen ist aber sinnvoller, da sich dann die Url verändern kann.
-
-### Da wo ich den parse mache, muss da mein Interface sein?
-Da das Interface eurer Produkte benutzt wird, muss es immer noch beschrieben sein. Die Definition des Interfaces in einer dritten Datei ist hier aber sinnvoll.
-
-### Ich habe ein Array von Arrays durch meine Klassenstruktur?
-JSON kann nur Attribute und keine Methoden speichern. Du musst die Instanz der Klasse neu anlegen, um auf die Methoden zugreifen zu können.
-
-### Der Unterschied zwischen Synchron und Asynchron?
-Synchron ist Standard, eine Zeile nach der anderen. Sobald wir Asynchron arbeiten, sagen wir im Vorbeilaufen „lauf los“ und wir laufen bei uns weiter. Somit laufen Prozesse gleichzeitig. Wenn wir die JSON-Anfrage machen, müssen wir Awaiten, damit unser Code nicht schon weiterläuft und ihm somit die Antwort von JSON fehlt. Sonst versucht man mit einem leeren Objekt die Seite zu laden. Asynchronität ist wichtig, damit die Seite nicht einfriert, wenn wir auf den Server warten.
-
-### Was muss in mein fetch?
-Die Url deiner .json-Datei. Dies darf keine lokale Datei sein, sondern muss ein Live-Server per relativen oder einen absoluten Websitepfad aufrufen. Fetch will einen String haben, also müssen in die Klammern Anführungszeichen: fetch(„dieneDatei.json“);
-
-### Auf was muss bei der Communicate-Funktion awaited werden?
-Man muss bei fetch() awaiten und bei der Response noch einmal awaiten. Das Parsen muss nicht awaited werden.

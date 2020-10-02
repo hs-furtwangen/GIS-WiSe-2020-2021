@@ -116,7 +116,7 @@ In diesem zweiten großen Abschnitt des Praktikums werden wir uns ganz dem Einst
 
 ---
 
-## **2.5** JSON, Local Storage & Kommunikation
+## **2.5** Kommunikation
 
 - fetch
 - Promise
@@ -129,7 +129,7 @@ In diesem zweiten großen Abschnitt des Praktikums werden wir uns ganz dem Einst
 
 ## **A|2** Praktikumsabgabe zum Kapitel 2
 
-In diesem Kapitel soll nach anfänglichen Einstiegsaufgaben eine Webseite umgesetzt werden, welche dem Nutzer erlaubt, (mindestens) drei verschidene Elemente eines großen Ganzen (z.B. Rakete, Eis, Planet, Topfpflanze) aus jeweils drei (oder mehr) Möglichkeiten auf einer jeweils eigenen Unterseite zusammen zu stellen und das Gesamtergebnis auf einer letzten Seite grafisch Präsentiert zu bekommen. Dabei werden die Auswahlmöglichkeiten aus externem JSON geladen, der Status der Auswahl über Cookies / Local Storage gespeichert und das Gesamtergebnis an einen Server übermittelt.
+In diesem Kapitel soll nach anfänglichen Einstiegsaufgaben eine Webseite umgesetzt werden, welche dem Nutzer erlaubt, (mindestens) drei verschiedene Elemente eines großen Ganzen (z.B. Rakete, Eis, Planet, Topfpflanze) aus jeweils drei (oder mehr) Möglichkeiten auf einer jeweils eigenen Unterseite zusammen zu stellen und das Gesamtergebnis auf einer letzten Seite grafisch Präsentiert zu bekommen. Dabei werden die Auswahlmöglichkeiten aus externem JSON geladen, der Status der Auswahl über Cookies / Local Storage gespeichert und das Gesamtergebnis an einen Server übermittelt.
 
 *[Abgabe zum 6. Dezember 2020 als Kommentar in diesem Issue.](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/2)*
 
