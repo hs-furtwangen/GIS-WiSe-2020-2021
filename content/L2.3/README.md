@@ -42,8 +42,8 @@ Ein Skript kann das DOM manipulieren, darin Elemente verändern, hinzufügen ode
 
 #### DOM Manipulation
 <video controls width="100%"> 
-    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L06/L06_05_DOM_Manipulation.mp4" type="video/mp4"> 
-    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L06/L06_05_DOM_Manipulation.mp4">Zum Video</a>
+    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L06/L06_05_DOM_Manipulation.mp4" type="video/mp4"> 
+    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L06/L06_05_DOM_Manipulation.mp4">Zum Video</a>
 </video>
 
 #### Hinweise und Antworten auf potenzielle Fragen:
@@ -221,8 +221,8 @@ tragen. Ein solches Ereignis kann ein Mausklick sein, ein Tastendruck, eine Ber�
 
 #### Kurze Zusammenfassung von Events:
 <video controls width="100%"> 
-    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L06/L06_03_Events.mp4" type="video/mp4"> 
-    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L06/L06_03_Events.mp4">Zum Video</a>
+    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L06/L06_03_Events.mp4" type="video/mp4"> 
+    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L06/L06_03_Events.mp4">Zum Video</a>
 </video>
 
 #### Target
