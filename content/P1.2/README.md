@@ -1,17 +1,10 @@
 ## _P_ **1.2** HTML Elemente
 
-Stellen Sie Sicher, dass Ihr Profilbild exakt die Maße 85x110 Pixel hat. 
+Diese Aufgabe baut auf der vorherigen Aufgabe [P 1.1](../P1.1) auf.
+Sie benötigen für diese Aufgabe noch °**kein CSS UND kein JS** und Sie sollen auch keins benutzen.
 
-Verlinken Sie immer als oberstes Element in Ihrer Steckbrief.htm Datei mithilfe eines a-Tags auf Ihr Repository unter dem Reiter "Issues", sodass wir Ihnen sowohl auf der Kursseite als auch auf GitHub detailliertes Feedback zu Ihren Abgaben geben können. 
-
-Achten Sie bitte darauf Ihren korrekten Nutzernamen und Repository-Namen anzugeben:
-https://github.com/nutzername/GIS-WiSe-2020-2021/issues
-
-#### Diese Aufgabe baut auf die vorherige Aufgabe #01 auf.
-
-**Sie benötigen für diese Aufgabe _KEIN_ CSS UND KEIN JS**
-
-Im nächsten Schritt ergänzen Sie die Website aus Aufgabe 01 mit eigenen Inhalten. Ziel ist es eine Portfolio-Website für Sie anzulegen. Legen Sie für diese und jede Folgende Abgabe bitte einen neuen Ordner an und **überschreiben Sie Ihre bisherige Arbeit nicht**. Sie können für die Portfolioseite bestehende Arbeiten von Ihnen nutzten. 
+Im diesem Schritt ergänzen Sie die Website aus Aufgabe 01 mit eigenen Inhalten. 
+Ziel ist es eine Portfolio-Website für Sie anzulegen. Legen Sie für diese und jede Folgende Abgabe bitte einen neuen Ordner an und **überschreiben Sie Ihre bisherige Arbeit nicht**. Sie können für die Portfolioseite bestehende Arbeiten von Ihnen nutzten. 
 
 Falls Sie keine eigenen Arbeiten wie  z.B. Bilder/Videos/Audios/Texte haben, dann verwenden Sie Dummy-Inhalte aus lizenzfreien Quellen bei denen der Autor nicht genannt werden muss, wie z.B. [Pixabay](https://pixabay.com/) (Fotos/Videos/Illustrationen), [Unsplash](https://unsplash.com/) (High-Quality Bilder), [Pexels](https://pexels.com/) (High-Quality Bilder), [YouTube Audio Library](https://www.youtube.com/audiolibrary/music?nv=1) (Lizenzfreie Musik) [Freesound](https://freesound.org/) (Lizenzfreie Sounds) oder Seiten bei denen Autoren genannt werden müssen wie z.B.,[Freepik](https://www.freepik.com/), [Bensound](https://www.bensound.com/) etc... mit dem entsprechenden Verweis.
 

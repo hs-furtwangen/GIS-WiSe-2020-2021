@@ -57,8 +57,8 @@ Zunächst geht es in der Einführung allerdings darum eine funktionsfähige Arbe
 
 ## **A|1** Praktikumsabgabe zum Kapitel 1
 
-~~Hier sollte die Gesamtaufgabe kurz beschrieben werden.
-Verweis auf die Etappen, die unten den einzelnen Praktikumsterminen zugeordnet sind.~~
+Die Praktikumsabgabe zu diesem Kapitel ist eine wohlgestaltete Profil-Webseite, mit der Sie sich präsentieren.
+
 
 *[Abgabe zum 1. November 2020 (als Kommentar in dem hier verlinkten Issue)](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/1)*
 
@@ -133,7 +133,11 @@ In diesem zweiten großen Abschnitt des Praktikums werden wir uns ganz dem Einst
 
 ## **A|2** Praktikumsabgabe zum Kapitel 2
 
-In diesem Kapitel soll nach anfänglichen Einstiegsaufgaben eine Webseite umgesetzt werden, welche dem Nutzer erlaubt, (mindestens) drei verschiedene Elemente eines großen Ganzen (z.B. Rakete, Eis, Planet, Topfpflanze) aus jeweils drei (oder mehr) Möglichkeiten auf einer jeweils eigenen Unterseite zusammen zu stellen und das Gesamtergebnis auf einer letzten Seite grafisch Präsentiert zu bekommen. Dabei werden die Auswahlmöglichkeiten aus externem JSON geladen, der Status der Auswahl über Cookies / Local Storage gespeichert und das Gesamtergebnis an einen Server übermittelt.
+In diesem Kapitel soll nach anfänglichen Einstiegsaufgaben eine Webseite umgesetzt werden, die dem Nutzer erlaubt – ähnlich wie bei einem Klappbuch – ein Bild aus drei oder mehr verschiedenen Teilen zusammenzusetzen, für die jeweils mehrere Varianten zur Auswahl stehen. Es könnte sich z.B. um das Bild eines Menschen handeln, das sich aus einem Kopf, einem Rumpf und Beinen zusammensetzt, oder auch eines Tiers, einer Rakete oder einer Topfpflanze. 
+Zu jedem der Teile kann auf einer eigenen Unterseite eine von verschiedenen Varianten ausgewählt werden - also eine Seite um den Kopf auszuwählen, eine für den Rumpf und eine für die Beine.
+Auf einer weiteren Seite wird das Gesamtbild als eine Kombination der ausgewählten Varianten grafisch präsentiert.
+Die Auswahlmöglichkeiten sollen aus einer JSON-Datei geladen werden.
+Der aktuelle Status der Auswahl wird über Local Storage (oder Cookies) gespeichert und die schließlich ausgewählte Kombination der Varianten an einen Server übermittelt.
 
 *[Abgabe zum 6. Dezember 2020 (als Kommentar in dem hier verlinkten Issue)](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/2)*
 
