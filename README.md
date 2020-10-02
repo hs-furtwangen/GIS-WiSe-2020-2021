@@ -43,7 +43,9 @@ Wie oben bereits erwähnt, besteht die Studienleistung zum Praktikum aus drei gr
 
 Die Abgabe der Aufgabenlösungen erfolgt durch die Bereitstellung eines Links auf den Quellcode in einem Unterordner in Ihrem GitHub Repository und eines Links auf eine lauffähige Anwendung über die dazugehörigen Github Pages (genaue Erklärungen hierzu finden Sie im [Einführungkapitel](content/L1.1)). Die Links zu einer Praktikumsabgage müssen im GitHub Issue des jeweiligen Anschnitts veröffentlicht werden.
 
-*[Abgabe zum Kapitel 1](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/1)*
+*[Abgabe zum Kapitel 1: HTML und CSS](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/1)*
+*[Abgabe zum Kapitel 2: TypeScript](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/2)*
+*[Abgabe zum Kapitel 3: Server und Datenbanken](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/3)*
 
 *[Übersicht über den Status der Abgaben](status)*
 
