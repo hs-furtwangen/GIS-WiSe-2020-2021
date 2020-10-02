@@ -7,7 +7,7 @@
 _Hier gibt es kein Video, stattdessen den ausführlichen Foliensatz zum selbst erarbeiten._
 <embed src="https://scheuerle.net/lehre/gis/scripts/01_GIS-EIA1-3-HTML-Bilder-Verweise.pdf" type="application/pdf" width="100%" height = "400px"/>
 
-[Skript](https://scheuerle.net/lehre/gis/scripts/01_GIS-EIA1-3-HTML-Bilder-Verweise.pdf)
+*[Folien zum herunterladen](https://scheuerle.net/lehre/gis/scripts/01_GIS-EIA1-3-HTML-Bilder-Verweise.pdf){:target="_blank"}*
 
 ---
 
@@ -17,7 +17,7 @@ _Hier gibt es kein Video, stattdessen den ausführlichen Foliensatz zum selbst e
     <a href="https://scheuerle.net/lehre/gis/videos/02_GIS-EIA1-HTML-AV.mp4">Zum Video</a>
 </video>
 
-[Skript](https://scheuerle.net/lehre/gis/scripts/02_GIS-EIA1-HTML-AV.pdf)
+*[Folien zum herunterladen](https://scheuerle.net/lehre/gis/scripts/02_GIS-EIA1-HTML-AV.pdf){:target="_blank"}*
 
 ---
 

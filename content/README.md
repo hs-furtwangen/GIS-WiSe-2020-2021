@@ -57,8 +57,7 @@ Zunächst geht es in der Einführung allerdings darum eine funktionsfähige Arbe
 
 ## **A|1** Praktikumsabgabe zum Kapitel 1
 
-Die Praktikumsabgabe zu diesem Kapitel ist eine wohlgestaltete Profil-Webseite, mit der Sie sich präsentieren.
-
+Die Praktikumsabgabe zu diesem Kapitel ist eine wohlgestaltete Portofolio-Webseite mit, der Sie sich präsentieren und die sich aus mehreren HTML-Documenten sowie einer oder mehrerer CSS-Dateien zusammensetzt (ohne JS). Die zu beachtenen Details finden Sie in den Teilaufgaben [P 1.2](P1.2), [P 1.3](P1.3), [P 1.4](P1.4) mit (*) gekennzeichnet.
 
 *[Abgabe zum 1. November 2020 (als Kommentar in dem hier verlinkten Issue)](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/1)*
 

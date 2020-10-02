@@ -65,3 +65,4 @@
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
 
+Zusammenfassung von: [&lt;Name des Autors&gt;](https://github.com/link)

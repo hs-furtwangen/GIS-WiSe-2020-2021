@@ -32,8 +32,13 @@ a:hover {
         color: $main-color;
       }
     }
+
+    :first-child {
+      margin-top: -0.5em;
+    }
   }
 }
+
 
 em {
   a {

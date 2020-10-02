@@ -17,8 +17,7 @@ Eine CSS-Anweisung besteht immer aus einem Selektor und der Deklaration, die aus
 
 **Links im Video**
 
-Übersicht von sämtlichen aktuellen CSS-Anweisungen mit Beispielen:
-
+Übersicht von sämtlichen aktuellen CSS-Anweisungen mit Beispielen git es hier:
 <a href="https://www.w3schools.com/css/">https://www.w3schools.com/css/</a>
 
 ---
@@ -29,7 +28,7 @@ Eine CSS-Anweisung besteht immer aus einem Selektor und der Deklaration, die aus
     <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/02_CSS_Eigenschaften.mp4">Zum Video</a>
 </video>
 
-Die aktuellen Möglichkeiten der visuellen Gestaltung mit CSS sind scheinbar endlos. In diesem Video werden die gängigsten Eigenschaften sowie ein effizienter Workflow mit Visual Studio Code vorgestellt und die Funktionen der verschiedenen CSS-Anweisungen erklärt.
+Die aktuellen Möglichkeiten der visuellen Gestaltung mit CSS sind scheinbar endlos. In diesem Video werden die gängigsten Eigenschaften sowie ein effizienter Workflow mit *Visual Studio Code* vorgestellt und die Funktionen der verschiedenen CSS-Anweisungen erklärt.
 
 Eigenschaften stehen immer in Abhängigkeit zu dem entsprechenden Element, sodass nicht alle Eigenschaften bei allen Elementen sinnvoll sind oder schlicht keine Auswirkung haben.
 
@@ -92,3 +91,4 @@ Der Browser arbeitet mit verschiedenen Maßeinheiten, für den Anfang genügt da
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
 
+Zusammenfassung von: [&lt;Name des Autors&gt;](https://github.com/link)

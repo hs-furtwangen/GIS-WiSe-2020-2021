@@ -6,7 +6,7 @@
     <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/01_CSS_Komplexe_Selektoren.mp4">Zum Video</a>
 </video>
 
-Man kann die grundlegenden CSS-Selektoren, die in der letzten Lektion vorgestellt wurden, auch verketten, um komplexere Selektionen zu machen. So kann entweder auf einzelne, spezielle Elemente konkret zugegriffen oder auf nur ganz bestimmte Gruppen oder Folgen von Elementen selektiert werden. Mit Pseudoklassen können auch Elemente in ganz bestimmten Zuständen manipuliert werden, wie zum Beispiel bei einem Link der Zustand des Herüberfahrens mit der Maus („hovern“).
+Man kann die grundlegenden CSS-Selektoren, die in der letzten Lektion vorgestellt wurden, auch verketten, um komplexere Selektionen zu machen. So kann entweder auf einzelne, spezielle Elemente konkret zugegriffen oder auf nur ganz bestimmte Gruppen oder Folgen von Elementen selektiert werden. Mit Pseudoklassen können auch Elemente in ganz bestimmten Zuständen manipuliert werden, wie zum Beispiel bei einem Link der Zustand des Herüberfahrens mit der Maus ("hovern“).
 
 **Links im Video**
 
@@ -28,11 +28,9 @@ Für differenziertere Seiten-Arrangements kann man Eigenschaften, wie Grid oder 
 **Links im Video**
 
 Float:
-
 <a href="https://codepen.io/philtim/pen/KrZmdN">https://codepen.io/philtim/pen/KrZmdN</a>
 
 Positionierung:
-
 <a href="https://codepen.io/philtim/pen/GwyWBP">https://codepen.io/philtim/pen/GwyWBP</a>
 
 ### Responsive Design
@@ -50,11 +48,9 @@ In CSS lässt sich eine **adaptive** (stufenweise) oder **responsive** (stufenlo
 **Links im Video**
 
 Responsive Cat:
-
 <a href="http://roxik.com/cat/">http://roxik.com/cat/</a>
 
 Responsive Design Check:
-
 <a href="http://ami.responsivedesign.is/">http://ami.responsivedesign.is/</a>
 
 ### CSS Transition und Animation
@@ -63,20 +59,18 @@ Responsive Design Check:
     <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/04_CSS_Transition_und_Animation.mp4">Zum Video</a>
 </video>
 
-Mit **Übergängen** (Transitions) und **Animationen** können in Webanwendungen zeitbasierte Effekte genutzt werden, die ein Design lebendig und flüssig wirken lassen oder dem Nutzer auf narrativer Ebene den Interaktionsfluss beschreibt. Die Animation von CSS Eigenschaften lässt sich durch viele Parameter steuern, bspw. auch durch die Definition der Beschleunigung der Animation.
+Mit **Übergängen** (Transitions) und **Animationen** können in Webanwendungen zeitbasierte Effekte genutzt werden, die ein Design lebendig und flüssig wirken lassen oder dem Nutzer auf narrativer Ebene den Interaktionsfluss beschreibt.
+Die Animation von CSS Eigenschaften lässt sich durch viele Parameter steuern, bspw. auch durch die Definition der Beschleunigung der Animation.
 
 **Links im Video**
 
 CSS Transition Beispiel:
-
 <a href="https://codepen.io/grausch/pen/XWWeZXW">https://codepen.io/grausch/pen/XWWeZXW</a>
 
 CSS Animationen:
-
 <a href="https://codepen.io/ajerez/pen/EaEEOW">https://codepen.io/ajerez/pen/EaEEOW</a>
 
 Eigene Bezierkurve zeichnen:
-
 <a href="http://cubic-bezier.com/">http://cubic-bezier.com/</a>
 
 ### Take Aways
@@ -85,17 +79,16 @@ Eigene Bezierkurve zeichnen:
     <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/05_Take_Aways.mp4">Zum Video</a>
 </video>
 
-* Komplex verkettete Selektoren ermöglichen es, spezifischere Auswahlpfade zu erstellen.
-* Elemente haben individuelle Positionen und Flussverhalten, die manipuliert werden können.
-* Über Responsive Design lassen sich viele relevante Endgeräte bedienen.
-* Über Transition und Animation lassen sich Elemente, oder deren Eigenschaften, animieren.
-
+- Komplex verkettete Selektoren ermöglichen es, spezifischere Auswahlpfade zu erstellen.
+- Elemente haben individuelle Positionen und Flussverhalten, die manipuliert werden können.
+- Über Responsive Design lassen sich viele relevante Endgeräte bedienen.
+- Über Transition und Animation lassen sich Elemente, oder deren Eigenschaften, animieren.
 
 ---
 
 #### CSS Inspiration
 
-[CSS Zen Garden](http://csszengarden.com/), eine Seite welche über 200 verschiedene CSS Styles für den gleichen HTML Inhalt gesammelt hat. Zeigt die Power von CSS sehr schön und ist gegebenenfalls auch inspirierend.
+[CSS Zen Garden](http://csszengarden.com/), eine Seite welche über 200 verschiedene CSS Styles für den gleichen HTML Inhalt gesammelt hat, zeigt sehr gut die Möglichkeiteb von CSS. Lassen Sie sich inspirieren.
 
 ---
 
@@ -103,34 +96,4 @@ Eigene Bezierkurve zeichnen:
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
 
-Zusammenfassung von: [&lt;TawsTm&gt;](https://github.com/TawsTm)
-
-### W3-Error wegen Id-Tag duplicate?
-Jede Id sollte nur einem Objekt zugeordnet werden. Das Class-Attribut ist perfekt für mehrfache Verwendung, da man hier mehrere Objekte zuweisen kann.
-
-### Was ist mit 6 verschiedenen komplexen Selektoren gemeint?
-Eine Kombination aus verschiedenen einfachen Selektoren (Child-Selektoren, Sibling-Selektoren, Zähl-Selektoren etc.).
-
-### Wie stellt ihr euch die Kategorisierung vor?
-Die Aufgabenstellung ist mit Absicht offen gestellt. Es ist eure Styling-Entscheidung wie ihr die Kategorien aufteilt. In späteren Aufgaben werden wir den Seiteninhalt dynamisch durch JavaScript aufbauen.
-
-### Welche Kategorien sind erlaubt?
-Welche Art von Kategorie ist völlig egal. Ihr habt hier Freiheiten, damit nicht alle das gleiche machen. Es wäre natürlich schön, wenn nicht alle einen Klamottenshop machen.
-
-### Was bedeutet „Verwenden Sie min. 2 Media-Queries?“
-Es sind drei verschiedene Größen gemeint! Ein Default und zwei andere Größen. Z.B. Desktop, Tablet und Mobile, wobei Mobile eine andere Darstellung als die Desktopvariante hat. Hier können durch Media-Queries CSS-Eigenschaften überschrieben werden.
-
-### Kann man JavaScript, wenn man TypeScript kann?
-An sich ist es einfach JavaScript zu lernen, wenn man TypeScript schon kann. TypeScript wird im Endeffekt auch nur zu JavaScript-Code umgeschrieben. 
-
-### Was haltet ihr von Bootstrap und Co.?
-An sich können wir alle Aufgaben ohne Drittsoftware bearbeiten. Wahrscheinlich spart ihr dadurch auch keine Zeit. Wenn ihr Bootstrap verwenden wollt könnt ihr das gerne, sofern ihr trotzdem alle Bedingungen der Aufgabe erfüllt.
-
-### Machen wir was mit Content-Management-Systemen?
-Ihr könnt gerne Fragen dazu stellen, aber CMS werden wir nicht explicit lernen. Wir lernen hier die Grundlagen, damit ihr auch die Grundlagen, auf denen CMS aufbaut, versteht. Damit habt ihr große Vorteile um sich schnell in Programme wie Wordpress einzuarbeiten.
-
-### PHP wird im Praktikum verlangt, was soll ich tun?
-PHP ist wie Java eine Objektorientierte Sprache. Da ihr Java schon könnt sollte es relativ leicht für euch sein, PHP zu lernen.
-
-### Wie ist PHP einzuordnen zwischen HTML, CSS und JavaScript?
-Da beides Logikprogrammierung ist, kommt es am ähnlichsten an JavaScript heran. Ein Beispiel ist ein Warenkorb, welcher gefüllt wird.
+Zusammenfassung von: [&lt;Name des Autors&gt;](https://github.com/link)

@@ -1,44 +1,38 @@
 ## _P_ **1.2** HTML Elemente
 
-Diese Aufgabe baut auf der vorherigen Aufgabe [P 1.1](../P1.1) auf.
-Sie benötigen für diese Aufgabe noch °**kein CSS UND kein JS** und Sie sollen auch keins benutzen.
+Diese Aufgabe baut auf der vorherigen Aufgabe des Unterkapitels [P 1.1](../P1.1) auf.
+Sie benötigen für diese Aufgabe noch **weder CSS noch JS** und sollen auch keins benutzen.
 
-Im diesem Schritt ergänzen Sie die Website aus Aufgabe 01 mit eigenen Inhalten. 
-Ziel ist es eine Portfolio-Website für Sie anzulegen. Legen Sie für diese und jede Folgende Abgabe bitte einen neuen Ordner an und **überschreiben Sie Ihre bisherige Arbeit nicht**. Sie können für die Portfolioseite bestehende Arbeiten von Ihnen nutzten. 
+In dieser Etape sollen Sie eine Portfolio-Website über Ihre Person anzulegen.
+Erstellen Sie für diese – sowie auch für alle folgenden Abgabe bitte – einen neuen Ordner an.
+Überschreiben Sie Ihre bisherige Arbeit nicht, sondern kopieren Sie das, was Sie übernhemen wollen, in den neuen Ordner.
+Sie können für die Portfolioseite bestehende Arbeiten von Ihnen nutzten, aber nur wenn Sie den oben genannten Bedingungen genügen und nur schlichtes HTML5 enthalten.
 
-Falls Sie keine eigenen Arbeiten wie  z.B. Bilder/Videos/Audios/Texte haben, dann verwenden Sie Dummy-Inhalte aus lizenzfreien Quellen bei denen der Autor nicht genannt werden muss, wie z.B. [Pixabay](https://pixabay.com/) (Fotos/Videos/Illustrationen), [Unsplash](https://unsplash.com/) (High-Quality Bilder), [Pexels](https://pexels.com/) (High-Quality Bilder), [YouTube Audio Library](https://www.youtube.com/audiolibrary/music?nv=1) (Lizenzfreie Musik) [Freesound](https://freesound.org/) (Lizenzfreie Sounds) oder Seiten bei denen Autoren genannt werden müssen wie z.B.,[Freepik](https://www.freepik.com/), [Bensound](https://www.bensound.com/) etc... mit dem entsprechenden Verweis.
+Falls Sie keine eigenen Komponenten wie Bilder, Videos, Audio-Dateien oder Texte haben, dann verwenden Sie Dummy-Inhalte aus lizenzfreien Quellen bei denen der Autor nicht genannt werden muss, wie z.B. [Pixabay](https://pixabay.com/) (Fotos/Videos/Illustrationen), [Unsplash](https://unsplash.com/) (High-Quality Bilder), [Pexels](https://pexels.com/) (High-Quality Bilder), [YouTube Audio Library](https://www.youtube.com/audiolibrary/music?nv=1) (Lizenzfreie Musik) [Freesound](https://freesound.org/) (Lizenzfreie Sounds) oder Seiten bei denen Autoren genannt werden müssen wie z.B. [Freepik](https://www.freepik.com/), [Bensound](https://www.bensound.com/) etc... mit dem entsprechenden Verweis.
 
--> Ersetzen Sie also alle Platzhalterinhalte aus Aufgabe #01 mit eigenem Bild- und Videomaterial.
+Ersetzen Sie also alle Platzhalterinhalte aus der Aufgabe des Unterkapitels 1.1 mit eigenem Bild- und Videomaterial.
 
-Neben der Portfolio-Haupt-Seite sollten **mindestens zwei weitere HTML-Dokumente** erstellt werden, um folgende Seitenstruktur zu schaffen:
+Neben der Portfolio-Haupt-Seite sollten **mindestens zwei weitere HTML-Dokumente** erstellt werden, um eine Seitenstruktur wie diese zu schaffen:
+- eine (Haupt-)Seite **Portfolio**, die Arbeiten von Ihnen präsentiert
+- eine Seite **über mich** mit einem kurzen Steckbrief zu Ihrer Person
+- eine Seite **Kontakt**, auf der Sie Kontaktmöglichkeiten (Mail, Facebook, Instagram, etc...) anbieten
 
-1. (Haupt-)Seite "Portfolio": hier werden Arbeiten von Ihnen präsentiert
-2. Seite "About Me": ein kurzer Steckbrief zu Ihrer Person (hier können Sie natürlich den Steckbrief aus der Kursseite als Basis nutzten bzw. Teile daraus kopieren)
-3. Seite "Contact": eine statische Seite, auf der Sie Kontaktmöglichkeiten (Mail, Facebook, Instagram, etc...) bieten.
+Wenn Sie möchten können Sie natürlich weitere Unterseiten erstellen.
 
--> Wenn Sie möchten können Sie natürlich weitere Unterseiten erstellen.
+(*) Beachten Sie für die HTML Seiten folgende Details:
+- verwenden Sie jeweils die [grundlegende HTML5 Seitenstruktur](https://www.w3schools.com/tags/tag_doctype.asp)
+- zusätzlich zu den gundlegenden HTML-Elementen (_html_, _head_, _body_) *mindestens* 12 verschiedene Elemente (_h_, _a_, _p_, _div_, _li_, _img_, _audio_, _video_, etc.)
+– arbeiten sie *mindestens* 3 Dateien verschiedenen Typs (z.B. Bilder, Videos, Audio, PDF, 3D-Modell, GIF, etc.) in ihre Seiten ein, die keine Weblinks sind, sondern sich im Aufgabenordner neben den HTML-Dokumenten befinden
+– verlinken Sie die HTML-Seiten miteinander um eine rudimentäre Navigation zwischen den Seiten zu ermöglichen
+- bauen Sie Ihre Seiten ausschließlich auf gültigem HTML5 auf und prüfen Sie diese mit dem [W3 HTML Validierer](https://validator.w3.org/#validate_by_upload)
 
-Verwenden Sie für die 3 HTML Seiten jeweils die [grundlegende HTML5 Seitenstruktur](https://www.w3schools.com/tags/tag_doctype.asp) und zusätzlich zu den gundlegenden Elementen **mindestens 12 verschiedene HTML5 Elemente** um sich mit dem Umgang mit diesen Elementen vertraut zu machen (z.B. [Iframe](https://www.w3schools.com/tags/tag_iframe.asp), [a](https://www.w3schools.com/tags/tag_a.asp), [p](https://www.w3schools.com/tags/tag_p.asp), [div](https://www.w3schools.com/tags/tag_div.ASP), [li](https://www.w3schools.com/tags/tag_li.asp), [img](https://www.w3schools.com/tags/tag_img.asp), [audio](https://www.w3schools.com/html/html5_audio.asp), [video](https://www.w3schools.com/tags/tag_video.asp), [h](https://www.w3schools.com/tags/tag_hn.asp), etc... ). Sie dürfen natürlich mehr verschiedene HTML5-Tags verwenden.
+### Zusätzliche Werkzeuge
 
-Ihre Website soll auf **mindestens 3 Dateien verschiedenen Typs** (z.B. Bilder/Videos/Audio/PDF/3D-Modell/GIFS) verweisen die keine Weblinks sind, sondern die sich im Aufgabenordner (gleicher Ordner wie "portfolio.html", "about_me.html" und "contact.html") befinden. Sie dürfen natürlich auf mehr Dateien lokal und im Web verweisen.
+Folgende mögliche Werkzeuge können Sie bei der Erstellung der visuellen Komponenten für Ihr Portfolio unterstützen.
 
-Die drei HTML-Seiten werden miteinander verlinkt. Sie sollen also eine rudimentäre Navigation erstellen, sodass per Mausklick von jeder Seite auf jede andere Seite navigiert werden kann.
-
-Erstellen Sie eine HTML Seite mit dem Namen tags_used.html im Aufgabenordner auf der Sie die verwendeten HTML Tags [tabellarisch auflisten](https://www.w3schools.com/html/html_tables.asp). Verlinken Sie diese in Ihrer Steckbrief.htm. Sie müssen keine Navigation zwischen dieser HTML Seite und den anderen Seiten herstellen.
-
-Alle Ihre Seiten sollen nur aus gültigem HTML5 aufgebaut sein. Sie können zum Prüfen Ihrer Seite den [W3 HTML VALIDIERER](https://validator.w3.org/#validate_by_upload) verwenden.
-
-Mit dieser Aufgabe sollten Sie die Grundlagen von HTML, das Einbinden von medialen Elementen und Verlinken von HTML-Dokumenten besser verstehen. Die Qualität der Gestaltung spielt für diese Aufgabe eine untergeordnete Rolle. In der nächsten Lektion beschäftigen wir uns mit dem Styling von HTML, um eine bessere Optik zu erzielen.
-
-### Ziel der Aufgabe
-
-Den Umgang mit verschiedenen (Rich-Media) HTML-Tags sollte Ihnen jetzt bekannt sein. Das Verlinken von HTML-Dokumenten sollten Sie durch das a-Tag realisieren können.
-Die größte Herausvorderung liegt hier sicher in der Vorbereitung der visuellen Medien (im korrekten Format und sinnvoller Auflösung).
-Folgende mögliche Werkzeuge können Sie bei der Erstellung der visuellen Komponenten für Ihr Portfolio unterstützen:
-
-**Mögliche Werkzeuge für das Zuschneiden/Vorbereiten von Fotos, Grafiken und Illustrationen**
-- [Adobe Photoshop](https://www.adobe.com/de/products/photoshop.html) (*)
-- [Adobe Illustrator](https://www.adobe.com/de/products/illustrator.html) (*)
+Werkzeuge für das Zuschneiden/Vorbereiten von Fotos, Grafiken und Illustrationen:
+- [Adobe Photoshop](https://www.adobe.com/de/products/photoshop.html)
+- [Adobe Illustrator](https://www.adobe.com/de/products/illustrator.html)
 - [Gimp](https://www.gimp.org/) (OpenSource und Kostenlos), vergleichbar mit Adobe Photoshop
 - [Paint.net](https://www.getpaint.net/), vergleichbar mit Gimp
 - [Inkscape](https://inkscape.org/de/) (OpenSource und Kostenlos) (OpenSource), vergleichbar mit Adobe Illustrator
@@ -47,10 +41,8 @@ Folgende mögliche Werkzeuge können Sie bei der Erstellung der visuellen Kompon
 - [Pixlr](https://pixlr.com) (free), WebApp für einfache Bildbearbeitung
 - [Vectr](https://vectr.com) (free), WebApp für einfache Vektorbearbeitung
 
-**Mögliche Werkzeuge für das Zuschneiden/Vorbereiten von Animationen und Videos**
-- [Adobe After Effects](https://www.adobe.com/de/products/aftereffects.html) für Animationen (*)
-- [Adobe Premiere](https://www.adobe.com/de/products/premiere.html) für Videoclips (*)
+Werkzeuge für das Zuschneiden/Vorbereiten von Animationen und Videos:
+- [Adobe After Effects](https://www.adobe.com/de/products/aftereffects.html) für Animationen
+- [Adobe Premiere](https://www.adobe.com/de/products/premiere.html) für Videoclips
 - [Final Cut](https://www.apple.com/de/final-cut-pro/) (Mac only)
 - [Ezgif](https://ezgif.com) (free), WebApp für einfaches Bearbeiten von Bewegtbild (eigentlich für GIFs optimiert, es lassen sich aber auch Videos in verschiedene Endformate konvertieren)
-
-(*) HFU Lizenz aktuell leider nur an den stationären Arbeitsplätzen verfügbar
