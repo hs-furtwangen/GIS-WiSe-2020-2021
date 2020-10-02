@@ -45,7 +45,7 @@ Erstellen Sie eine JSON Datei mit allen Ihren Artikeln. Sie können dies von Han
 
 Lesen Sie nun die einzelnen Artikel, welche vorher in einem Array gespeichert waren aus der neuen JSON Datei aus. 
 
->**Hinweis:** Die `fetch()` Methode funktioniert nur auf Servern. Wenn Sie also wie gewohnt die HTML Datei nur lokal auf Ihrer Maschine in den Browser ziehen, funktioniert `fetch()` nicht. Verwenden Sie eine Live-Server Erweiterung in VSCode (besser) oder laden Sie Ihre Aufgabe für diesen Teil hoch (schlechter) & testen Sie dann.
+>**Hinweis:** Die `fetch()` Methode funktioniert nur auf Servern. Wenn Sie also wie gewohnt die HTML Datei nur lokal auf Ihrer Maschine in den Browser ziehen, funktioniert `fetch()` nicht. Verwenden Sie eine Live-Server Erweiterung in VSCode (besser) oder laden Sie Ihre Aufgabe für diesen Teil hoch (schlechter) und testen Sie dann.
 
 Erzeugen Sie anhand der eingelesenen Daten die Artikel auf Ihrer Webseite.
 
@@ -59,7 +59,7 @@ Legen Sie eine Warenkorb Seite an (falls Sie noch keine haben). Auf der Warenkor
 
 User haben die Mögkichkeit einzelne Artikel zu entfernen. Jeder dynamisch generierte Artikel hat einen "Entfernen/Löschen" Button/Text.
 
-User können ihren gesamten Warenkorb löschen. Hierfür gibt es ebenfalls einen Button, der den localStorage leert & die Artikel aus dem Warenkorb entfernt. 
+User können ihren gesamten Warenkorb löschen. Hierfür gibt es ebenfalls einen Button, der den localStorage leert und die Artikel aus dem Warenkorb entfernt. 
 
 ### Bonusaufgabe (keine Pflicht)
 

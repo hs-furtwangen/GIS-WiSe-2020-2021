@@ -1,6 +1,6 @@
 ## _V_ **3.1** Serveranbindung
 
-In [Aufgabe 7 - Kommunikation](../L07) haben wir die grundsätzlichen Formen der Kommunikation zwischen Asynchron & Synchron angeschaut. Bitte lesen Sie sich den Abschnitt `Kommunikation` erneut durch, um folgenden Abschnitt besser verstehen zu können.
+In [Aufgabe 7 - Kommunikation](../L07) haben wir die grundsätzlichen Formen der Kommunikation zwischen Asynchron und Synchron angeschaut. Bitte lesen Sie sich den Abschnitt `Kommunikation` erneut durch, um folgenden Abschnitt besser verstehen zu können.
 
 ## Formulare
 HTML-Formulare (Forms) bieten bereits gänzlich ohne zusätzliche Programmierung die Möglichkeit, Daten synchron zu verschicken. Hierzu ist es lediglich erforderlich, dem Form-Tag ein `action`- und ein `method`-Attribut anzufügen, sowie im Formular einen Submit-Button zu integrieren. Der `action`-Wert gibt die URL an, an welche die Daten gehen sollen. Die Daten selbst, also die Werte der Formularelemente, werden bei Betätigung des Submit-Buttons automatisch aufbereitet und verschickt. Wie sie verschickt werden, hängt von der gewählten `method` ab.
@@ -157,7 +157,7 @@ Für diese Aufgabe benötigen Sie einen Server. Da Sie zwar zum Entwickeln lokal
 
 >**Nutzen Sie [Heroku](https://www.heroku.com/) (von uns Empfohlen)** 
 
->**Oder nutzen Sie andere Tools wie z. B. die [Studi Cloud](https://bwservices.uni-freiburg.de/)** (komplizierter, unkomfortabler & keine Installationsanleitung, dafür aber völlige Narrenfreiheit auf Ihrem eigenen virtuellen Server und keine Anmeldung auf Drittanbieter Seiten) 
+>**Oder nutzen Sie andere Tools wie z. B. die [Studi Cloud](https://bwservices.uni-freiburg.de/)** (komplizierter, unkomfortabler und keine Installationsanleitung, dafür aber völlige Narrenfreiheit auf Ihrem eigenen virtuellen Server und keine Anmeldung auf Drittanbieter Seiten) 
 
 ## Heroku
 Damit der von Ihnen in dieser Aufgabe entwickelte Client von beliebigen Rechnern aus kommunizieren kann, gilt es, ihn in einem Rechenzentrum unterzubringen. Eine Möglichkeit ist es, einen realen oder virtuellen Rechner anzumieten, ihn selbst zu konfigurieren und die erforderliche Software darauf zu installieren etc. Das erfordert einiges an Spezialwissen und teilweise obliegt auch die Wartung, Erweiterung und Aktualisierung in der Verantwortung des Mieters.

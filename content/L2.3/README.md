@@ -1,4 +1,4 @@
-## _V_ **2.3** DOM Manipulation & Event Handling
+## _V_ **2.3** DOM Manipulation und Event Handling
 
 ### Inhaltsverzeichnis
 
@@ -177,7 +177,7 @@ function a() {
 
 #### DOM Untersuchen:
 
-Sie können das DOM untersuchen & sich dessen Eigenschaften ausgeben lassen: 
+Sie können das DOM untersuchen und sich dessen Eigenschaften ausgeben lassen: 
 
 ##### DOM in Chrome untersuchen: 
 

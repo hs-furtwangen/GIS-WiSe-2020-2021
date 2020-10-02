@@ -37,7 +37,7 @@ Erstellen Sie ein neues Verzeichnis und kopieren Sie die Dateien der letzten Auf
 
 Die Aufgabe baut auf der Shop Aufgabe der letzten 2 Wochen auf. 
 
->**Empfehlung:** Sorgen Sie dafür, dass es nur 1 Shopseite mit allen Artikeln gibt, da Sie andernfalls auf allen Seiten auf denen Produkte angezeigt werden die Kriterien der Aufgabe 1 & Aufgabe 2 erfüllen müssen. 
+>**Empfehlung:** Sorgen Sie dafür, dass es nur 1 Shopseite mit allen Artikeln gibt, da Sie andernfalls auf allen Seiten auf denen Produkte angezeigt werden die Kriterien der Aufgabe 1 und Aufgabe 2 erfüllen müssen. 
 
 Ziel der Praktikumsaufgabe ist es mithilfe von Events den Usern Ihres Shops eine bessere Interaktion mit der Website zu ermöglichen.
 

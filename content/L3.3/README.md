@@ -5,7 +5,7 @@
 
 # Datenbanken
 
-Ein Server hält seine Daten grundsätzlich nur so lange vor, wie er läuft. Sobald er heruntergefahren wird (oder abstürzt), gehen die im Arbeitsspeicher & Variablen gespeicherten Daten verloren. Nun könnte man natürlich für jeden zu speichernden Datensatz (wie z.B eine Bestellung in unserem onlineshop) eine Datei anlegen (z. B. JSON), oder alle Daten irgendwie in einer großen Datei sammeln, allerdings sollten diese Daten ja auch schnell manipulierbar, durchsuchbar, analysierbar und vieles mehr sein. Schließlich sollten auch alte Bestellungen irgendwann gelöscht, alle Bestellungen eines bestimmten Kunden herausgesucht oder oder zur Optimierung des Angebots die Häufigkeit der Bestellung einer bestimmten Artikel-Kombination ermittelt werden können. Für all dies müssten wieder entsprechende Algorithmen und Datenstrukturen konzipiert implementiert werden. Da solche Anforderungen bei der Entwicklung interaktiver Anwendungen aber sehr häufig auftreten und oft ähnlich sind, gibt es bereits Standardsoftware, welche Daten speichert, verwaltet und auswertet: Datenbanksysteme!  
+Ein Server hält seine Daten grundsätzlich nur so lange vor, wie er läuft. Sobald er heruntergefahren wird (oder abstürzt), gehen die im Arbeitsspeicher und Variablen gespeicherten Daten verloren. Nun könnte man natürlich für jeden zu speichernden Datensatz (wie z.B eine Bestellung in unserem onlineshop) eine Datei anlegen (z. B. JSON), oder alle Daten irgendwie in einer großen Datei sammeln, allerdings sollten diese Daten ja auch schnell manipulierbar, durchsuchbar, analysierbar und vieles mehr sein. Schließlich sollten auch alte Bestellungen irgendwann gelöscht, alle Bestellungen eines bestimmten Kunden herausgesucht oder oder zur Optimierung des Angebots die Häufigkeit der Bestellung einer bestimmten Artikel-Kombination ermittelt werden können. Für all dies müssten wieder entsprechende Algorithmen und Datenstrukturen konzipiert implementiert werden. Da solche Anforderungen bei der Entwicklung interaktiver Anwendungen aber sehr häufig auftreten und oft ähnlich sind, gibt es bereits Standardsoftware, welche Daten speichert, verwaltet und auswertet: Datenbanksysteme!  
 
 ## Relationale Datenbanken
 Seit den 1970er Jahren dominieren relationale Datenbanken, bei denen die Daten in Tabellenstrukturen untergebracht werden und durch Querverweise ein Netz von Tabellen aufgespannt wird, den IT Bereich. Mit der Structured-Query-Language (SQL) wurde eine Abfragesprache entwickelt, mit der komplexe Anweisungen formuliert werden können, welche eine jeweilige Datenbanksoftware dann selbständig ausführt um Daten aus dem Bestand zu liefern oder zu manipulieren. Heute ist insbesondere die Open-Source-Datenbanksoftware MySQL sehr weit im Internet verbreitet.
@@ -135,7 +135,7 @@ Nachdem Sie diese Übungen erfolgreich abgeschlossen haben, können Sie nicht nu
 ## Online Service - Eigenes Mongo DB Cluster anlegen
 Die Datenbank auf dem Entwicklungsrechner ist natürlich nur zum Testen da, von Außen hat niemand darauf Zugriff. Die Bestellungen sollen aber in einer Datenbank gespeichert werden, die ständig und von überall aus erreichbar ist. MongoDB bietet mit Atlas ein eigenes Serviceangebot hierfür.
 
-- Neuen Account & Cluster anlegen
+- Neuen Account und Cluster anlegen
   - Rufen Sie https://www.mongodb.com/ auf
   - Klicken Sie auf `Start Free` (mitte des Screens)
   - Melden Sie sich mit Namen und Mailadresse an
