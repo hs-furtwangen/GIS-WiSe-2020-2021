@@ -58,7 +58,7 @@ Kurze Einleitung in das 1. Kapitel des Praktikums.
 ~~Hier sollte die Gesamtaufgabe kurz beschrieben werden.
 Verweis auf die Etappen, die unten den einzelnen Praktikumsterminen zugeordnet sind.~~
 
-*[Abgabe zum 1. November 2020](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/1)*
+*[Abgabe zum 1. November 2020 als Kommentar in diesem Issue.](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/1)*
 
 ---
 
@@ -78,7 +78,7 @@ In diesem zweiten großen Abschnitt des Praktikums werden wir uns ganz dem Einst
 - Schleifen
 
 *[Vorlesungsmaterialien zum **4. November**](L2.1)*
-*[Praktikumsaufgabe zum **6. November**](P2.2)*
+*[Praktikumsaufgabe zum **6. November**](P2.1)*
 
 ---
 
@@ -87,8 +87,7 @@ In diesem zweiten großen Abschnitt des Praktikums werden wir uns ganz dem Einst
 - Vorgehensweisen und best practices
 - Arrays
 - Interfaces
-- Javascript Objekte
-- weiterführende Konzepte
+- Objekte
 - Canvas
 
 *[Vorlesungsmaterialien zum **11. November**](L2.2)*
@@ -96,23 +95,23 @@ In diesem zweiten großen Abschnitt des Praktikums werden wir uns ganz dem Einst
 
 ---
 
-## **2.3** Event Handling
+## **2.3** DOM Manipulation & Eventhandling
 
+- DOM Klassenhierarchie  
+- DOM Manipulation
 - Events
 - Event Handling
 - Event Listener
-- DOM Klassenhierarchie  
 
 *[Vorlesungsmaterialien zum **18. November**](L2.3)*
 *[Praktikumsaufgabe zum **20. November**](P2.3)*
 
 ---
 
-## **2.4** ???
+## **2.4** JSON & Local Storage
 
-- ???
-- ???
-- ???
+- JSON
+- Local Storage / Cookies
 
 *[Vorlesungsmaterialien zum **25. November**](L2.4)*
 *[Praktikumsaufgabe zum **27. November**](P2.4)*
@@ -121,9 +120,9 @@ In diesem zweiten großen Abschnitt des Praktikums werden wir uns ganz dem Einst
 
 ## **2.5** JSON, Local Storage & Kommunikation
 
-- JSON -> Daten laden und speichern
-- Local Storage -> Daten laden und speichern
-- Kommunikation -> Anfragen, fetch, async/await 
+- fetch
+- Promise
+- async / await
 
 *[Vorlesungsmaterialien zum **2. Dezember**](L2.5)*
 *[Praktikumsaufgabe zum **4. Dezember**](P2.5)* 
@@ -132,12 +131,9 @@ In diesem zweiten großen Abschnitt des Praktikums werden wir uns ganz dem Einst
 
 ## **A|2** Praktikumsabgabe zum Kapitel 2
 
-Hier sollte die Gesamtaufgabe kurz beschrieben werden.
-Verweis auf die Etappen, die unten den einzelnen Proaktikumsterminen zugeordnet sind.
+In diesem Kapitel soll nach anfänglichen Einstiegsaufgaben eine Webseite umgesetzt werden, welche dem Nutzer erlaubt, (mindestens) drei verschidene Elemente eines großen Ganzen (z.B. Rakete, Eis, Planet, Topfpflanze) aus jeweils drei (oder mehr) Möglichkeiten auf einer jeweils eigenen Unterseite zusammen zu stellen und das Gesamtergebnis auf einer letzten Seite grafisch Präsentiert zu bekommen. Dabei werden die Auswahlmöglichkeiten aus externem JSON geladen, der Status der Auswahl über Cookies / Local Storage gespeichert und das Gesamtergebnis an einen Server übermittelt.
 
-*[Abgabe zum 6. Dezember 2020](xxxx://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/2)*
-
-Wie? Wo?
+*[Abgabe zum 6. Dezember 2020 als Kommentar in diesem Issue.](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/2)*
 
 ---
 
@@ -194,6 +190,6 @@ Wie? Wo?
 Hier sollte die Gesamtaufgabe kurz beschrieben werden.
 Verweis auf die Etappen, die unten den einzelnen Proaktikumsterminen zugeordnet sind.
 
-*[Abgabe zum 24. Januar 2021](xxxx://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/3)*
+*[Abgabe zum 24. Januar 2021 als Kommentar in diesem Issue.](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/3)*
 
 ---
