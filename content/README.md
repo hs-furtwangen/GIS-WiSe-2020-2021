@@ -66,6 +66,8 @@ Verweis auf die Etappen, die unten den einzelnen Praktikumsterminen zugeordnet s
 
 In diesem zweiten großen Abschnitt des Praktikums werden wir uns ganz dem Einstieg und der Entwicklung mit Typescript widmen.
 
+---
+
 ## **2.1** Einstieg JavaScript und TypeScript
 
 - Arbeitsumgebung
@@ -140,6 +142,8 @@ Wie? Wo?
 ---
 
 # **3** Server & Datenbanken
+
+---
 
 ## **3.1** Serveranbindung
 
