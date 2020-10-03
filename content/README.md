@@ -146,7 +146,6 @@ Der aktuelle Status der Auswahl wird über Local Storage (oder Cookies) gespeich
 
 ⚠ **Achtung: dieses Kapitel enthält im wesentlichen noch Materialien aus dem letzten Semester, die sich noch ändern werden. Die entgültigen Lehrinhalte werden hier bis spätestens Mitte November 2020 vollständig veröffentlicht!** ⚠
 
-
 ---
 
 ## **3.1** Serveranbindung
