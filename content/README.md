@@ -26,7 +26,7 @@ Zunächst geht es in der Einführung allerdings darum eine funktionsfähige Arbe
 - Browser und Web Inspector
 
 *[**V** **1.2** **14. Oktober** (Vorlesungsmaterialien)](L1.2)*
-*[**P** **1.2** **9. Oktober** (Praktikumsaufgabe)](P1.2)*
+*[**P** **1.2** **16. Oktober** (Praktikumsaufgabe)](P1.2)*
 
 ---
 
