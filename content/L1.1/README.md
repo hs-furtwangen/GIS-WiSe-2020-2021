@@ -61,6 +61,15 @@
 
 ---
 
+### HTML Bilder und Verweise
+
+_Hier gibt es kein Video, stattdessen den ausführlichen Foliensatz zum selbst erarbeiten._
+<embed src="https://scheuerle.net/lehre/gis/scripts/01_GIS-EIA1-3-HTML-Bilder-Verweise.pdf" type="application/pdf" width="100%" height = "400px"/>
+
+*[Folien zum herunterladen](https://scheuerle.net/lehre/gis/scripts/01_GIS-EIA1-3-HTML-Bilder-Verweise.pdf){:target="_blank"}*
+
+---
+
 ## **?!** Fragen und Antworten
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)

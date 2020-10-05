@@ -10,8 +10,8 @@ Zunächst geht es in der Einführung allerdings darum eine funktionsfähige Arbe
 
 - Einführung in die Thematik
 - Vorbereitung / Tools
-- Ablauf Vorlesung und Praktikum
 - HTML Basics
+- HTML Bilder und Verweise
 
 *[**V** **1.1** **7. Oktober** (Vorlesungsmaterialien)](L1.1)*
 *[**P** **1.1** **9. Oktober** (Praktikumsaufgabe)](P1.1)*
@@ -20,7 +20,6 @@ Zunächst geht es in der Einführung allerdings darum eine funktionsfähige Arbe
 
 ## **1.2** HTML Elemente
 
-- HTML Bilder und Verweise
 – HTML Audio und Video
 - HTML Struktur
 - Browser und Web Inspector
