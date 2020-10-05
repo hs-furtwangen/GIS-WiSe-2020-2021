@@ -12,5 +12,5 @@ In dieser Aufgabe erweitern Sie wiederum Ihre Portofolie-Webseite aus der [vorhe
   - verwenden Sie passendes Flussverhalten – bevorzugt *Flexible Box* (*flexbox*) oder *Grid Layout*.
   - stellen Sie außerdem natürlich sicher, dass das Hauptmenü und der Header allgemein auf allen Bildschirmgrößen gut verwendbar ist (implementieren Sie ggf. ein *Burger-Menu*)
 
-Wir empfehlen Ihnen Ihre Seite so zu entwickeln, dass entweder Mobil oder Desktop die Standardansicht sind, und Sie die relevanten Auszeichnungen für die anderen beiden Ansichten überschreiben. 
-In vielen Browsern können Sie automatisch verschiedene Bildschirmgrößen testen.
+Wir empfehlen Ihnen Ihre Seite so zu entwickeln, dass entweder Mobil oder Desktop die Standardansicht sind, und Sie die relevanten Auszeichnungen für die anderen beiden Ansichten überschreiben. _Nochmal zur Erinnerung: Wer Code kopiert, macht irgendetwas falsch._  
+In vielen Browsern können Sie automatisch verschiedene Bildschirmgrößen testen. Schauen Sie in den Entwicklertools nach.

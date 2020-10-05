@@ -22,8 +22,8 @@ Wenn Sie möchten können Sie natürlich weitere Unterseiten erstellen.
 (*) Beachten Sie für die HTML Seiten folgende Details:
 - verwenden Sie jeweils die [grundlegende HTML5 Seitenstruktur](https://www.w3schools.com/tags/tag_doctype.asp)
 - zusätzlich zu den gundlegenden HTML-Elementen (_html_, _head_, _body_) *mindestens* 12 verschiedene Elemente (_h_, _a_, _p_, _div_, _li_, _img_, _audio_, _video_, etc.)
-– arbeiten sie *mindestens* 3 Dateien verschiedenen Typs (z.B. Bilder, Videos, Audio, PDF, 3D-Modell, GIF, etc.) in ihre Seiten ein, die keine Weblinks sind, sondern sich im Aufgabenordner neben den HTML-Dokumenten befinden
-– verlinken Sie die HTML-Seiten miteinander um eine rudimentäre Navigation zwischen den Seiten zu ermöglichen
+- arbeiten sie *mindestens* 3 Dateien verschiedenen Typs (z.B. Bilder, Videos, Audio, PDF, 3D-Modell, GIF, etc.) in ihre Seiten ein, die keine Weblinks sind, sondern sich im Aufgabenordner neben den HTML-Dokumenten befinden
+- verlinken Sie die HTML-Seiten miteinander um eine rudimentäre Navigation zwischen den Seiten zu ermöglichen
 - bauen Sie Ihre Seiten ausschließlich auf gültigem HTML5 auf und prüfen Sie diese mit dem [W3 HTML Validierer](https://validator.w3.org/#validate_by_upload)
 
 ### Zusätzliche Werkzeuge
