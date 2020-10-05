@@ -8,7 +8,7 @@
     <a href="https://scheuerle.net/lehre/gis/videos/02_GIS-EIA1-HTML-AV.mp4">Zum Video</a>
 </video>
 
-*[Folien zum herunterladen](https://scheuerle.net/lehre/gis/scripts/02_GIS-EIA1-HTML-AV.pdf){:target="_blank"}*
+*[Folien zum Herunterladen](https://scheuerle.net/lehre/gis/scripts/02_GIS-EIA1-HTML-AV.pdf){:target="_blank"}*
 
 ---
 
