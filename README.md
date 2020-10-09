@@ -28,10 +28,12 @@ Alle Online Termine (Q&A und Praktikum) werden über *alfaview&reg;* abgehalten.
 Folgende wöchentlichen Termine sind vorgesehen (mit Links zum Betreten der Online-Räume):  
 - Q&A-Termine zur Vorlesung: Mi, 1. Block (7:45 Uhr) → [Online-Raum DM-03](https://rooms.hs-furtwangen.de/rooms/dm03)
 - Praktikumstermine
-  - OMB A: Fr, 2. Block, Andreas Reich → [Online-Raum DM-09](https://rooms.hs-furtwangen.de/rooms/dm09)
-  - MIB A: Fr, 2. Block, Lukas Scheuerle → [Online-Raum DM-15](https://rooms.hs-furtwangen.de/rooms/dm15)
-  - OMB B: Fr, 3. Block, Lukas Scheuerle → [Online-Raum DM-15](https://rooms.hs-furtwangen.de/rooms/dm15)
-  - MIB B: Fr, 3. Block, Andreas Reich → [Online-Raum DM-09](https://rooms.hs-furtwangen.de/rooms/dm09)
+  - OMB A: Fr, 1. Block, Andreas Reich → [Online-Raum DM-09](https://rooms.hs-furtwangen.de/rooms/dm09)
+  - MIB A: Fr, 1. Block, Lukas Scheuerle → [Online-Raum DM-15](https://rooms.hs-furtwangen.de/rooms/dm15)
+  - OMB B: Fr, 2. Block, Lukas Scheuerle → [Online-Raum DM-15](https://rooms.hs-furtwangen.de/rooms/dm15)
+  - MIB B: Fr, 2. Block, Andreas Reich → [Online-Raum DM-09](https://rooms.hs-furtwangen.de/rooms/dm09)
+
+⚠ **Sollten die Praktikas nicht übermäßig besucht sein, so dass weniger als 50 Personen daran teilnehmen, finden diese gemeinsam in Raum 15 statt!** ⚠
 
 ---
 
