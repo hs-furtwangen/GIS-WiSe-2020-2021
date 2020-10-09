@@ -2,22 +2,13 @@
 
 ---
 
-### HTML Bilder und Verweise
-
-_Hier gibt es kein Video, stattdessen den ausführlichen Foliensatz zum selbst erarbeiten._
-<embed src="https://scheuerle.net/lehre/gis/scripts/01_GIS-EIA1-3-HTML-Bilder-Verweise.pdf" type="application/pdf" width="100%" height = "400px"/>
-
-*[Folien zum herunterladen](https://scheuerle.net/lehre/gis/scripts/01_GIS-EIA1-3-HTML-Bilder-Verweise.pdf){:target="_blank"}*
-
----
-
 ### HTML Audio und Video
 <video controls width="100%"> 
     <source src="https://scheuerle.net/lehre/gis/videos/02_GIS-EIA1-HTML-AV.mp4" type="video/mp4"> 
     <a href="https://scheuerle.net/lehre/gis/videos/02_GIS-EIA1-HTML-AV.mp4">Zum Video</a>
 </video>
 
-*[Folien zum herunterladen](https://scheuerle.net/lehre/gis/scripts/02_GIS-EIA1-HTML-AV.pdf){:target="_blank"}*
+*[Folien zum Herunterladen](https://scheuerle.net/lehre/gis/scripts/02_GIS-EIA1-HTML-AV.pdf){:target="_blank"}*
 
 ---
 

@@ -18,7 +18,7 @@ Eine CSS-Anweisung besteht immer aus einem Selektor und der Deklaration, die aus
 **Links im Video**
 
 Übersicht von sämtlichen aktuellen CSS-Anweisungen mit Beispielen git es hier:
-<a href="https://www.w3schools.com/css/">https://www.w3schools.com/css/</a>
+*[https://www.w3schools.com/css/](https://www.w3schools.com/css/)*
 
 ---
 
@@ -83,7 +83,7 @@ Der Browser arbeitet mit verschiedenen Maßeinheiten, für den Anfang genügt da
 * Eigenschaften werden von Eltern- an Kinderelemente vererbt, können aber auch überschrieben werden.
 * Das CSS-Box-Model beschreibt verschiedene Abstandsmaße für Elemente.
 
-[CSS Cheatsheet](https://gabriel-rausch.github.io/EIA1-SoSe20/L03/Cheatsheet_CSS.pdf)
+*[CSS Cheatsheet zum Herunterladen](./Cheatsheet_CSS.pdf)*
 
 ---
 
