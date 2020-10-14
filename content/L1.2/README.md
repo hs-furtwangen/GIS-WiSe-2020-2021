@@ -38,4 +38,13 @@
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
 
-Zusammenfassung von: [&lt;Hier Name Eintragen&gt;](https://github.com/)
+Zusammenfassung von: [&lt;TawsTm&gt;](https://github.com/TawsTm)
+
+### Mein Bild wird nicht angezeigt, was kann ich tun?
+Mögliche Fehler sind: 1. Ich habe einen absoluten und keinen relativen Pfad verwendet (Server brauchen relative Pfade um Dateien laden zu können). 2. Das Bild ist im Pfad nicht so genannt wie es auch im Ordner heißt. Stichwort Case-Sensititvity (Groß-Kleinschreibung). 3. Dateinamenerweiterungen doppelt geschrieben. Lassen Sie sich ihren Bildtyp durch Dateinamenerweiterungen anzeigen.
+
+### Ist es möglich den Betreuern vor der Abgabe unsere Website zu zeigen?
+Die Praktikas sind ein guter Zeitpunkt um seine Webseite zu zeigen. Ein kleines Feedback bekommt ihr immer.
+
+### Wenn ich nicht 100% bei der Abgabe habe bin ich durchgefallen?
+Wir sind keine Unmenschen! Es fällt niemand durch, der sich auch offensichtlich Mühe gegeben hat und seine Aufgaben Wochenweise pflichtbewusst gemacht hat. Wenn ihr Probleme habt, dann meldet euch bitte frühzeitig.
