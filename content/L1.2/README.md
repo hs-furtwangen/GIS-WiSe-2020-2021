@@ -18,6 +18,8 @@
     <a href="https://scheuerle.net/lehre/gis/videos/02_HTML_Weiterführend.mp4">Zum Video</a>
 </video>
 
+*[Folien zum Herunterladen](https://scheuerle.net/lehre/gis/scripts/02_HTML_Weiterführend.pdf){:target="_blank"}*
+
 - [Elemente Übersicht](https://wiki.selfhtml.org/extensions/Selfhtml/example.php/Beispiel:HTML-Kategorien.html)
 - [W3C Validierer](http://validator.w3.org/)
 - [Elemente Liste](https://developer.mozilla.org/de/docs/Web/HTML/HTML5/HTML5_element_list)
@@ -29,6 +31,8 @@
     <source src="https://scheuerle.net/lehre/gis/videos/02_Inspektor_Browserunterschiede.mp4" type="video/mp4"> 
     <a href="https://scheuerle.net/lehre/gis/videos/02_Inspektor_Browserunterschiede.mp4">Zum Video</a>
 </video>
+
+*[Folien zum Herunterladen](https://scheuerle.net/lehre/gis/scripts/02_Browserunterschiede.pdf){:target="_blank"}*
 
 - [Link zur *caniuse* Webseite](https://caniuse.com)
 
