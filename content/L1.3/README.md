@@ -91,4 +91,13 @@ Der Browser arbeitet mit verschiedenen Maßeinheiten, für den Anfang genügt da
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
 
-Zusammenfassung von: [&lt;Name des Autors&gt;](https://github.com/link)
+Zusammenfassung von: [&lt;TawsTm&gt;](https://github.com/TawsTm)
+
+### Mein Inhalt ist nicht zentriert. Wie geht das?
+Die Möglichkeiten in CSS Dinge zu zentrieren sind sozusagen endlos. Es gibt Standard-Ansätze wenn man z.B. Text zentrieren möchte (text-align: center). Aber an sich ist es ihnen überlassen wie Sie ihre Inhalte zentrieren. Einige Beispiele wären: “margin: 0 auto” oder ein flexbox-System mit “justify-content: center” bzw. “align-items: center”.
+
+### Was bedeutet die 800px Beschränkung in der Aufgabe?
+Der Seiteninhalt soll eine maximale Breite von 800px im Browser einnehmen.
+
+### Muss ich meine CSS-Datei immer abspeichern um Veränderungen im Browser zu sehen?
+Sie können für das testen von verschiedenen Properties die Entwicklertools ihres Browsers unter dem Tab Elements nutzen. Dort können Sie Veränderungen der CSS Properties direkt einsehen. Vergessen Sie aber nicht bei einer gefundenen Lösung auch ihre Datei dementsprechend anzupassen.
