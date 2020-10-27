@@ -58,7 +58,7 @@ Zunächst geht es in der Einführung allerdings darum eine funktionsfähige Arbe
 
 Die Praktikumsabgabe zu diesem Kapitel ist eine wohlgestaltete Portofolio-Webseite mit, der Sie sich präsentieren und die sich aus mehreren HTML-Documenten sowie einer oder mehrerer CSS-Dateien zusammensetzt (ohne JS). Die zu beachtenen Details finden Sie in den Teilaufgaben [P 1.2](P1.2), [P 1.3](P1.3), [P 1.4](P1.4) mit (*) gekennzeichnet.
 
-*[Abgabe zum 1. November 2020 (als Kommentar in dem hier verlinkten Issue)](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/1)*
+*[Abgabe zum 1. November 2020 (im Felix Kurs GIS WS20/21)](https://felix.hs-furtwangen.de/)*
 
 ---
 
@@ -137,7 +137,7 @@ Auf einer weiteren Seite wird das Gesamtbild als eine Kombination der ausgewähl
 Die Auswahlmöglichkeiten sollen aus einer JSON-Datei geladen werden.
 Der aktuelle Status der Auswahl wird über Local Storage (oder Cookies) gespeichert und die schließlich ausgewählte Kombination der Varianten an einen Server übermittelt.
 
-*[Abgabe zum 6. Dezember 2020 (als Kommentar in dem hier verlinkten Issue)](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/2)*
+*[Abgabe zum 6. Dezember 2020 (im Felix Kurs GIS WS20/21)](https://felix.hs-furtwangen.de/)*
 
 ---
 
@@ -201,6 +201,6 @@ Erstellen Sie einen Button auf einer verlinkten Unterseite, der eine Anfrage an 
 
 Erstellen Sie eine weitere Unterseite auf der sich ein Nutzer einloggen kann. Hier wird per Formular die Mail des Nutzers und sein Passwort zum Server geschickt. Der Server überprüft ob es die Kombination aus Passwort und E-Mail gibt und gibt eine entsprechende Nachricht an den Client zurück, der diese dann anzeigt.
 
-*[Abgabe zum 24. Januar 2021 (als Kommentar in dem hier verlinkten Issue)](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/3)*
+*[Abgabe zum 24. Januar 2021 (im Felix Kurs GIS WS20/21)](https://felix.hs-furtwangen.de/)*
 
 ---
