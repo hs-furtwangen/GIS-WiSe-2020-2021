@@ -1,11 +1,10 @@
 ## _P_ **3.3** Datenbanken Grundlagen
 
-<!-- ### Aufgabenteil 1
-Gehen Sie die oben beschriebenen Schritte für eine lokale Mongo Installation durch.
+### Aufgabenteil 1 - Mongo Lokal
+Gehen Sie die im Vorlesungsteil beschriebenen Schritte für eine lokale Mongo Installation durch. Testen Sie lokal ausgiebig um sich mit Mongo vertraut zu machen. Legen Sie collections an, füllen Sie sie mit Dokumenten und löschen Sie sie wieder um ein Gefühl für Mongo zu bekommen.
 
-### Aufgabenteil 2
-Gehen Sie die oben beschreibenen Schritte für den Online Service durch und legen Sie dort eine Datenbank an. Experimentieren Sie auch hier mit Collections und Dokumenten, erstellen, manipulieren und löschen Sie mehrere davon. Kreieren Sie außerdem einen User für diese Datenbank, um darauf zugreifen zu können.
+### Aufgabenteil 2 - Mongo Online
+Gehen Sie die im Vorlesungsteil beschreibenen Schritte für den online Service durch und legen Sie dort eine Datenbank an. Experimentieren Sie auch hier mit Collections und Dokumenten, erstellen, manipulieren und löschen Sie mehrere davon. Kreieren Sie außerdem einen User für diese Datenbank, um darauf zugreifen zu können.
 
-Als Abgabe verlinken Sie auf Ihrem Steckbrief einen Link auf die Web-Anwendung [https://mongodbnetbrowser.herokuapp.com/](https://mongodbnetbrowser.herokuapp.com/) und ergänzen sie diesen um die richtigen GET-Query-Parameter, so dass der Inhalt einer gut gefüllten Collection Ihrer mongodb.net/com-Datenbank beim Anklicken des Links angezeigt wird.
-
->### **Achtung!:** Beachten Sie die [<ins>Coding Style Guidelines</ins>](https://hs-furtwangen.github.io/GIS-WiSe-2020-2021/codingstyle/). Code der diesen Guidelines nicht entpricht wird nicht akzeptiert! Code der W3 Errors oder JS-Errors aufweist wird ebenfalls nicht akzeptiert! Verstöße führen zu einer Ampelstufe 🚦 -->
+### Aufgabenteil 3 - DB Testen
+Erstellen Sie einen Link um Ihre Datenbank zu testen. Der Link soll auf die Web-Anwendung [https://mongodbnetbrowser.herokuapp.com/](https://mongodbnetbrowser.herokuapp.com/) zeigen. Ergänzen sie diesen um die richtigen GET-Query-Parameter, sodass der Inhalt einer gut gefüllten Collection Ihrer mongodb.net/com-Datenbank beim Anklicken des Links angezeigt wird.

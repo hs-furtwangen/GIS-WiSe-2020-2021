@@ -193,8 +193,13 @@ Der aktuelle Status der Auswahl wird über Local Storage (oder Cookies) gespeich
 
 ## **A|3** Praktikumsabgabe zum Kapitel 3
 
-Hier sollte die Gesamtaufgabe kurz beschrieben werden.
-Verweis auf die Etappen, die unten den einzelnen Proaktikumsterminen zugeordnet sind.
+In diesem Kapitel soll das Zusammenspiel zwischen Client, Server und Datenbank gelernt und umgesetzt werden. 
+
+Erstellen sie eine Seite auf der sich Nutzer mit ihren Daten (Name,Nachnahme, E-mail, Adresse etc.) und einem Passwort über ein Formular registrieren können. Über einen Button werden diese Daten an Ihren Heroku-Server geschickt. Dieser prüft ob bereits ein Account mit der angegebenen E-mail Adresse existiert. Falls nein, legt er den neuen User in Ihrer MongoDB ab. Falls ja gibt er eine Antwort an den Client zurück, die dort angezeigt wird, sodass der User weiß, dass die E-Mail bereits belegt ist. 
+
+Erstellen Sie einen Button auf einer verlinkten Unterseite, der eine Anfrage an den Server schickt und alle Namen aller User in der Datenbank dem Client zurückgibt. Dieser zeigt diese dann an. 
+
+Erstellen Sie eine weitere Unterseite auf der sich ein Nutzer einloggen kann. Hier wird per Formular die Mail des Nutzers und sein Passwort zum Server geschickt. Der Server überprüft ob es die Kombination aus Passwort und E-Mail gibt und gibt eine entsprechende Nachricht an den Client zurück, der diese dann anzeigt.
 
 *[Abgabe zum 24. Januar 2021 (als Kommentar in dem hier verlinkten Issue)](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/3)*
 

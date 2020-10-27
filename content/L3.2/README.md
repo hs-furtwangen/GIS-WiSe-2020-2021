@@ -70,7 +70,7 @@ console.log(qdata.monat);
 
 ## Handle Request
 
->**Hinweis** Im Praktikum wurde angesprochen, dass Sie zusätzliche Videoressourcen hilfreich fänden. Folgende Videos von Prof. Jirka Dell'Oro Friedel beschäftigen sich mit dieser Thematik und helfen ein besseres Verständnis für die Serverseitige Verarbeitung von `GET` Anfragen aufzubauen, sind jedoch in dem bestehenden Kontext einer anderen Aufgabe eingebettet.
+>**Hinweis** Im Praktikum letztes Semester wurde angesprochen, dass Sie zusätzliche Videoressourcen hilfreich fänden. Folgende Videos von Prof. Jirka Dell'Oro Friedel beschäftigen sich mit dieser Thematik und helfen ein besseres Verständnis für die Serverseitige Verarbeitung von `GET` Anfragen aufzubauen, sind jedoch in dem bestehenden Kontext einer anderen Aufgabe eingebettet.
 <div align="center"><video controls width="30%"> 
   <source src="http://games.hs-furtwangen.de/EIA2_Video/L06_V3_Implementation_Server1.mp4" type="video/mp4"> 
 <a href="http://games.hs-furtwangen.de/EIA2_Video/L06_V3_Implementation_Server1.mp4"></a>
