@@ -43,9 +43,13 @@ Wie oben bereits erwähnt, besteht die Studienleistung zum Praktikum aus drei gr
 
 Die Abgabe der Aufgabenlösungen erfolgt durch die Bereitstellung eines Links auf den Quellcode in einem Unterordner in Ihrem GitHub Repository und eines Links auf eine lauffähige Anwendung über die dazugehörigen Github Pages (genaue Erklärungen hierzu finden Sie im [Einführungkapitel](content/L1.1)). Die Links zu einer Praktikumsabgage müssen im GitHub Issue des jeweiligen Anschnitts veröffentlicht werden.
 
-*[Abgabe zum Kapitel 1: HTML und CSS](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/1)*
-*[Abgabe zum Kapitel 2: TypeScript](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/2)*
-*[Abgabe zum Kapitel 3: Server und Datenbanken](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues/3)*
+*[Abgabe zum 1. November 2020 Kapitel 1: HTML und CSS (im Felix Kurs GIS WS20/21)](https://felix.hs-furtwangen.de/)*
+
+*[Abgabe zum 6. Dezember 2020 Abgabe zum Kapitel 2: TypeScript (im Felix Kurs GIS WS20/21)](https://felix.hs-furtwangen.de/)*
+
+*[Abgabe zum 24. Januar 2021 Kapitel 3: Server und Datenbanken (im Felix Kurs GIS WS20/21)](https://felix.hs-furtwangen.de/)*
+
+>⚠⚠⚠ **Änderung:** Die Abgaben finden aus Prüfungsrechtlichen Gründen nicht mehr wie angekündigt auf GitHub statt sondern über Felix. Bitte geben Sie auch wenn Sie schon per GitHub Issue abgegeben haben erneut per Felix ab! ⚠⚠⚠
 
 *[Übersicht über den Status der Abgaben](status)*
 
