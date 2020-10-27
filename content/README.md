@@ -60,6 +60,8 @@ Die Praktikumsabgabe zu diesem Kapitel ist eine wohlgestaltete Portofolio-Websei
 
 *[Abgabe zum 1. November 2020 (im Felix Kurs GIS WS20/21)](https://felix.hs-furtwangen.de/)*
 
+>⚠ **Änderung:** Die Abgaben finden aus Prüfungsrechtlichen Gründen nicht mehr wie angekündigt auf GitHub statt sondern über Felix. Bitte geben Sie auch wenn Sie schon per GitHub Issue abgegeben haben erneut per Felix ab! ⚠
+
 ---
 
 # **2** TypeScript
@@ -139,13 +141,11 @@ Der aktuelle Status der Auswahl wird über Local Storage (oder Cookies) gespeich
 
 *[Abgabe zum 6. Dezember 2020 (im Felix Kurs GIS WS20/21)](https://felix.hs-furtwangen.de/)*
 
+>⚠ **Änderung:** Die Abgaben finden aus Prüfungsrechtlichen Gründen nicht mehr wie angekündigt auf GitHub statt sondern über Felix. Bitte geben Sie auch wenn Sie schon per GitHub Issue abgegeben haben erneut per Felix ab! ⚠
+
 ---
 
 # **3** Server und Datenbanken
-
-⚠ **Achtung: dieses Kapitel enthält im wesentlichen noch Materialien aus dem letzten Semester, die sich noch ändern werden. Die entgültigen Lehrinhalte werden hier bis spätestens Mitte November 2020 vollständig veröffentlicht!** ⚠
-
----
 
 ## **3.1** Serveranbindung
 
