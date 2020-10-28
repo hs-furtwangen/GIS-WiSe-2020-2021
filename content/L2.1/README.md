@@ -48,6 +48,7 @@ _Laden Sie die .js.map Dateien und selbstverständlich auch die .ts Dateien mit 
 **Terminal Befehle**
 - `npm -v`
 - `npm i -g typescript`
+  - falls Sie auf Mac oder Linux sind, müssen Sie eventuell `sudo` vor diesen und den nächsten Befehl schreiben. Dies führt die Befehle mit Administratorrechten aus.
 - `npm i -g tslint`
 - `tsc --version`
   - falls es dabei in Powershell Probleme gibt, Powershell als Administrator ausführen, den folgenden Befehl ausführen und mit J/Y bestätigen.  
