@@ -28,10 +28,10 @@ Alle Online Termine (Q&A und Praktikum) werden über *alfaview&reg;* abgehalten.
 Folgende wöchentlichen Termine sind vorgesehen (mit Links zum Betreten der Online-Räume):  
 - Q&A-Termine zur Vorlesung: Mi, 1. Block (7:45 Uhr) → [Online-Raum DM-03](https://rooms.hs-furtwangen.de/rooms/dm03)
 - Praktikumstermine
-  - OMB A: Fr, 1. Block, Andreas Reich → [Online-Raum DM-09](https://rooms.hs-furtwangen.de/rooms/dm09)
-  - MIB A: Fr, 1. Block, Lukas Scheuerle → [Online-Raum DM-15](https://rooms.hs-furtwangen.de/rooms/dm15)
-  - OMB B: Fr, 2. Block, Lukas Scheuerle → [Online-Raum DM-15](https://rooms.hs-furtwangen.de/rooms/dm15)
-  - MIB B: Fr, 2. Block, Andreas Reich → [Online-Raum DM-09](https://rooms.hs-furtwangen.de/rooms/dm09)
+  - OMB A: Fr, 1. Block, Andreas Reich → [Online-Raum DM-09](https://rooms.hs-furtwangen.de/rooms/dm09){:target="_blank"}
+  - MIB A: Fr, 1. Block, Lukas Scheuerle → [Online-Raum DM-15](https://rooms.hs-furtwangen.de/rooms/dm15){:target="_blank"}
+  - OMB B: Fr, 2. Block, Lukas Scheuerle → [Online-Raum DM-15](https://rooms.hs-furtwangen.de/rooms/dm15){:target="_blank"}
+  - MIB B: Fr, 2. Block, Andreas Reich → [Online-Raum DM-09](https://rooms.hs-furtwangen.de/rooms/dm09){:target="_blank"}
 
 ⚠ **Sollten die Praktikas nicht übermäßig besucht sein, so dass weniger als 50 Personen daran teilnehmen, finden diese gemeinsam in Raum 15 statt!** ⚠
 
@@ -41,17 +41,11 @@ Folgende wöchentlichen Termine sind vorgesehen (mit Links zum Betreten der Onli
 
 Wie oben bereits erwähnt, besteht die Studienleistung zum Praktikum aus drei größeren Abgaben zu Aufgaben, die jeweils ein Kapitel abschließen. Die Abgaben sind jeweils bis zum Sonntag (23:59 Uhr) am Ende des Abschnitts fällig. Verspätete Abgaben können nicht akzeptiert werden.
 
-Die Abgabe der Aufgabenlösungen erfolgt durch die Bereitstellung eines Links auf den Quellcode in einem Unterordner in Ihrem GitHub Repository und eines Links auf eine lauffähige Anwendung über die dazugehörigen Github Pages (genaue Erklärungen hierzu finden Sie im [Einführungkapitel](content/L1.1)). Die Links zu einer Praktikumsabgage müssen im GitHub Issue des jeweiligen Anschnitts veröffentlicht werden.
+>⚠⚠⚠ **Änderung:** Die Abgaben finden aus Prüfungsrechtlichen Gründen nicht mehr wie angekündigt auf GitHub statt sondern über FELIX. Bitte geben Sie auch wenn Sie schon per GitHub Issue abgegeben haben erneut per FELIX ab! ⚠⚠⚠
 
-*[Abgabe zum 1. November 2020 Kapitel 1: HTML und CSS (im Felix Kurs GIS WS20/21)](https://felix.hs-furtwangen.de/)*
+Publizieren Sie Aufgabenlösungen durch einen Links auf den Quellcode in einem Unterordner Ihres GitHub Repositories sowie einen Links auf eine lauffähige Anwendung über die dazugehörigen Github Pages (genaue Erklärungen hierzu finden Sie im [Einführungkapitel](content/L1.1)).
 
-*[Abgabe zum 6. Dezember 2020 Abgabe zum Kapitel 2: TypeScript (im Felix Kurs GIS WS20/21)](https://felix.hs-furtwangen.de/)*
-
-*[Abgabe zum 24. Januar 2021 Kapitel 3: Server und Datenbanken (im Felix Kurs GIS WS20/21)](https://felix.hs-furtwangen.de/)*
-
->⚠⚠⚠ **Änderung:** Die Abgaben finden aus Prüfungsrechtlichen Gründen nicht mehr wie angekündigt auf GitHub statt sondern über Felix. Bitte geben Sie auch wenn Sie schon per GitHub Issue abgegeben haben erneut per Felix ab! ⚠⚠⚠
-
-*[Übersicht über den Status der Abgaben](status)*
+Die Abgabe der beiden Links erfolgt im FELIX-Kursmodul [**GIS Praktikumsabgaben und Modulprüfung WiSe 2020/2021 (MIB und OMB)**](https://felix.hs-furtwangen.de/auth/RepositoryEntry/3994517970). Bitte beachten Sie dortigen die *Hinweise zum Praktikum*.
 
 ---
 
