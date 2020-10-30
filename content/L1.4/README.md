@@ -107,8 +107,8 @@ Nein! Ihr sollt nur die letzte Aufgabe, dieses mal also Aufgabe 1.4 abgeben. Die
 ### Soll ich die Dateien abgeben oder einen Link bereitstellen?
 Sie können im Felix Text-Editor die zwei Links einfügen und abspeichern. Der erste Link sollte zur HTML-Seite führen und der zweite zu dem Ordner in ihrem Repository, in dem ihr Code liegt.
 
-### Meine h1-Tags sind zu klein, was kann ich tun?
-Um Größen in Schriften zu verändern, werden hauptsächlich rem, em und pt verwendet. Wenn ihr z.B. % verwendet, können nicht vorhersehbare Dinge geschehen.
+### Meine h1-Inhalte sind zu klein, was kann ich tun?
+Um Größen in Schriften zu verändern, werden hauptsächlich rem, em und pt verwendet.
 
 ### Sind Anforderungen mit Sternchen Anforderungen die in der Aufgabe vorhanden sein müssen?
 Alle Lösungen aus den Aufgaben 1.1. - 1.4. sollen in Aufgabe 1.4. zusammen kommen. Das heißt nicht, dass Sie alle Aufgaben einzeln hochladen sollen. Alle Punkte sollten sich in Aufgabe 1.4. wiederfinden.
