@@ -96,4 +96,19 @@ Eigene Bezierkurve zeichnen:
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
 
-Zusammenfassung von: [&lt;Name des Autors&gt;](https://github.com/link)
+Zusammenfassung von: [&lt;TawsTm&gt;](https://github.com/TawsTm)
+
+### Ist die Abgabe immernoch über FELIX?
+Antwort: Abgaben können aus Datenschutz-rechtlichen Gründen nicht über Github, sondern müssen über FELIX getätigt werden. Der Link dazu: <a href="https://felix.hs-furtwangen.de/auth/RepositoryEntry/3994517970">Felix</a>
+
+### Sollen wir alle unsere Aufgaben hochladen?
+Nein! Ihr sollt nur die letzte Aufgabe, dieses mal also Aufgabe 1.4 abgeben. Diese muss aber alle Anforderungen der vorherigen Aufgaben enthalten. Mit hochladen ist hiermit das bereitstellen der Links in Felix gemeint.
+
+### Soll ich die Dateien abgeben oder einen Link bereitstellen?
+Sie können im Felix Text-Editor die zwei Links einfügen und abspeichern. Der erste Link sollte zur HTML-Seite führen und der zweite zu dem Ordner in ihrem Repository, in dem ihr Code liegt.
+
+### Meine h1-Tags sind zu klein, was kann ich tun?
+Um Größen in Schriften zu verändern, werden hauptsächlich rem, em und pt verwendet. Wenn ihr z.B. % verwendet, können nicht vorhersehbare Dinge geschehen.
+
+### Sind Anforderungen mit Sternchen Anforderungen die in der Aufgabe vorhanden sein müssen?
+Alle Lösungen aus den Aufgaben 1.1. - 1.4. sollen in Aufgabe 1.4. zusammen kommen. Das heißt nicht, dass Sie alle Aufgaben einzeln hochladen sollen. Alle Punkte sollten sich in Aufgabe 1.4. wiederfinden.
