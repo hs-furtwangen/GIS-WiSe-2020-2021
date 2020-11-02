@@ -10,6 +10,9 @@
 
 *[Folien zum Herunterladen](https://scheuerle.net/lehre/gis/scripts/02_GIS-EIA1-HTML-AV.pdf){:target="_blank"}*
 
+> **ACHTUNG**: GitHub hat eine Dateigrößenlimitierung von **50MB**. Gerade bei Videos kann diese Größe schnell überschritten werden, wobei GitHub einem dann den Push verweigern wird und es kompliziert ist, das wieder zu reparieren, sobald es einmal commited ist. Sollte Ihnen das passiert sein, melden Sie sich _umgehend_ im Praktikum bei uns, damit wir Ihnen bei der Reperatur behilflich sein können.  
+Vermeiden Sie es darum unbedingt, Dateien mit über 50MB Größe Ihrem Repository hinzuzufügen. Wenn Sie die Datei nicht kleiner komprimiert bekommen, versuchen Sie diese an einem externen Ort hochzuladen und dann von dort zu verlinken.
+
 ---
 
 ### HTML Weiterführend
