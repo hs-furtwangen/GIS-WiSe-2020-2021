@@ -501,7 +501,7 @@ An diesem Beispiel kann man auch sehen, dass Parameter (vom Typ `number`, `strin
 > Funktionen legen bei jedem Aufruf ihren eigenen kleinen lokalen Variablenbereich an, welcher _den Kontext speichert_.
 Dadurch, dass diese Verschachtelung beliebig oft wiederholt werden kann, ist es so möglich mehrere Funktionen so zu verschachteln, dass diese den Kontext speichern, was sehr praktisch sein und viel Arbeit ersparen kann, aber auch schwieriger zu verstehen und anzuwenden ist. ⚠️  
 > 
-> Diese 
+> In folgendem Beispiel wird deutlich, dass die `ingredient()` Funktion auf den Parameter `factor` der umliegenden Funktion zugreifen kann, ohne diesen übergeben bekommen zu müssen. 
 
 ```ts
 function chiliRecipe(factor: number): void {
@@ -521,6 +521,25 @@ function chiliRecipe(factor: number): void {
 }
 
 chiliRecipe(3);
+```
+
+> Dieses letzte Beispiel nutzt viele Ihnen noch unbekannte Konzepte, illustriert aber die Macht dieser Kontextspeicherung. Kommen Sie darum in den nächsten Wochen hierher zurück wenn Sie diese Konzepte in dem späteren Kapiteln gelernt haben. Bis dahin müssen Sie nur wissen, dass mit diesem Code dafür gesorgt wird, dass jeder Button auf der Webseite eine weiter aufsteigende Zahl auf der Konsole ausgibt.
+
+```ts
+// speichert alle Buttons im gesamten HTML Dokument in eine Array ähnliche Struktur
+let buttons: HTMLCollectionOf<HTMLButtonElement> = document.getElementsByTagName("button");
+// die For schleife geht alle buttons einzeln durch
+for (let i: number = 0; i < buttons.length; i++) {
+  // fügt jedem Button einen Eventlistener hinzu, welcher bei einem Klick auf den Button die "sayNumber" Funktion ausführt
+  buttons[i].addEventListener("click", sayNumber);
+
+  // Die sayNumber Funktion ist innerhalb der for Schleife definiert und speichert diesen Kontext.
+  // Dadurch kann sie auf den aktuellen Index i zugreifen, auch lange nachdem der Code durchgelaufen ist.
+  // So gibt jeder Button bei einem Klick seine Position im Array aus
+  function sayNumber(): void {
+    console.log(i);
+  }
+}
 ```
 
 ### Typescript Dokumentation
