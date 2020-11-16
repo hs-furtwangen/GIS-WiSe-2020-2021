@@ -138,7 +138,7 @@ In diesem Kapitel soll nach anfänglichen Einstiegsaufgaben eine Webseite umgese
 Zu jedem der Teile kann auf einer eigenen Unterseite eine von verschiedenen Varianten ausgewählt werden - also eine Seite um den Kopf auszuwählen, eine für den Rumpf und eine für die Beine.
 Auf einer weiteren Seite wird das Gesamtbild als eine Kombination der ausgewählten Varianten grafisch präsentiert.
 Die Auswahlmöglichkeiten sollen aus einer JSON-Datei geladen werden.
-Der aktuelle Status der Auswahl wird über Local Storage (oder Cookies) gespeichert und die schließlich ausgewählte Kombination der Varianten an einen Server übermittelt.
+Der aktuelle Status der Auswahl wird über Local Storage (oder Cookies) gespeichert und die schließlich ausgewählte Kombination der Varianten an einen Server übermittelt und dessen Antwort in geeigneter Form auf der Seite ausgegeben.
 
 #### Abgabe zum 6. Dezember 2020
 *[zur Praktikumsabgabe zum Kapitel 2 (auf FELIX)](){:target="_blank"}*
