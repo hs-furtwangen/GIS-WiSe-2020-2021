@@ -671,7 +671,7 @@ Der Canvas (engl.: Leinwand) ist ein HTML Element, welches es erlaubt auf ihm zu
 So kann dann aus dem Dokument der Canvas wie folgt herausgefunden werden (mehr zu diesen Befehlen in der kommenden Woche):
 
 ```ts
-let canvas: HtmlCanvasElement = <HtmlCanvasElement> document.getElementById("myFirstCanvas");
+let canvas: HTMLCanvasElement = <HTMLCanvasElement> document.getElementById("myFirstCanvas");
 ```
 
 Der Canvas stellt einen [CanvasRenderingContext2D](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D) zur Verfügung, auf welchem die Zeichenoperationen ausgeführt werden können.
