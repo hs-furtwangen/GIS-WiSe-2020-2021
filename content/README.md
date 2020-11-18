@@ -59,9 +59,7 @@ Zunächst geht es in der Einführung allerdings darum eine funktionsfähige Arbe
 Die Praktikumsabgabe zu diesem Kapitel ist eine wohlgestaltete Portofolio-Webseite mit, der Sie sich präsentieren und die sich aus mehreren HTML-Documenten sowie einer oder mehrerer CSS-Dateien zusammensetzt (ohne JS). Die zu beachtenen Details finden Sie in den Teilaufgaben [P 1.2](P1.2), [P 1.3](P1.3), [P 1.4](P1.4) mit (*) gekennzeichnet.
 
 #### Abgabe zum 1. November 2020
-*[zur Praktikumsabgabe zum Kapitel 2 (auf FELIX)](https://felix.hs-furtwangen.de/auth/RepositoryEntry/3994517970/CourseNode/102499789173212){:target="_blank"}*
-
->⚠ **Änderung:** Die Abgaben finden aus Prüfungsrechtlichen Gründen nicht mehr wie angekündigt auf GitHub statt sondern über Felix. Bitte geben Sie auch wenn Sie schon per GitHub Issue abgegeben haben erneut per Felix ab! ⚠
+*[zur Praktikumsabgabe zum Kapitel 1 (auf FELIX)](https://felix.hs-furtwangen.de/auth/RepositoryEntry/3994517970/CourseNode/102499789173212){:target="_blank"}*
 
 ---
 
@@ -141,7 +139,7 @@ Die Auswahlmöglichkeiten sollen aus einer JSON-Datei geladen werden.
 Der aktuelle Status der Auswahl wird über Local Storage (oder Cookies) gespeichert und die schließlich ausgewählte Kombination der Varianten an einen Server übermittelt und dessen Antwort in geeigneter Form auf der Seite ausgegeben.
 
 #### Abgabe zum 6. Dezember 2020
-*[zur Praktikumsabgabe zum Kapitel 2 (auf FELIX)](){:target="_blank"}*
+*[zur Praktikumsabgabe zum Kapitel 2 (auf FELIX)](https://felix.hs-furtwangen.de/url/RepositoryEntry/3994517970/CourseNode/102761918774206){:target="_blank"}*
 
 ---
 
@@ -202,6 +200,6 @@ Erstellen Sie einen Button auf einer verlinkten Unterseite, der eine Anfrage an 
 Erstellen Sie eine weitere Unterseite auf der sich ein Nutzer einloggen kann. Hier wird per Formular die Mail des Nutzers und sein Passwort zum Server geschickt. Der Server überprüft ob es die Kombination aus Passwort und E-Mail gibt und gibt eine entsprechende Nachricht an den Client zurück, der diese dann anzeigt.
 
 #### Abgabe zum 24. Januar 2021
-*[zur Praktikumsabgabe zum Kapitel 3 (auf FELIX)](){:target="_blank"}*
+*[zur Praktikumsabgabe zum Kapitel 3 (auf FELIX)](https://felix.hs-furtwangen.de/url/RepositoryEntry/3994517970/CourseNode/102761918835934){:target="_blank"}*
 
 ---

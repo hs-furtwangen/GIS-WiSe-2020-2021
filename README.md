@@ -45,7 +45,7 @@ Wie oben bereits erwähnt, besteht die Studienleistung zum Praktikum aus drei gr
 
 Publizieren Sie Aufgabenlösungen durch einen Links auf den Quellcode in einem Unterordner Ihres GitHub Repositories sowie einen Links auf eine lauffähige Anwendung über die dazugehörigen Github Pages (genaue Erklärungen hierzu finden Sie im [Einführungkapitel](content/L1.1)).
 
-Die Abgabe der beiden Links erfolgt im FELIX-Kursmodul [**GIS Praktikumsabgaben und Modulprüfung WiSe 2020/2021 (MIB und OMB)**](https://felix.hs-furtwangen.de/auth/RepositoryEntry/3994517970). Bitte beachten Sie dortigen die *Hinweise zum Praktikum*.
+Die Abgabe der beiden Links erfolgt im FELIX-Kursmodul [**GIS Praktikumsabgaben und Modulprüfung WiSe 2020/2021 (MIB und OMB)**](https://felix.hs-furtwangen.de/auth/RepositoryEntry/3994517970). Bitte beachten Sie dort die *Hinweise zum Praktikum*.
 
 ---
 
