@@ -175,15 +175,15 @@ function a() {
 }
 ```
 
-#### DOM Untersuchen:
+#### DOM Untersuchen
 
 Sie können das DOM untersuchen und sich dessen Eigenschaften ausgeben lassen: 
 
-##### DOM in Chrome untersuchen: 
+##### DOM in Chrome untersuchen
 
 ![Dom in Chrome untersuchen](Chrome_DOM_Properties.PNG)
 
-##### DOM in Firefox untersuchen: 
+##### DOM in Firefox untersuchen
 
 ![DOM in Firefox untersuchen](Firefox_DOM_Properties_1.PNG)
 ![DOM in Firefox untersuchen](Firefox_DOM_Properties_2.png)
