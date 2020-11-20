@@ -133,10 +133,12 @@ In diesem zweiten großen Abschnitt des Praktikums werden wir uns ganz dem Einst
 ## **A|2** Praktikumsabgabe zum Kapitel 2
 
 In diesem Kapitel soll nach anfänglichen Einstiegsaufgaben eine Webseite umgesetzt werden, die dem Nutzer erlaubt – ähnlich wie bei einem Klappbuch – ein Bild aus drei oder mehr verschiedenen Teilen zusammenzusetzen, für die jeweils mehrere Varianten zur Auswahl stehen. Es könnte sich z.B. um das Bild eines Menschen handeln, das sich aus einem Kopf, einem Rumpf und Beinen zusammensetzt, oder auch eines Tiers, einer Rakete oder einer Topfpflanze. 
-Zu jedem der Teile kann auf einer eigenen Unterseite eine von verschiedenen Varianten ausgewählt werden - also eine Seite um den Kopf auszuwählen, eine für den Rumpf und eine für die Beine.
-Auf einer weiteren Seite wird das Gesamtbild als eine Kombination der ausgewählten Varianten grafisch präsentiert.
-Die Auswahlmöglichkeiten sollen aus einer JSON-Datei geladen werden.
-Der aktuelle Status der Auswahl wird über Local Storage (oder Cookies) gespeichert und die schließlich ausgewählte Kombination der Varianten an einen Server übermittelt und dessen Antwort in geeigneter Form auf der Seite ausgegeben.
+Zu jedem der Teile kann auf einer eigenen Unterseite eine von verschiedenen Varianten ausgewählt werden - also z.B. eine Seite um den Kopf auszuwählen, eine für den Rumpf und eine für die Beine.
+Auf einer weiteren Seite wird das Gesamtbild als eine Kombination der ausgewählten Varianten grafisch (z.B. img / canvas) präsentiert. Diese Seite soll nach erfolgter Auswahl angezeigt werden.
+Die Auswahlmöglichkeiten sollen dynamisch aus einer JSON-Datei geladen und auf der Seite angezeigt werden. Außerdem muss die Umsetzung so dynamisch sein, dass bei (geringfügigen) Änderungen in der JSON Datei die Seite sich automatisch beim nächsten Laden anpasst. Die Nutzung passender Interfaces (oder Klassen) ist dabei unverzichtbar.
+Der aktuelle Status der Auswahl wird über Local Storage (oder Cookies) gespeichert und die schließlich ausgewählte Kombination der Varianten an einen Server übermittelt und dessen Antwort in geeigneter, nutzerfreundlicher Form auf der Gesamtbild-Seite ausgegeben.
+
+_Code, der sich nicht an die [Code Guidelines](../codingstyle) Guidelines hält, mit ganz besonderem Augenmerk auf Formatierung, Typisierung und Benennung, ist nicht akzeptabel!_
 
 #### Abgabe zum 6. Dezember 2020
 *[zur Praktikumsabgabe zum Kapitel 2 (auf FELIX)](https://felix.hs-furtwangen.de/url/RepositoryEntry/3994517970/CourseNode/102761918774206){:target="_blank"}*
