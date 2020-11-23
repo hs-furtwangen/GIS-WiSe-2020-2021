@@ -254,6 +254,26 @@ document.addEventListener("click", handleClick);
 Der erste Parameter ist lediglich die Zeichenkette, die den Typ des Ereignisses beschreibt, der zweite eine Referenz zum Handler. Erhält das document-Objekt nun ein Event-Objekt vom Typ "click", wird dieses an die Handler-Funktion `handleClick` weitergeschickt. Das `document`-Objekt horcht also jetzt in das System hinein, es wurde ihm hierfür ein "Ohr" installiert, ein sogenannter Listener.
 >**Achtung:** Ein häufiger Fehler in Javascript ist, statt der Referenz einen Funktionsaufruf zu implementieren, z.B. mit `addEventListener("click", handleClick())`. Die zusätzliche Klammer bewirkt, dass die Funktion bereits bei der Installation aufgerufen wird und deren zurückgeliefertes Ergebnis als Handler-Referenz installiert wird.
 
+Oftmals findet man auch die folgende Schreibweise, gerade wenn man auf ältere Lösungen stößt:
+
+```ts
+window.onload = initPage;
+document.onclick = handleClick;
+element.onclick = handleClick;
+```
+Diese Vorgehensweise ist effektiv das Gleiche wie das Attribut im HTML zu setzen.
+
+```html
+<h1 onclick="myFunction()">Lorem Ipsum</h1>
+```
+
+Diese Vorgehensweise ist aber **veraltet** und sollte darum **nicht mehr verwendet werden!** Sie hat gegenüber der neuen Methodik unter anderem den besonders wichtigen, klaren Nachteil, dass immer nur ein Listener jedem Objekt angeheftet werden kann und wenn ein anderer angehängt wird, wird der alte automatisch weggeworfen.
+
+Wenn Sie in der Situation sind, dass Sie elementabhängige Übergabeparameter an die Funktion übergeben wollen, gibt es zwei schöne Möglichkeiten, dies mit der neuen Syntax zu lösen:
+
+1. Die Daten über `dataset` statt in den Funktionsaufruf direkt aufs HTML Element speichern und dann in der Funktion auslesen, siehe [Daten in DOM Elementen speichern](#daten-in-dom-elementen-speichern).
+2. Sich die Geltungsbereiche bzw den gespeicherten Kontext von JS zunutze machen, indem man die aufzurufende Funktion innerhalb der Kontextes (z.B. innerhalb der for-Schleife welche die Elemente generiert o.ä.) definiert. Komplizierter zu verstehen aber in vielerlei Hinsicht interessanter, auch weil es allgemein sehr mächtig ist. Siehe [Scopes und Geltungsbereiche](../L2.1/#scopes--geltungsbereiche), Abschnitt "Weiterführende Informationen".
+
 ##### Beispiel
 Das Folgende dürfte das wohl primitivste Beispiel sein, dass wir mit dem Eventsystem darstellen können. Eventuell müssen Sie zum Testen dieses Codes das `defer` Attribut des script tags weglassen.
 ```typescript
