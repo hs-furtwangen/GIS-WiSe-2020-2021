@@ -4,7 +4,7 @@
 
 **b)** Ändern Sie die Funktion, welche bisher die JSON Daten eingelesen hat, so um, dass diese zunächst über `fetch` aus dem Internet geladen werden. An diesem Punkt sollte die Seite wieder genauso wie letzte Woche funktionieren.
 
-**c)** Fügen Sie der "Display Seite" (die in der alle ausgewählten Dinge gemeinsam am Ende angezeigt werden) eine Funktion hinzu, welche die Daten, die im Browsercache gespeichert sind, an die URL `gis-communication.herokuapp.com` verschickt und dessen JSON Antwort wohlformatiert auf Ihrer Webseite anzeigt. _Die Antwort auf die erste Anfrage kann unter Umständen bis zu 15 Sekunden dauern, da der Server erst hochfahren muss._
+**c)** Fügen Sie der "Display Seite" (die in der alle ausgewählten Dinge gemeinsam am Ende angezeigt werden) eine Funktion hinzu, welche die Daten, die im Browsercache gespeichert sind, an die URL `https://gis-communication.herokuapp.com` verschickt und dessen JSON Antwort wohlformatiert auf Ihrer Webseite anzeigt. _Die Antwort auf die erste Anfrage kann unter Umständen bis zu 15 Sekunden dauern, da der Server erst hochfahren muss._
 
 Die möglichen Antworten der Seite sind entweder:
 
