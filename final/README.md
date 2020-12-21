@@ -75,7 +75,7 @@ Als *reserviert* registrierte Artikel können über diese Seite in den Status *a
 
 #### Aufgabe B: Twitter für Anfänger
 
-Erstellen Sie ein Twitter-ähnliches Websystem, wo registrierte Nutzer kurze Textbeiträge posten und einsehen können.
+Erstellen Sie ein Twitter-ähnliches Websystem, mit dem registrierte Nutzer kurze Textbeiträge posten und einsehen können.
 Das sehr vereinfachte System stellt mehrere mit CSS wohlgestaltete Webseiten zur Verfügung mit denen Nutzer interagieren können.
 
 Auf der *Login*-Seite können Nutzer ein neues Nutzerkonto anlegen oder sich mit einem bestehenden Konto über die Datenbank einloggen (ein Nutzernahme kann natürlich nur einmal registriert werden).
