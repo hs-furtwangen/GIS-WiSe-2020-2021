@@ -89,7 +89,7 @@ Zu jedem Nutzer in der Liste gibt es einen "Folgen/Entfolgen" Button, mit dem di
 
 Erstellen Sie eine mit CSS wohlgestaltete Webseite mit einem Moorhun-Minigame, dessen Grafik auf dem Canvas-Element beruht.
 
-Vor Beginn des Spiels geben die Nutzer ihren Namen ein, der ggf. in der Anzeige des Highscores benutzt wird (sieh unten).
+Vor Beginn des Spiels geben die Nutzer ihren Namen ein, der ggf. in der Anzeige der Highscores benutzt wird (sieh unten).
 Im Spiel kann der Nutzer in Ego-Perspektive Projektile wie z.B. Schneebälle, Torten, Gemüse oder Kugeln auf vorbeifliegende oder vorbeilaufende Ziele wie Moorhühner oder Schneemänner werfen oder schießen.
 
 Die Ziele bewegen sich in unterschiedlichen Richtungen zufällig über den Bildschirm und sind unterschiedlich groß und unterschiedlich schnell (skalieren Sie die Parameter zufällig zwischen einem minimalen und maximalen Wert).
