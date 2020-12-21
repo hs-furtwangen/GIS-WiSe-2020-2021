@@ -41,8 +41,6 @@ Folgende wöchentlichen Termine sind vorgesehen (mit Links zum Betreten der Onli
 
 Wie oben bereits erwähnt, besteht die Studienleistung zum Praktikum aus drei größeren Abgaben zu Aufgaben, die jeweils ein Kapitel abschließen. Die Abgaben sind jeweils bis zum Sonntag (23:59 Uhr) am Ende des Abschnitts fällig. Verspätete Abgaben können nicht akzeptiert werden.
 
->⚠⚠⚠ **Änderung:** Die Abgaben finden aus Prüfungsrechtlichen Gründen nicht mehr wie angekündigt auf GitHub statt sondern über FELIX. Bitte geben Sie auch wenn Sie schon per GitHub Issue abgegeben haben erneut per FELIX ab! ⚠⚠⚠
-
 Publizieren Sie Aufgabenlösungen durch einen Links auf den Quellcode in einem Unterordner Ihres GitHub Repositories sowie einen Links auf eine lauffähige Anwendung über die dazugehörigen Github Pages (genaue Erklärungen hierzu finden Sie im [Einführungkapitel](content/L1.1)).
 
 Die Abgabe der beiden Links erfolgt im FELIX-Kursmodul [*GIS Praktikumsabgaben und Modulprüfung WiSe 2020/2021 (MIB und OMB)*](https://felix.hs-furtwangen.de/auth/RepositoryEntry/3994517970). Bitte beachten Sie dort die *Hinweise zum Praktikum*.
