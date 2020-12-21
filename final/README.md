@@ -75,17 +75,32 @@ Als *reserviert* registrierte Artikel können über diese Seite in den Status *a
 
 #### Aufgabe B: Twitter für Anfänger
 
-Erstellen Sie eine Twitter-ähnliche Websystem, ähnlich wie  auf der Leute Beiträge in Textform posten und einsehen können. (Datenbanklastig)
+Erstellen Sie ein Twitter-ähnliches Websystem, wo registrierte Nutzer kurze Textbeiträge posten und einsehen können.
+Das sehr vereinfachte System stellt mehrere mit CSS wohlgestaltete Webseiten zur Verfügung mit denen Nutzer interagieren können.
 
-Das Ganze soll natürlich viel simpler sein und muss keine Bilder verarbeiten können. Es gibt mehrere mit CSS wohlgestaltete Seiten mit denen Nutzer interagieren können. Auf der Login Seite können Nutzer ein neues Nutzerkonto anlegen oder sich mit einem bestehenden Konto über die Datenbank einloggen. Es gibt eine Seite auf der alle registrierten Nutzer angezeigt werden. Hier gibt es einen "Folgen/Entfolgen" Button. Es gibt eine Seite wo das Profil des Nutzers angepasst werden kann. Zusätzlich gibt es eine Seite auf der Posts erstellt und in die Datenbank geschrieben werden können. Und dann gibt es noch den Feed. Hier werden Beiträge von allen abonnierten Nutzern angezeigt.
+Auf der *Login*-Seite können Nutzer ein neues Nutzerkonto anlegen oder sich mit einem bestehenden Konto über die Datenbank einloggen (ein Nutzernahme kann natürlich nur einmal registriert werden).
 
+Nach einem erfolgreichen Zugang über die Login-Seite kommt der Nutzer zunächst auf die *Hauptseite*, wo der Fluß der Beiträge der abonnierten Nutzer (siehe unten) angezeigt wird, und wo der Nutzer selbst Beiträge (Posts) abschicken kann, die in einer Datenbank gespeichert werden.
 
-#### Aufgabe C: ???
+Ein Link auf der Hauptseite führt zur *Follow*-Seite, wo eine Liste aller registrierten Nutzer angezeigt wird.
+Zu jedem Nutzer in der Liste gibt es einen "Folgen/Entfolgen" Button, mit dem die Beiträge des entsprechenden Nutzers abonniert werden können. Ein zweiter Link auf der Hauptseite führt auf die *Profil*-Seite, wo das Profil des Nutzers angepasst werden kann. Zu einem Nutzerprofil gehören mindestens ein Name, ein Studiengang und eine Semesterangabe.
 
+#### Aufgabe C: Moorhuhn Shooter
+
+Erstellen Sie eine mit CSS wohlgestaltete Webseite mit einem Moorhun-Minigame, dessen Grafik auf dem Canvas-Element beruht.
+
+Vor Beginn des Spiels geben die Nutzer ihren Namen ein, der ggf. in der Anzeige des Highscores benutzt wird (sieh unten).
+Im Spiel kann der Nutzer in Ego-Perspektive Projektile wie z.B. Schneebälle, Torten, Gemüse oder Kugeln auf vorbeifliegende oder vorbeilaufende Ziele wie Moorhühner oder Schneemänner werfen oder schießen.
+
+Die Ziele bewegen sich in unterschiedlichen Richtungen zufällig über den Bildschirm und sind unterschiedlich groß und unterschiedlich schnell (skalieren Sie die Parameter zufällig zwischen einem minimalen und maximalen Wert).
+Die Flugzeit der Projektile beträgt mindestens 1 Sekunde.
+
+Wird ein Ziel getroffen, verschwindet es vom Bildschirm und der Score wird entsprechend der Treffer-Schwierigkeit erhöht.
+Die Treffer-Schwierigkeit varriert z.B. mit der Größe und Geschwindigkeit des Ziels.
+
+Nach Ende des Spiels wird die erreichte Punktzahl mit bis zu 10 in einer Datenbank gespeicheten Highscores verglichen und ggf. mit dem eingangs angegebenen Namen in die Liste der Highscores in der Datenbank eingefügt.
 
 ### Empfehlungen und Tipps zur Lösung der Prüfungsaufgaben
-
-Haben Sie keine Angst vor nicht komplett funktionierenden Abgaben. Sofern kleinere Teile nicht funktionieren aber Sie im mündlichen Teil erklären können was nicht funktioniert und warum, und was Sie versucht haben um das Problem zu lösen, können Sie immer noch eine sehr gute Note erreichen.
 
 Es wird dringend empfohlen ...
 - ... nicht einfach Ihren alten Code zu kopieren. Nehmen Sie was Sie bereits haben als Grundlage, aber nicht als Kopiervorlage. Einzelne Zeilen oder Konzepte können Sie ggf. übernehmen, aber bedenken Sie die aktuellen Anforderungen (und erinnern Sie sich an die Steine, die Sie sich während dem Praktikum selbst in den Weg gelegt haben und vermeiden Sie diese).
