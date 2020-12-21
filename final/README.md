@@ -53,8 +53,6 @@ Die Abgabe der Einwilligungserklärung ist Vorraussetzung um zur mündlichen Pr
 
 - Der Inhalt der Datenbaken ist nicht abzugeben.
 
-- Letztmöglicher **Abgabetermin: Sonntag, 26. Juli 2020, 23:59.**.
-
 ### Prüfungsaufgaben zur Wahl
 
 Zur Erinnerung: _Sie müssen nur **eine** dieser drei Aufgaben bearbeiten._
@@ -75,7 +73,11 @@ Die Nutzer können dann einen Namen angeben und die Reservierung abschicken, die
 Erstellen Sie eine weitere mit CSS wohlgestaltete Webseite auf der die Mitglieder des AStA einsehen können, welche Artikel momentan *frei*, *reserviert* oder *ausgeliehen* sind.
 Als *reserviert* registrierte Artikel können über diese Seite in den Status *ausgeliehen* versetzt werden und ausgeliehene Artikel – bei Rückgabe – wieder als *frei* registrierte werden, wobei für Artikel, die nicht frei sind, der Name des Nutzers angegeben wird, der sie reserviert oder bereits ausgeliehen hat.
 
-#### Aufgabe B: ???
+#### Aufgabe B: Twitter für Anfänger
+
+Erstellen Sie eine Twitter-ähnliche Websystem, ähnlich wie  auf der Leute Beiträge in Textform posten und einsehen können. (Datenbanklastig)
+
+Das Ganze soll natürlich viel simpler sein und muss keine Bilder verarbeiten können. Es gibt mehrere mit CSS wohlgestaltete Seiten mit denen Nutzer interagieren können. Auf der Login Seite können Nutzer ein neues Nutzerkonto anlegen oder sich mit einem bestehenden Konto über die Datenbank einloggen. Es gibt eine Seite auf der alle registrierten Nutzer angezeigt werden. Hier gibt es einen "Folgen/Entfolgen" Button. Es gibt eine Seite wo das Profil des Nutzers angepasst werden kann. Zusätzlich gibt es eine Seite auf der Posts erstellt und in die Datenbank geschrieben werden können. Und dann gibt es noch den Feed. Hier werden Beiträge von allen abonnierten Nutzern angezeigt.
 
 
 #### Aufgabe C: ???
