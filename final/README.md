@@ -12,12 +12,14 @@ Die mündliche Prüfung besteht aus einer detaillierten Auseinandersetzung mit I
 
 Die **mündlichen Prüfungen** finden am **15., 16. und 17. Februar** über Videokonferenz statt (weitere Prüfungstermine am 18. Februar sind möglich).
 
-Um an der Modulprüfung teilzunehmen müssen Sie sich bis spätestens 7. Februar 2021 in das [FELIX-Kursmodul *GIS Praktikumsabgaben und Modulprüfung WiSe 2020/2021 (MIB und OMB)*](https://felix.hs-furtwangen.de/auth/RepositoryEntry/3994517970) einschreiben. Dieses Kursmodul bietet die Infrastruktur für folgende Schritte zur Moduleprüfung:
+Um an der Modulprüfung teilzunehmen müssen Sie sich bis spätestens 7. Februar 2021 in das [FELIX-Kursmodul *GIS Praktikumsabgaben und Modulprüfung WiSe 2020/2021 (MIB und OMB)*](https://felix.hs-furtwangen.de/auth/RepositoryEntry/3994517970) einschreiben. 
+
+<!--Dieses Kursmodul bietet die Infrastruktur für folgende Schritte zur Moduleprüfung:
 1. Abgabe der *Einwilligungserklärung zur Durchführung von Online-Prüfungen*
 2. Eintragung eines Termins für die mündliche Prüfung
 3. Abgabe der Lösung der Prüfungsaufgabe (siehe unten)
 
-Die Abgabe der Einwilligungserklärung ist Vorraussetzung um zur mündlichen Prüfung zugelassen zu werden. Die Eintragung eines Prüfungstermins für die mündliche Prüfung sowie die Abgabe ihrer Lösung der Prüfungsaufgabe ist erst nach Abgabe der Einwilligungserklärung möglich.
+Die Abgabe der Einwilligungserklärung ist Vorraussetzung um zur mündlichen Prüfung zugelassen zu werden. Die Eintragung eines Prüfungstermins für die mündliche Prüfung sowie die Abgabe ihrer Lösung der Prüfungsaufgabe ist erst nach Abgabe der Einwilligungserklärung möglich. -->
 
 ### Allgemeine Hinweise zur Prüfungsaufgabe
 
