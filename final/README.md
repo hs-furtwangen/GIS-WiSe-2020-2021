@@ -90,7 +90,7 @@ Zu jedem Nutzer in der Liste gibt es einen "Folgen/Entfolgen" Button, mit dem di
 
 Erstellen Sie eine mit CSS wohlgestaltete Webseite mit einem Moorhun-Minigame, dessen Grafik auf dem Canvas-Element beruht.
 
-Vor Beginn des Spiels geben die Nutzer ihren Namen ein, der ggf. in der Anzeige der Highscores benutzt wird (sieh unten).
+Vor Beginn des Spiels geben die Nutzer ihren Namen ein, der ggf. in der Anzeige der Highscores benutzt wird (siehe unten).
 Im Spiel kann der Nutzer in Ego-Perspektive Projektile wie z.B. Schneebälle, Torten, Gemüse oder Kugeln auf vorbeifliegende oder vorbeilaufende Ziele wie Moorhühner oder Schneemänner werfen oder schießen.
 
 Die Ziele bewegen sich in unterschiedlichen Richtungen zufällig über den Bildschirm und sind unterschiedlich groß und unterschiedlich schnell (skalieren Sie die Parameter zufällig zwischen einem minimalen und maximalen Wert).
@@ -99,7 +99,7 @@ Die Flugzeit der Projektile beträgt mindestens 1 Sekunde.
 Wird ein Ziel getroffen, verschwindet es vom Bildschirm und der Score wird entsprechend der Treffer-Schwierigkeit erhöht.
 Die Treffer-Schwierigkeit varriert z.B. mit der Größe und Geschwindigkeit des Ziels.
 
-Nach Ende des Spiels wird die erreichte Punktzahl mit bis zu 10 in einer Datenbank gespeicheten Highscores verglichen und ggf. mit dem eingangs angegebenen Namen in die Liste der Highscores in der Datenbank eingefügt.
+Nach Ende des Spiels wird die erreichte Punktzahl den in einer Datenbank gespeicheten Highscores (Top 10) verglichen und ggf. mit dem eingangs angegebenen Namen in die Liste der Highscores in der Datenbank eingefügt.
 
 ### Empfehlungen und Tipps zur Lösung der Prüfungsaufgaben
 
