@@ -49,7 +49,7 @@ Die Abgabe der beiden Links erfolgt im FELIX-Kursmodul [*GIS Praktikumsabgaben u
 
 ### Prüfungsaufgabe und mündliche Prüfung
 
-Die Modulprüfung zu GIS besteht – wie bereits im letzten Semester – aus einer Prüfungsaufgabe und einer mündlichen Prüfung, die die eigentlich vorgesehene Klausur ersetzen. Detaillierte Informationen hierzur finden Sie im Abschnitt [*Modulprüfung*](finalx).
+Die Modulprüfung zu GIS besteht – wie bereits im letzten Semester – aus einer Prüfungsaufgabe und einer mündlichen Prüfung, die die eigentlich vorgesehene Klausur ersetzen. Detaillierte Informationen hierzur finden Sie im Abschnitt [*Modulprüfung*](final).
 
 ---
 

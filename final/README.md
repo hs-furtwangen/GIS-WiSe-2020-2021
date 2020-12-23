@@ -14,12 +14,12 @@ Die **mündlichen Prüfungen** finden am **15., 16. und 17. Februar** über Vide
 
 Um an der Modulprüfung teilzunehmen müssen Sie sich bis spätestens 7. Februar 2021 in das [FELIX-Kursmodul *GIS Praktikumsabgaben und Modulprüfung WiSe 2020/2021 (MIB und OMB)*](https://felix.hs-furtwangen.de/auth/RepositoryEntry/3994517970) einschreiben. 
 
-<!--Dieses Kursmodul bietet die Infrastruktur für folgende Schritte zur Moduleprüfung:
+Dieses Kursmodul bietet die Infrastruktur für folgende Schritte zur Moduleprüfung:
 1. Abgabe der *Einwilligungserklärung zur Durchführung von Online-Prüfungen*
 2. Eintragung eines Termins für die mündliche Prüfung
 3. Abgabe der Lösung der Prüfungsaufgabe (siehe unten)
 
-Die Abgabe der Einwilligungserklärung ist Vorraussetzung um zur mündlichen Prüfung zugelassen zu werden. Die Eintragung eines Prüfungstermins für die mündliche Prüfung sowie die Abgabe ihrer Lösung der Prüfungsaufgabe ist erst nach Abgabe der Einwilligungserklärung möglich. -->
+Die Abgabe der Einwilligungserklärung ist Vorraussetzung um zur mündlichen Prüfung zugelassen zu werden. Die Eintragung eines Prüfungstermins für die mündliche Prüfung sowie die Abgabe ihrer Lösung der Prüfungsaufgabe ist erst nach Abgabe der Einwilligungserklärung möglich.
 
 ### Allgemeine Hinweise zur Prüfungsaufgabe
 
@@ -35,7 +35,7 @@ Die Abgabe der Einwilligungserklärung ist Vorraussetzung um zur mündlichen Pr
 
 ### Hinweise zur Abgabe der Prüfungsaufgabe
 
-- Verwenden Sie – wie für die Praktikumsaufgaben – ein *GitHub* Repository für den Quellcode und die damit assoziierten *GitHub Pages* um die – möglichst lauffähige und vollständige – Anwendung zugänglich zu machen (siehe [Einführung vom 22. April](../content/L1.1)).
+- Verwenden Sie – wie für die Praktikumsaufgaben – ein *GitHub* Repository für den Quellcode und die damit assoziierten *GitHub Pages* um die – möglichst lauffähige und vollständige – Anwendung zugänglich zu machen (siehe [Einführung vom 7. Oktober](../content/L1.1)).
 
 - Laden Sie im Bereich *Prüfungsaufgabe* des FELIX-Kursmoduls der GIS Modulprüfung (siehe oben) eine Archivdatei (z.B. eine ZIP-Datei) mit folgendem Inhalt hoch
   1. alle **(!)** Dateien, die zur Ausführung der Anwendung notwendig sind: Javascript/Typescript-Quellcode (client- und server-seitig), HTML- und CSS-Quellcode sowie ggf. Bild- und Audiodateien
@@ -59,10 +59,10 @@ Die Abgabe der Einwilligungserklärung ist Vorraussetzung um zur mündlichen Pr
 
 Zur Erinnerung: _Sie müssen nur **eine** dieser drei Aufgaben bearbeiten._
 
-#### Aufgabe A: Online-Verwaltung für den AstA-Verleih
+#### Aufgabe A: Online-Verwaltung für den AStA-Verleih
 
-Erstellen Sie ein vereinfachtes Websystem, das es erlaubt den Verleih verschiedener Artikel (Geräte und Gegenstände) des AstA an der Hochschule Furtwangen zu unterstützen.
-Das System soll den Studierenden eine Webseite zur Reservierung von Artikeln zur Verfügung stellen sowie den Mitgliedern des AstA eine Webseite zur Verwaltung der Reservierungen.
+Erstellen Sie ein vereinfachtes Websystem, das es erlaubt den Verleih verschiedener Artikel (Geräte und Gegenstände) des AStA an der Hochschule Furtwangen zu unterstützen.
+Das System soll den Studierenden eine Webseite zur Reservierung von Artikeln zur Verfügung stellen sowie den Mitgliedern des AStA eine Webseite zur Verwaltung der Reservierungen.
 Um die Implementierung zu vereinfachen gibt es für die Reservierung und Verwaltung keinen Kalender, sondern für jeden Artikel nur einen aktuellen Status, *frei*, *reserviert* oder *ausgeliehen*.
 
 Erstellen Sie für die ausleihenden Studierenden eine mit CSS wohlgestaltete Webseite, die eine Liste von mindestens 9 zur Ausleihe angebotenen Artikel präsentiert.
@@ -101,7 +101,8 @@ Die Flugzeit der Projektile beträgt mindestens 1 Sekunde.
 Wird ein Ziel getroffen, verschwindet es vom Bildschirm und der Score wird entsprechend der Treffer-Schwierigkeit erhöht.
 Die Treffer-Schwierigkeit varriert z.B. mit der Größe und Geschwindigkeit des Ziels.
 
-Nach Ende des Spiels wird die erreichte Punktzahl den in einer Datenbank gespeicheten Highscores (Top 10) verglichen und ggf. mit dem eingangs angegebenen Namen in die Liste der Highscores in der Datenbank eingefügt.
+Nach Ende des Spiels werden die Highscores (die besten 10) angezeigt.
+Dazu wird die erreichte Punktzahl mit in einer Datenbank gespeicheten Highscores verglichen und ggf. mit dem eingangs vom Nutzer angegebenen Namen in die Liste der Highscores in der Datenbank eingefügt.
 
 ### Empfehlungen und Tipps zur Lösung der Prüfungsaufgaben
 
