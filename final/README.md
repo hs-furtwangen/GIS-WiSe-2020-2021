@@ -12,7 +12,7 @@ Die mündliche Prüfung besteht aus einer detaillierten Auseinandersetzung mit I
 
 Die **mündlichen Prüfungen** finden am **15., 16. und 17. Februar** über Videokonferenz statt (weitere Prüfungstermine am 18. Februar sind möglich).
 
-Um an der Modulprüfung teilzunehmen müssen Sie sich bis spätestens 7. Februar 2021 in das [FELIX-Kursmodul *GIS Praktikumsabgaben und Modulprüfung WiSe 2020/2021 (MIB und OMB)*](https://felix.hs-furtwangen.de/auth/RepositoryEntry/3994517970) einschreiben. 
+Um an der Modulprüfung teilzunehmen müssen Sie sich bis spätestens 7. Februar 2021 in das [FELIX-Kursmodul *GIS Praktikumsabgaben und Modulprüfung WiSe 2020/2021 (MIB und OMB)*](https://felix.hs-furtwangen.de/auth/RepositoryEntry/3994517970) einschreiben. Sollten Sie nicht daran teilnehmen wollen, müssen Sie sich bis spätestens 6. Februar beim Prüfungsamt davon abmelden. 
 
 Dieses Kursmodul bietet die Infrastruktur für folgende Schritte zur Moduleprüfung:
 1. Abgabe der *Einwilligungserklärung zur Durchführung von Online-Prüfungen*
@@ -32,6 +32,8 @@ Die Abgabe der Einwilligungserklärung ist Vorraussetzung um zur mündlichen Pr
 - Die Aufgaben lassen einigen Interpretationsspielraum. Toben Sie sich aus, machen Sie sich Gedanken, **seien Sie kreativ**, **haben Sie Spaß**.
 
 - Die Prüfungsaufgabe ist **nicht** Teil des Praktikums und muss für das Bestehen des Praktikums nicht abgegeben werden.
+
+- Fremder Code ist nur unter zwei Voraussetzungen akzeptabel: Zum einen muss dieser klar als Zitat gekennzeichnet sein und eine Quelle angegeben werden, zum anderen müssen Sie trotzdem erklären können, was er tut. Ist ersteres nicht der Fall liegt bei schwereren Verstößen der Verdacht eines Plagiats vor, welcher desaströse Auswirkungen auf Ihr Studium haben könnte.
 
 ### Hinweise zur Abgabe der Prüfungsaufgabe
 
@@ -70,7 +72,7 @@ Die Liste wird beim Aufruf der Webseite aus dem Inhalt einer Datenbank dynamisch
 Artikel, die nicht *frei* sind, werden in der Liste entsprechend markiert (z.B. ausgegraut).
 Die Nutzer können auf der Webseite einen oder mehrere freie Artikel zur Reservierung auswählen.
 Die ausgewählten Artikel werden herausgehoben oder markiert und die der Auswahl entsprechene Ausleihgebühr (Summe) angezeigt.
-Die Nutzer können dann einen Namen angeben und die Reservierung abschicken, die damit für jeden der ausgewählten Artikel in der Datenbank regisitriert wird.
+Die Nutzer können dann auf einer zweiten Seite einen Namen angeben und die Reservierung abschicken, die damit für jeden der ausgewählten Artikel in der Datenbank registriert wird.
 
 Erstellen Sie eine weitere mit CSS wohlgestaltete Webseite auf der die Mitglieder des AStA einsehen können, welche Artikel momentan *frei*, *reserviert* oder *ausgeliehen* sind.
 Als *reserviert* registrierte Artikel können über diese Seite in den Status *ausgeliehen* versetzt werden und ausgeliehene Artikel – bei Rückgabe – wieder als *frei* registrierte werden, wobei für Artikel, die nicht frei sind, der Name des Nutzers angegeben wird, der sie reserviert oder bereits ausgeliehen hat.
@@ -101,7 +103,7 @@ Die Flugzeit der Projektile beträgt mindestens 1 Sekunde.
 Wird ein Ziel getroffen, verschwindet es vom Bildschirm und der Score wird entsprechend der Treffer-Schwierigkeit erhöht.
 Die Treffer-Schwierigkeit varriert z.B. mit der Größe und Geschwindigkeit des Ziels.
 
-Nach Ende des Spiels werden die Highscores (die besten 10) angezeigt.
+Nach Ende des Spiels werden die Highscores (die besten 10) auf einer seperaten Seite angezeigt.
 Dazu wird die erreichte Punktzahl mit in einer Datenbank gespeicheten Highscores verglichen und ggf. mit dem eingangs vom Nutzer angegebenen Namen in die Liste der Highscores in der Datenbank eingefügt.
 
 ### Empfehlungen und Tipps zur Lösung der Prüfungsaufgaben
