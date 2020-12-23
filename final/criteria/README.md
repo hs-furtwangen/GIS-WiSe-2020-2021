@@ -14,13 +14,13 @@ Die jeweils maximale Punktzahl kann erreicht werden, wenn ein Kriterium erfüllt
 | kein W3 oder JS Error  | der [W3 Validierer](https://validator.w3.org/) gibt keine Fehlermeldungen für die Lösung aus, außerdem gibt es keine Fehlermeldungen in der Konsole|2|
 | grafische Gestaltung   | die grafische Gestaltung der Anwendung ist gepflegt |2|
 | responsive Design      | die Lösung ist *responsive* (unter Berücksichtigung von 3 verschiedenen Bildschirmgößen für Smartphone, Tablet und Desktop) durch effiziente Nutzung von *Media Queries* |2|
-| CSS Stilvorlage        | die CSS Stilvorlage verwendet mindestens 10 einfache und 6 komplexe CSS-Selektoren |2|
+| CSS Stilvorlage        | die CSS Stilvorlage verwendet mindestens 10 einfache und 6 komplexe sinnvolle CSS-Selektoren |2|
 | Style Guidelines       | die [Coding Style Guidelines](https://hs-furtwangen.github.io/GIS-WiSe-2020-2021/codingstyle/) werden eingehalten |2|
-| Local Storage | die Lösung verwendet *LocalStorage*, *SessionStorage* oder *Cookies* um Daten zwischen verschiedenen Seiten auszutauschen |3|
+| Local Storage | die Lösung verwendet *LocalStorage*, *SessionStorage* oder *Cookies* um die notwendigen Daten zwischen verschiedenen Seiten auszutauschen |3|
 | NodeJS                 | die Aufgabenstellung wurde mit einem *NodeJS* Server umgesetzt |4|
 | MongoDB                | die persistenten Daten werden in einer *MongoDB* Datenbank gespeichert |3|
 | Datenstrukturen        | die Lösung verwendet angemessene Datentrukturen (Interfaces/Klassen, JSON) |4|
-| Formular               | die Aufgabenstellung wurde mit Formulare umgesetzt |2|
+| Formular               | die Aufgabenstellung wurde mit Formularen umgesetzt |2|
 | REST                   | die Aufgabenstellung wurde mit REST-Schnittstellen umgesetzt |4|
 | | **Gesamt** | **64** |
 
