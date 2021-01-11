@@ -41,21 +41,21 @@ Die Abgabe der Einwilligungserklärung ist Vorraussetzung um zur mündlichen Pr
 
 - Laden Sie im Bereich *Prüfungsaufgabe* des FELIX-Kursmoduls der GIS Modulprüfung (siehe oben) eine Archivdatei (z.B. eine ZIP-Datei) mit folgendem Inhalt hoch
   1. alle **(!)** Dateien, die zur Ausführung der Anwendung notwendig sind: Javascript/Typescript-Quellcode (client- und server-seitig), HTML- und CSS-Quellcode sowie ggf. Bild- und Audiodateien
-  2. eine kurze(!) Anleitung, wie man die Anwendung ausführt z.B.:
-  - Welche Datei muss als Node Server ausgeführt werden?
-  - Welche html Datei im Browser geöffnet?
-  - Muss ein *LiveServer* verwendet werden?
+  2. eine kurze (!) Anleitung, wie man die Anwendung ausführt z.B.:
+    - Welche Datei muss mit dem NodeJS-Server ausgeführt werden?
+    - Welche HTML-Datei im Browser geöffnet?
+    - Muss ein *LiveServer* verwendet werden?
   3. einen (*GitHub Pages*) Link auf die möglichst lauffähige und vollständige Lösung
   4. eine einfache Beschreibung/Darstellung ihrer Datenbankstruktur in JSON-ähnlicher Syntax oder als Graphen (Baumstruktur)
   5. eine (unterschriebene) *Eidesstattliche Erklärung*, welche die eigenständige Lösungserarbeitung bestätigt (z.B. als PDF nach [dieser Vorlage](ee.pdf))
 
-- Die Anleitung (2.), der Link (3.) und die Datenbankstruktur (4.) können gerne in ein Dokument zusammengefaßt werden (z.B. PDF, MarkDown, TXT), so dass es sich hier um 3 bis Dokumente handelt.
+- Die Anleitung (2.), der Link (3.) und die Datenbankstruktur (4.) können gerne in ein Dokument zusammengefaßt werden (z.B. PDF, MarkDown, TXT), so dass es sich hier um 3 bis 5 Dokumente handelt.
 
 - Achten Sie auf eine sinnvolle Ordner-/Dateistruktur für ihren Quellcode sowie für das gesamte Archiv Ihrer Abgabe.
 
 - Benennen Sie das Datenarchiv nach folgendem Schema: `<Nachname>_<Vorname>_<Matrikelnummer>.zip`
 
-- Der Inhalt der Datenbaken ist nicht abzugeben.
+- Der Inhalt der Datenbanken ist nicht abzugeben.
 
 ### Prüfungsaufgaben zur Wahl
 
