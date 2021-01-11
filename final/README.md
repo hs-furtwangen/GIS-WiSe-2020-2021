@@ -16,8 +16,8 @@ Um an der Modulprüfung teilzunehmen müssen Sie sich bis spätestens 7. Februar
 
 Dieses Kursmodul bietet die Infrastruktur für folgende Schritte zur Moduleprüfung:
 1. Abgabe der *Einwilligungserklärung zur Durchführung von Online-Prüfungen*
-2. Eintragung eines Termins für die mündliche Prüfung
-3. Abgabe der Lösung der Prüfungsaufgabe (siehe unten)
+2. Abgabe der Lösung der Prüfungsaufgabe (siehe unten)
+3. Eintragung eines Termins für die mündliche Prüfung
 
 Die Abgabe der Einwilligungserklärung ist Vorraussetzung um zur mündlichen Prüfung zugelassen zu werden. Die Eintragung eines Prüfungstermins für die mündliche Prüfung sowie die Abgabe ihrer Lösung der Prüfungsaufgabe ist erst nach Abgabe der Einwilligungserklärung möglich.
 
