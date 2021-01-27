@@ -37,23 +37,23 @@ Viele der Standardmodule, wie `http` und `url`, sind in der [Node-Dokumentation]
 import * as url from "url";
 ```
 
-### URL Anlegen und Parsen
+### URL Anlegen und search Parameter auslesen
 
 ```TypeScript
 //Diesen Code innerhalb von einem aktiven Server testen:
 
 let adresse: string = 'http://localhost:8080/default.htm?jahr=2017&monat=february';
-//Adresse parsen (umwandeln):
-let q = url.parse(adresse, true);
+//Adresse aus String in URL Objekt umwandeln:
+let myURL: url.URL = url.URL(adresse);
 
-/*Die parse Methode gibt ein Objekt zurück, dass die URL Eigenschaften enthält. So können die fest definierten Eigenschaften einer URL ausgelesen werden:*/
-console.log(q.host);
-console.log(q.pathname);
-console.log(q.search);
+/*Der URL Konstruktor gibt ein Objekt zurück, dass die URL Eigenschaften enthält. So können die fest definierten Eigenschaften einer URL ausgelesen werden:*/
+console.log(myURL.get);
+console.log(myURL.pathname);
+console.log(myURL.search);
 
 /*Die query Eigenschaft gibt ein Ojekt zurück, dass alle query-string Parameter als Eigenschaften besitzt. So können beliebig gesendete Attribute ausgelesen werden:*/
-var qdata = q.query;
-console.log(qdata.monat);
+let qdata: url.URLSearchParams = myURL.searchParams;
+console.log(qdata.get("monat"));
 ```
 
 ### Eigenschaften des URL Objektes
