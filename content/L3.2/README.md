@@ -44,7 +44,7 @@ import * as url from "url";
 
 let adresse: string = 'http://localhost:8080/default.htm?jahr=2017&monat=february';
 //Adresse aus String in URL Objekt umwandeln:
-let myURL: url.URL = url.URL(adresse);
+let myURL: url.URL = url.URL(adresse, "https://example.com"); //Der hintere Teil wird von uns nicht gebraucht, aber die URL muss eine Base-URL enthalten, damit wir keinen Fehler im späteren Verlauf des Programmes erhalten.
 
 /*Der URL Konstruktor gibt ein Objekt zurück, dass die URL Eigenschaften enthält. So können die fest definierten Eigenschaften einer URL ausgelesen werden:*/
 console.log(myURL.get);
