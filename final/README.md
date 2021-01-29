@@ -35,7 +35,8 @@ Die Abgabe der Einwilligungserklärung ist Vorraussetzung um zur mündlichen Pr
 
 - Fremder Code ist nur unter zwei Voraussetzungen akzeptabel: Zum einen muss dieser klar als Zitat gekennzeichnet sein und eine Quelle angegeben werden, zum anderen müssen Sie trotzdem erklären können, was er tut. Ist ersteres nicht der Fall liegt bei schwereren Verstößen der Verdacht eines Plagiats vor, welcher desaströse Auswirkungen auf Ihr Studium haben könnte.
 
-- npm Module (mit Außnahme der in der Veranstaltung genutzten `@types` sowie `mongodb` module) dürfen nur nach Absprache mit den Dozenten verwendet werden und sollten nach Möglichkeit vermieden werden.
+  - Daraus folgt: npm Module (mit Außnahme der in der Veranstaltung genutzten `@types` sowie `mongodb` module) oder sonstige server-seitige Bibliotheken dürfen nur als Ausnahme nach Absprache mit den Dozenten verwendet werden und sind ansonsten verboten.
+  - Gleiches gilt für irgendwelche client-seitigen Bibliotheken (JS wie auch CSS) wie jQuery, Bootstrap, Vue, etc.
 
 ### Hinweise zur Abgabe der Prüfungsaufgabe
 
